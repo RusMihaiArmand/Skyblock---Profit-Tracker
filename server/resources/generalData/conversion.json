@@ -52,16 +52,184 @@
     "id": "PORK"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "raw rabbit",
+    "id": "RABBIT"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "seeds",
+    "id": "SEEDS"
+  },
+  {
+    "name": "sugar cane",
+    "id": "SUGAR_CANE"
+  },
+  {
+    "name": "wheat",
+    "id": "WHEAT"
   },
   {
     "name": "coal",
     "id": "COAL"
+  },
+  {
+    "name": "cobblestone",
+    "id": "COBBLESTONE"
+  },
+  {
+    "name": "diamond",
+    "id": "DIAMOND"
+  },
+  {
+    "name": "emerald",
+    "id": "EMERALD"
+  },
+  {
+    "name": "end stone",
+    "id": "ENDER_STONE"
+  },
+  {
+    "name": "gemstone",
+    "id": "GEMSTONE_COLLECTION"
+  },
+  {
+    "name": "glacite",
+    "id": "GLACITE"
+  },
+  {
+    "name": "glowstone dust",
+    "id": "GLOWSTONE_DUST"
+  },
+  {
+    "name": "gold ingot",
+    "id": "GOLD_INGOT"
+  },
+  {
+    "name": "gravel",
+    "id": "GRAVEL"
+  },
+  {
+    "name": "hard stone",
+    "id": "HARD_STONE"
+  },
+  {
+    "name": "ice",
+    "id": "ICE"
+  },
+  {
+    "name": "iron ingot",
+    "id": "IRON_INGOT"
+  },
+  {
+    "name": "lapis lazuli",
+    "id": "INK_SACK:4"
+  },
+  {
+    "name": "mithril",
+    "id": "MITHRIL_ORE"
+  },
+  {
+    "name": "mycelium",
+    "id": "MYCEL"
+  },
+  {
+    "name": "nether quartz",
+    "id": "QUARTZ"
+  },
+  {
+    "name": "netherrack",
+    "id": "NETHERRACK"
+  },
+  {
+    "name": "obsidian",
+    "id": "OBSIDIAN"
+  },
+  {
+    "name": "red sand",
+    "id": "SAND:1"
+  },
+  {
+    "name": "redstone",
+    "id": "REDSTONE"
+  },
+  {
+    "name": "sand",
+    "id": "SAND"
+  },
+  {
+    "name": "sulphur",
+    "id": "SULPHUR_ORE"
+  },
+  {
+    "name": "tungsten",
+    "id": "TUNGSTEN"
+  },
+  {
+    "name": "umber",
+    "id": "UMBER"
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
   },
   {
     "name": "oak",
