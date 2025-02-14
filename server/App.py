@@ -6,7 +6,7 @@ import shutil
 import json
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app)  
 
 url_mojang_uuid = "https://api.minecraftservices.com/minecraft/profile/lookup/name/"
 
@@ -55,8 +55,9 @@ def turn_id_into_name(item_id):
 def get_player_path(folder, profile):
     return f"{path_players}/{folder}/{profile}.json" if profile else f"{path_players}/{folder}"
 
-# app = Flask(__name__)
-# CORS(app)  # This will allow cross-origin requests from your React frontend
+
+
+
 
 @app.route('/hello', methods=['GET'])
 def hello():
@@ -139,7 +140,6 @@ def getPlayerData():
                     message += "Profile = " + str(selected_profile.get("cute_name", "???")) + "; "
 
                     folder_path = get_player_path(name,"")
-                    #folder_path = f"{path_players}/{name}"
 
                     if os.path.isdir(folder_path):
                         message += "Player located; "
@@ -148,7 +148,6 @@ def getPlayerData():
                         os.makedirs(folder_path)
 
 
-                    #file_path = f"{path_players}/{name}/{profile}.json"
                     file_path = get_player_path(name,profile)
 
                     if os.path.isfile(file_path):
@@ -186,7 +185,6 @@ def getPlayerData():
                         collectionData = next((c for c in usefulData['collectionsRequirements'] if (c['name'] == col )), None)
 
                         if collectionData:
-                            #playerHas = playerData.get('collection', {}).get(collectionData['id'], 0)
                             playerHas = playerData.get('collection', {}).get( turn_name_into_id(collectionData['name']), 0)
 
                             colLevel = 0
@@ -230,7 +228,6 @@ def getPlayerData():
         return jsonify({"message": message})
 
     folder_path = get_player_path(name,"")
-    #folder_path = f"server/resources/playerData/{name}"
 
     if os.path.isdir(folder_path):
         message += "Player located; "
@@ -239,7 +236,6 @@ def getPlayerData():
         os.makedirs(folder_path)
 
 
-    #file_path = f"server/resources/playerData/{name}/{profile}.json"
     file_path = get_player_path(name, profile)
 
     if os.path.isfile(file_path):

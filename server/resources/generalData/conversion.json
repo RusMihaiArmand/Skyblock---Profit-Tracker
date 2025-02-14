@@ -1,10 +1,70 @@
 [
-    {
-      "name": "coal",
-      "id": "COAL"
-    },
-    {
-      "name": "oak",
-      "id": "LOG"
-    }
-  ]
+  {
+    "name": "cactus",
+    "id": "CACTUS"
+  },
+  {
+    "name": "carrot",
+    "id": "CARROT_ITEM"
+  },
+  {
+    "name": "cocoa beans",
+    "id": "INK_SACK:3"
+  },
+  {
+    "name": "feather",
+    "id": "FEATHER"
+  },
+  {
+    "name": "leather",
+    "id": "LEATHER"
+  },
+  {
+    "name": "melon",
+    "id": "MELON"
+  },
+  {
+    "name": "mushroom",
+    "id": "MUSHROOM_COLLECTION"
+  },
+  {
+    "name": "mutton",
+    "id": "MUTTON"
+  },
+  {
+    "name": "nether wart",
+    "id": "NETHER_STALK"
+  },
+  {
+    "name": "potato",
+    "id": "POTATO_ITEM"
+  },
+  {
+    "name": "pumpkin",
+    "id": "PUMPKIN"
+  },
+  {
+    "name": "raw chicken",
+    "id": "RAW_CHICKEN"
+  },
+  {
+    "name": "raw porkchop",
+    "id": "PORK"
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "coal",
+    "id": "COAL"
+  },
+  {
+    "name": "oak",
+    "id": "LOG"
+  }
+]

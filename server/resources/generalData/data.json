@@ -1,6 +1,426 @@
 {
     "collectionsRequirements": [
         {
+            "name": "cactus",
+            "milestones": [
+                100,
+                250,
+                500,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000
+            ]
+        },
+        {
+            "name": "carrot",
+            "milestones": [
+                100,
+                250,
+                500,
+                1750,
+                5000,
+                10000,
+                25000,
+                50000,
+                100000
+            ]
+        },
+        {
+            "name": "cocoa beans",
+            "milestones": [
+                75,
+                200,
+                500,
+                2000,
+                5000,
+                10000,
+                20000,
+                50000,
+                100000
+            ]
+        },
+        {
+            "name": "feather",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000
+            ]
+        },
+        {
+            "name": "leather",
+            "milestones": [
+                50,
+                100,
+                250,
+                500,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000,
+                100000
+            ]
+        },
+        {
+            "name": "melon",
+            "milestones": [
+                250,
+                500,
+                1250,
+                5000,
+                15000,
+                25000,
+                50000,
+                100000,
+                250000
+            ]
+        },
+        {
+            "name": "mushroom",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000
+            ]
+        },
+        {
+            "name": "mutton",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000,
+                100000
+            ]
+        },
+        {
+            "name": "nether wart",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000,
+                75000,
+                100000,
+                250000
+            ]
+        },
+        {
+            "name": "potato",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "pumpkin",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "raw chicken",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "raw porkchop",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "raw rabbit",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "seeds",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "sugar cane",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "wheat",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
+            "name": "",
+            "milestones": [
+                
+            ]
+        },
+        {
             "name": "coal",
             "milestones": [
                 50,
