@@ -151,15 +151,16 @@ def getPlayerData():
                     file_path = get_player_path(name,selected_profile.get("cute_name"))
 
                     if os.path.isfile(file_path):
-                        message += "Profile located; "
-                    else:
-                        currentUser = name
-                        currentProfile = profile
-                        guestMode = False
+                        os.remove(file_path)
+                        
+                    
+                    currentUser = name
+                    currentProfile = profile
+                    guestMode = False
 
-                        shutil.copy(path_template, file_path)
+                    shutil.copy(path_template, file_path)
 
-                        message += "Profile added; "
+                    message = "Success"
 
 
 
@@ -178,8 +179,6 @@ def getPlayerData():
 
                     savedData['level'] = int(str(playerData['leveling']['experience']))//100
 
-                    #item_id = next((item["id"] for item in data if item["name"] == "abc"), None)
-
 
                     for col in savedData['collections']:
                         collectionData = next((c for c in usefulData['collectionsRequirements'] if (c['name'] == col )), None)
@@ -191,11 +190,30 @@ def getPlayerData():
                             
                             for milestone in collectionData['milestones']:
                                 if playerHas >= milestone:
-                                    colLevel = colLevel + 1
+                                    colLevel += 1
                                 else:
                                     break
                             
                             savedData['collections'][col] = colLevel
+
+
+
+                    for slay in savedData['slayers']:
+                        slayerData = next((s for s in usefulData['slayerRequirements'] if (s['name'] == slay )), None)
+
+                        if slayerData:
+                            playerHasExp = playerData.get('slayer', {}).get('slayer_bosses', {}).get(slay , {}).get('xp',0)
+
+  
+                            slayLevel = 0
+                            
+                            for milestone in slayerData['milestones']:
+                                if playerHasExp >= milestone:
+                                    slayLevel += 1
+                                else:
+                                    break
+                            
+                            savedData['slayers'][slay] = slayLevel
 
 
 

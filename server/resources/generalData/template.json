@@ -77,5 +77,13 @@
         "hemovibe": 0,
         "living metal heart": 0,
         "wilted berberis": 0
+    },
+    "slayers":{
+        "zombie": 0,
+        "spider": 0,
+        "wolf": 0,
+        "enderman": 0,
+        "vampire": 0,
+        "blaze": 0
     }
 }

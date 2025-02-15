@@ -1055,70 +1055,88 @@
                 140,
                 400
             ]
+        }
+    ],
+    "slayerRequirements": [
+        {
+            "name": "zombie",
+            "milestones": [
+                5,
+                15,
+                200,
+                1000,
+                5000,
+                20000,
+                100000,
+                400000,
+                1000000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "spider",
+            "milestones": [
+                10,
+                25,
+                200,
+                1000,
+                5000,
+                20000,
+                100000,
+                400000,
+                1000000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "wolf",
+            "milestones": [
+                10,
+                30,
+                250,
+                1500,
+                5000,
+                20000,
+                100000,
+                400000,
+                1000000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "enderman",
+            "milestones": [
+                10,
+                30,
+                250,
+                1500,
+                5000,
+                20000,
+                100000,
+                400000,
+                1000000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "vampire",
+            "milestones": [
+                20,
+                75,
+                240,
+                840,
+                2400
+            ]
         },
         {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "",
-            "milestones": []
+            "name": "blaze",
+            "milestones": [
+                10,
+                30,
+                250,
+                1500,
+                5000,
+                20000,
+                100000,
+                400000,
+                1000000
+            ]
         }
     ]
 }
