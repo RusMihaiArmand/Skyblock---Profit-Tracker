@@ -148,7 +148,7 @@ def getPlayerData():
                         os.makedirs(folder_path)
 
 
-                    file_path = get_player_path(name,profile)
+                    file_path = get_player_path(name,selected_profile.get("cute_name"))
 
                     if os.path.isfile(file_path):
                         message += "Profile located; "

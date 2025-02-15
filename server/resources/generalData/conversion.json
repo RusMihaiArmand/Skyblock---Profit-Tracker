@@ -168,71 +168,191 @@
     "id": "UMBER"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "blaze rod",
+    "id": "BLAZE_ROD"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "bone",
+    "id": "BONE"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "chili pepper",
+    "id": "CHILI_PEPPER"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "ender pearl",
+    "id": "ENDER_PEARL"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "ghast tear",
+    "id": "GHAST_TEAR"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "gunpowder",
+    "id": "SULPHUR"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "magma cream",
+    "id": "MAGMA_CREAM"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "rotten flesh",
+    "id": "ROTTEN_FLESH"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "slimeball",
+    "id": "SLIME_BALL"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "spider eye",
+    "id": "SPIDER_EYE"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "string",
+    "id": "STRING"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "acacia wood",
+    "id": "LOG_2"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "birch wood",
+    "id": "LOG:2"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "dark oak wood",
+    "id": "LOG_2:1"
   },
   {
-    "name": "",
-    "id": ""
+    "name": "jungle wood",
+    "id": "LOG:3"
   },
   {
-    "name": "",
-    "id": ""
-  },
-  {
-    "name": "oak",
+    "name": "oak wood",
     "id": "LOG"
+  },
+  {
+    "name": "spruce wood",
+    "id": "LOG:1"
+  },
+  {
+    "name": "clay",
+    "id": "CLAY_BALL"
+  },
+  {
+    "name": "clownfish",
+    "id": "RAW_FISH:2"
+  },
+  {
+    "name": "ink sac",
+    "id": "INK_SACK"
+  },
+  {
+    "name": "lily pad",
+    "id": "WATER_LILY"
+  },
+  {
+    "name": "magmafish",
+    "id": "MAGMA_FISH"
+  },
+  {
+    "name": "prismarine crystals",
+    "id": "PRISMARINE_CRYSTALS"
+  },
+  {
+    "name": "prismarine shard",
+    "id": "PRISMARINE_SHARD"
+  },
+  {
+    "name": "pufferfish",
+    "id": "RAW_FISH:3"
+  },
+  {
+    "name": "raw fish",
+    "id": "RAW_FISH"
+  },
+  {
+    "name": "raw salmon",
+    "id": "RAW_FISH:1"
+  },
+  {
+    "name": "sponge",
+    "id": "SPONGE"
+  },
+  {
+    "name": "agaricus cap",
+    "id": "AGARICUS_CAP"
+  },
+  {
+    "name": "caducous stem",
+    "id": "CADUCOUS_STEM"
+  },
+  {
+    "name": "half-eaten carrot",
+    "id": "HALF_EATEN_CARROT"
+  },
+  {
+    "name": "hemovibe",
+    "id": "HEMOVIBE"
+  },
+  {
+    "name": "living metal heart",
+    "id": "METAL_HEART"
+  },
+  {
+    "name": "wilted berberis",
+    "id": "WILTED_BERBERIS"
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
+  },
+  {
+    "name": "",
+    "id": ""
   }
 ]

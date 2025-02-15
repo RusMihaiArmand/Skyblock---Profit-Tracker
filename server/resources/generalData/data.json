@@ -608,71 +608,216 @@
             ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "blaze rod",
+            "milestones": [
+                50,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "bone",
+            "milestones": [
+                50,
+                100,
+                250,
+                500,
+                1000,
+                5000,
+                10000,
+                25000,
+                50000,
+                150000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "chili pepper",
+            "milestones": [
+                10,
+                25,
+                75,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                20000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "ender pearl",
+            "milestones": [
+                50,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                15000,
+                25000,
+                50000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "ghast tear",
+            "milestones": [
+                20,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "gunpowder",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "magma cream",
+            "milestones": [
+                50,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "rotten flesh",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000,
+                100000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "slimeball",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "spider eye",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "string",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                2500,
+                5000,
+                10000,
+                25000,
+                50000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "acacia wood",
+            "milestones": [
+                50,
+                100,
+                250,
+                500,
+                1000,
+                2000,
+                5000,
+                10000,
+                25000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "birch wood",
+            "milestones": [
+                50,
+                100,
+                250,
+                500,
+                1000,
+                2000,
+                5000,
+                10000,
+                25000,
+                50000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "dark oak wood",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                2000,
+                5000,
+                10000,
+                15000,
+                25000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
+            "name": "jungle wood",
+            "milestones": [
+                50,
+                100,
+                250,
+                500,
+                1000,
+                2000,
+                5000,
+                10000,
+                25000
+            ]
         },
         {
-            "name": "",
-            "milestones": []
-        },
-        {
-            "name": "oak",
+            "name": "oak wood",
             "milestones": [
                 50,
                 100,
@@ -684,6 +829,296 @@
                 10000,
                 30000
             ]
+        },
+        {
+            "name": "spruce wood",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                2000,
+                5000,
+                10000,
+                25000,
+                50000
+            ]
+        },
+        {
+            "name": "clay",
+            "milestones": [
+                50,
+                100,
+                250,
+                1000,
+                1500,
+                2500
+            ]
+        },
+        {
+            "name": "clownfish",
+            "milestones": [
+                10,
+                25,
+                50,
+                100,
+                200,
+                400,
+                800,
+                1600,
+                4000
+            ]
+        },
+        {
+            "name": "ink sac",
+            "milestones": [
+                20,
+                40,
+                100,
+                200,
+                400,
+                800,
+                1500,
+                2500,
+                4000
+            ]
+        },
+        {
+            "name": "lily pad",
+            "milestones": [
+                10,
+                50,
+                100,
+                200,
+                500,
+                1500,
+                3000,
+                6000,
+                10000
+            ]
+        },
+        {
+            "name": "magmafish",
+            "milestones": [
+                20,
+                100,
+                500,
+                1000,
+                5000,
+                15000,
+                30000,
+                50000,
+                75000,
+                100000,
+                250000,
+                500000
+            ]
+        },
+        {
+            "name": "prismarine crystals",
+            "milestones": [
+                10,
+                25,
+                50,
+                100,
+                200,
+                400,
+                800
+            ]
+        },
+        {
+            "name": "prismarine shard",
+            "milestones": [
+                10,
+                25,
+                50,
+                100,
+                200,
+                400,
+                800
+            ]
+        },
+        {
+            "name": "pufferfish",
+            "milestones": [
+                20,
+                50,
+                100,
+                150,
+                400,
+                800,
+                2400,
+                4800,
+                9000,
+                18000
+            ]
+        },
+        {
+            "name": "raw fish",
+            "milestones": [
+                20,
+                50,
+                100,
+                250,
+                500,
+                1000,
+                2500,
+                15000,
+                30000,
+                45000,
+                60000
+            ]
+        },
+        {
+            "name": "raw salmon",
+            "milestones": [
+                20,
+                50,
+                100,
+                250,
+                500,
+                1000,
+                2500,
+                5000,
+                10000
+            ]
+        },
+        {
+            "name": "sponge",
+            "milestones": [
+                20,
+                40,
+                100,
+                200,
+                400,
+                800,
+                1500,
+                2500,
+                4000
+            ]
+        },
+        {
+            "name": "agaricus cap",
+            "milestones": [
+                20,
+                60,
+                100,
+                200
+            ]
+        },
+        {
+            "name": "caducous stem",
+            "milestones": [
+                20,
+                60,
+                150,
+                500
+            ]
+        },
+        {
+            "name": "half-eaten carrot",
+            "milestones": [
+                50,
+                400,
+                1000,
+                3500
+            ]
+        },
+        {
+            "name": "hemovibe",
+            "milestones": [
+                50,
+                250,
+                1000,
+                5000,
+                15000,
+                30000,
+                75000,
+                150000,
+                250000
+            ]
+        },
+        {
+            "name": "living metal heart",
+            "milestones": [
+                1,
+                20,
+                60,
+                100
+            ]
+        },
+        {
+            "name": "wilted berberis",
+            "milestones": [
+                20,
+                60,
+                140,
+                400
+            ]
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
+        },
+        {
+            "name": "",
+            "milestones": []
         }
     ]
 }
