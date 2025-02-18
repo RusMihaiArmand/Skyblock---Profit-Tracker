@@ -1,5 +1,6 @@
 {
-    "level": 234,
+    "profileId": "110c4006-ece6-4f6a-9882-45451c1ea13b",
+    "level": 235,
     "collections": {
         "cactus": 9,
         "carrot": 9,
@@ -24,7 +25,7 @@
         "emerald": 9,
         "end stone": 10,
         "gemstone": 11,
-        "glacite": 2,
+        "glacite": 3,
         "glowstone dust": 7,
         "gold ingot": 10,
         "gravel": 9,
@@ -85,5 +86,33 @@
         "enderman": 1,
         "vampire": 5,
         "blaze": 0
+    },
+    "faction": "barbarians",
+    "barbarianReputation": 10660.0,
+    "mageReputation": -5.0,
+    "factoryPrestige": 6,
+    "hasZorro": true,
+    "composter": {
+        "speed": 1,
+        "multi drop": 3,
+        "fuel cap": 1,
+        "organic matter cap": 1,
+        "cost reduction": 1
+    },
+    "accessories": {
+        "candy accessory": 4,
+        "gift accessory": 5,
+        "seal accessory": 0,
+        "bucket of dye": 1
+    },
+    "minionSlots": 30,
+    "perks": {
+        "extra candy": 5,
+        "better gifts": 2
+    },
+    "manuallyEnteredData": {
+        "bingo rank": 1,
+        "bits multiplier": 1,
+        "bazaar flipper perk": 0
     }
 }

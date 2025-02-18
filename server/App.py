@@ -4,6 +4,10 @@ import requests
 import os
 import shutil
 import json
+import gzip
+import nbt
+import io
+import base64
 
 app = Flask(__name__)
 CORS(app)  
@@ -15,6 +19,9 @@ url_mayor = "http://api.hypixel.net/v2/resources/skyblock/election"
 
 #https://api.hypixel.net/v2/skyblock/profiles?key=API_KEY&uuid=UUID
 url_profile = "https://api.hypixel.net/v2/skyblock/profiles"
+
+#https://api.hypixel.net/v2/skyblock/garden?profile=PROFILEID&key=KEY
+url_garden = "https://api.hypixel.net/v2/skyblock/garden"
 
 #https://api.hypixel.net/v2/skyblock/auctions?key=API_KEY&page=PAGE
 url_ah = "https://api.hypixel.net/v2/skyblock/auctions?key="
@@ -139,6 +146,8 @@ def getPlayerData():
                     print("Selected Profile:", str(selected_profile.get("cute_name", "???")))
                     message += "Profile = " + str(selected_profile.get("cute_name", "???")) + "; "
 
+
+
                     folder_path = get_player_path(name,"")
 
                     if os.path.isdir(folder_path):
@@ -150,15 +159,22 @@ def getPlayerData():
 
                     file_path = get_player_path(name,selected_profile.get("cute_name"))
 
+                    manualData = []
+
                     if os.path.isfile(file_path):
-                        os.remove(file_path)
+                        #os.remove(file_path)
+                        with open(file_path, 'r') as file:
+                            manualData = json.load(file).get('manuallyEnteredData', [])
+
+            
+                    shutil.copy(path_template, file_path)
                         
                     
                     currentUser = name
                     currentProfile = profile
                     guestMode = False
 
-                    shutil.copy(path_template, file_path)
+                    #shutil.copy(path_template, file_path)
 
                     message = "Success"
 
@@ -172,7 +188,10 @@ def getPlayerData():
                     with open(path_general_data, 'r') as file:
                         usefulData = json.load(file)
 
-                    
+                    if manualData:
+                        savedData['manuallyEnteredData'] = manualData
+
+                    savedData['profileId'] = selected_profile['profile_id']
 
                     playerData = selected_profile['members'][user_id]
 
@@ -204,7 +223,6 @@ def getPlayerData():
                         if slayerData:
                             playerHasExp = playerData.get('slayer', {}).get('slayer_bosses', {}).get(slay , {}).get('xp',0)
 
-  
                             slayLevel = 0
                             
                             for milestone in slayerData['milestones']:
@@ -214,6 +232,104 @@ def getPlayerData():
                                     break
                             
                             savedData['slayers'][slay] = slayLevel
+
+
+
+
+                    savedData['faction'] = playerData.get('nether_island_player_data', {}).get('selected_faction' , '-')
+                    savedData['barbarianReputation'] = playerData.get('nether_island_player_data', {}).get('barbarians_reputation' , 0)
+                    savedData['mageReputation'] = playerData.get('nether_island_player_data', {}).get('mages_reputation' , 0)
+
+
+                    savedData['factoryPrestige'] = playerData.get('events', {}).get('easter', {}).get('chocolate_level' , 1)
+                    savedData['hasZorro'] = playerData.get('events', {}).get('easter', {}).get('rabbits' , {}).get('zorro' , 0) > 0 
+
+
+                    response = requests.get(url_garden + "?profile=" + selected_profile['profile_id'] + "&key=" + key)
+                    dataGarden = response.json()
+                    
+                    if str(dataGarden.get('success')): 
+                        for perk in savedData['composter']:
+                            savedData['composter'][perk] = dataGarden.get('garden', {}).get('composter_data', {}).get('upgrades', {}).get(turn_name_into_id(perk), 0)
+                    else:
+                        message = "Error at fetching garden data - " + dataGarden.get('cause', '')
+                        
+
+                    talisCoded = playerData.get('inventory', {}).get('bag_contents', {}).get('talisman_bag', {}).get('data' , '')
+
+                    if talisCoded:
+                        talisSomewhatDecoded = gzip.decompress(base64.b64decode(talisCoded))
+
+
+                        if b"CANDY_RELIC" in  talisSomewhatDecoded:
+                            savedData['accessories']['candy accessory'] = 4
+                        else:
+                            if b"CANDY_ARTIFACT" in  talisSomewhatDecoded:
+                                savedData['accessories']['candy accessory'] = 3
+                            else:
+                                if b"CANDY_RING" in  talisSomewhatDecoded:
+                                    savedData['accessories']['candy accessory'] = 2
+                                else:
+                                    if b"CANDY_TALISMAN" in  talisSomewhatDecoded:
+                                        savedData['accessories']['candy accessory'] = 1
+
+
+                        if b"GOLD_GIFT_TALISMAN" in  talisSomewhatDecoded:
+                            savedData['accessories']['gift accessory'] = 5
+                        else:
+                            if b"PURPLE_GIFT_TALISMAN" in  talisSomewhatDecoded:
+                                savedData['accessories']['gift accessory'] = 4
+                            else:
+                                if b"BLUE_GIFT_TALISMAN" in  talisSomewhatDecoded:
+                                    savedData['accessories']['gift accessory'] = 3
+                                else:
+                                    if b"GREEN_GIFT_TALISMAN" in  talisSomewhatDecoded:
+                                        savedData['accessories']['gift accessory'] = 2
+                                    else:    
+                                        if b"WHITE_GIFT_TALISMAN" in  talisSomewhatDecoded:
+                                            savedData['accessories']['gift accessory'] = 1    
+                                            
+
+                        if b"SEAL_OF_THE_FAMILY" in  talisSomewhatDecoded:
+                            savedData['accessories']['seal accessory'] = 3
+                        else:
+                            if b"CROOKED_ARTIFACT" in  talisSomewhatDecoded:
+                                savedData['accessories']['seal accessory'] = 2
+                            else:    
+                                if b"SHADY_RING" in  talisSomewhatDecoded:
+                                    savedData['accessories']['seal accessory'] = 1    
+                                    
+                        
+                        if b"BUCKET_OF_DYE" in  talisSomewhatDecoded:
+                            savedData['accessories']['bucket of dye'] = 1   
+                            
+                    
+                    
+                    minSlots = 5
+                    
+                    playerHas = len(playerData.get('player_data', {}).get('crafted_generators', {}))
+                    
+                    
+                    for milestone in usefulData['minionSlotsRequirements']:
+                        if playerHas >= milestone:
+                            minSlots += 1
+                        else:
+                            break
+                    
+                    for upg in selected_profile.get('community_upgrades', {}).get('upgrade_states', {}):
+                        if upg.get('upgrade', '') == "minion_slots":
+                            minSlots += 1
+                    
+                    savedData['minionSlots'] = minSlots
+                    
+                    
+                    
+                    
+                    for perk in playerData.get('leveling', {}).get('completed_tasks', {}):
+                        if "SPOOKY_FESTIVAL_CANDY_SCAVENGER" in perk:
+                            savedData['perks']['extra candy'] += 1
+                        if "WINTER_PROFESSIONAL_GIFTER" in perk:
+                            savedData['perks']['better gifts'] += 1
 
 
 
