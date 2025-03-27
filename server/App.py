@@ -141,11 +141,9 @@ def getPlayerData():
     
     if key != "":
 
-
         response = requests.get(url_mojang_uuid + name)
 
         
-
         if response.status_code == 200:
             data = response.json()
             user_id = data.get('id', '-')
@@ -169,8 +167,6 @@ def getPlayerData():
                 if selected_profile:
                     print("Selected Profile:", str(selected_profile.get("cute_name", "???")))
                     message += "Profile = " + str(selected_profile.get("cute_name", "???")) + "; "
-
-
 
                     folder_path = get_player_path(name,"")
 
@@ -461,29 +457,30 @@ def getCraftPrices():
             or (playerData.get('mageReputation',0) < recipe.get('requirements',{}).get('mageReputation',-9999))):
                 recipe['canCraft'] = False
             
-            for material, quantity in recipe['recipeMaterials',{}]:
+
+
+            for material, quantity in recipe['recipeMaterials'].items():
 
                 materialPriceData = pricesData.get(material,{})
 
                 if 'buy' in materialPriceData:
-                    print('bz thing')
 
                     if(materialPriceData['buy'] != 0):
                         materialsList = dict(recipe['materialsNeededInstant'])
-                        materialsList[material] = materialsList.get(material, 0) + quantity
+                        materialsList[material] = materialsList.get(material, 0.0) + quantity
                         recipe['materialsNeededInstant'] = materialsList
-                        materialsList['craftPriceInstant'] += materialPriceData['buy'] * quantity
+                        recipe['craftPriceInstant'] += materialPriceData['buy'] * quantity
                     else:
                         materialsList = dict(recipe['materialsNeededFarmInstant'])
-                        materialsList[material] = materialsList.get(material, 0) + quantity
+                        materialsList[material] = materialsList.get(material, 0.0) + quantity
                         recipe['materialsNeededFarmInstant'] = materialsList
 
 
                     
                     materialsList = dict(recipe['materialsNeededOrders'])
-                    materialsList[material] = materialsList.get(material, 0) + quantity
+                    materialsList[material] = materialsList.get(material, 0.0) + quantity
                     recipe['materialsNeededOrders'] = materialsList
-                    materialsList['craftPriceOrders'] += (materialPriceData['sell']+0.1) * quantity
+                    recipe['craftPriceOrders'] += (materialPriceData['sell']+0.1) * quantity
                     
                         
                     #do thing
@@ -496,59 +493,80 @@ def getCraftPrices():
                     materialCraftData = materialCraftData[0]
 
                     if materialCraftData['canCraft']:
-                        print('craft thing')
-                        materialsList = dict(recipe['materialsNeededInstant'])
-                        materialsListComponent = dict(materialCraftData['materialsNeededInstant'])
+                        #before jumping in like an idiot, check if it's cheaper to just buy the damn thing;
+                        #it's either AH or NPC, so same fucking price for instant and orders
 
-                        addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
-                        for materialAdd, amount in addedList.items():
-                            materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
+                        directPrice = 0
+                        if materialPriceData.get('NPCbuy',0) < directPrice or directPrice == 0:
+                            directPrice = materialPriceData.get('NPCbuy',0)
 
-                        #materialsList += materialsListComponent * quantity / materialCraftData['quantity']
-                        recipe['materialsNeededInstant'] = materialsList
-                        materialsList['craftPriceInstant'] += materialCraftData['craftPriceInstant'] * quantity
+                        if 'priceBIN' in materialPriceData:
+                            if materialPriceData["NPCsell"] > 0 and "COMMON" in materialPriceData["rarity"]:
+                                if materialPriceData['priceAUC'] < directPrice or directPrice == 0:
+                                    directPrice = materialPriceData['priceAUC']
+                            else:
+                                if materialPriceData['priceBIN'] < directPrice or directPrice == 0:
+                                    directPrice = materialPriceData['priceBIN']
+
+                        if directPrice < materialCraftData['craftPriceInstant']:
+                            materialsList = dict(recipe['materialsNeededInstant'])
+                            materialsList[material] = materialsList.get(material, 0.0) + quantity
+                            recipe['materialsNeededInstant'] = materialsList
+                            recipe['craftPriceInstant'] += directPrice * quantity
+                        else:
+                            materialsList = dict(recipe['materialsNeededInstant'])
+                            materialsListComponent = dict(materialCraftData['materialsNeededInstant'])
+
+                            addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
+                            for materialAdd, amount in addedList.items():
+                                materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
+
+                            recipe['materialsNeededInstant'] = materialsList
+                            recipe['craftPriceInstant'] += materialCraftData['craftPriceInstant'] * quantity
 
 
 
-                        materialsList = dict(recipe['materialsNeededFarmInstant'])
-                        materialsListComponent = dict(materialCraftData['materialsNeededFarmInstant'])
+                            materialsList = dict(recipe['materialsNeededFarmInstant'])
+                            materialsListComponent = dict(materialCraftData['materialsNeededFarmInstant'])
 
-                        addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
-                        for materialAdd, amount in addedList.items():
-                            materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
+                            addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
+                            for materialAdd, amount in addedList.items():
+                                materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
 
-                        #materialsList += materialsListComponent * quantity / materialCraftData['quantity']
-                        recipe['materialsNeededFarmInstant'] = materialsList
+                            recipe['materialsNeededFarmInstant'] = materialsList
 
 
 
 
 
                         
+                        if directPrice < materialCraftData['craftPriceOrders']:
+                            materialsList = dict(recipe['materialsNeededOrders'])
+                            materialsList[material] = materialsList.get(material, 0.0) + quantity
+                            recipe['materialsNeededOrders'] = materialsList
+                            recipe['craftPriceOrders'] += directPrice * quantity
+                        else:
+                            materialsList = dict(recipe['materialsNeededOrders'])
+                            materialsListComponent = dict(materialCraftData['materialsNeededOrders'])
 
-                        materialsList = dict(recipe['materialsNeededOrders'])
-                        materialsListComponent = dict(materialCraftData['materialsNeededOrders'])
+                            addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
+                            for materialAdd, amount in addedList.items():
+                                materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
 
-                        addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
-                        for materialAdd, amount in addedList.items():
-                            materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
-
-                        #materialsList += materialsListComponent * quantity / materialCraftData['quantity']
-                        recipe['materialsNeededOrders'] = materialsList
-                        materialsList['craftPriceOrders'] += materialCraftData['craftPriceOrders'] * quantity
+                            recipe['materialsNeededOrders'] = materialsList
+                            recipe['craftPriceOrders'] += materialCraftData['craftPriceOrders'] * quantity
 
 
 
-                        materialsList = dict(recipe['materialsNeededFarmOrders'])
-                        materialsListComponent = dict(materialCraftData['materialsNeededFarmOrders'])
+                            materialsList = dict(recipe['materialsNeededFarmOrders'])
+                            materialsListComponent = dict(materialCraftData['materialsNeededFarmOrders'])
 
-                        addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
-                        for materialAdd, amount in addedList.items():
-                            materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
+                            addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
+                            for materialAdd, amount in addedList.items():
+                                materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
 
-                        #materialsList += materialsListComponent * quantity / materialCraftData['quantity']
-                        recipe['materialsNeededFarmOrders'] = materialsList
-                        #do something
+                            recipe['materialsNeededFarmOrders'] = materialsList   
+                            
                         continue
 
 
@@ -557,69 +575,61 @@ def getCraftPrices():
                 if 'priceBIN' in materialPriceData:
 
                     if materialPriceData["NPCsell"] > 0 and "COMMON" in materialPriceData["rarity"]:
-                        print('ah - auc thing')
-
+        
                         if(materialPriceData['priceAUC'] > 0):
                             materialsList = dict(recipe['materialsNeededInstant'])
-                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            materialsList[material] = materialsList.get(material, 0.0) + quantity
                             recipe['materialsNeededInstant'] = materialsList
-                            materialsList['craftPriceInstant'] += materialPriceData['priceAUC'] * quantity
+                            recipe['craftPriceInstant'] += materialPriceData['priceAUC'] * quantity
 
                             materialsList = dict(recipe['materialsNeededOrders'])
-                            materialsList[material] = materialsList.get(material, 0.0) + amount 
+                            materialsList[material] = materialsList.get(material, 0.0) + quantity 
                             recipe['materialsNeededOrders'] = materialsList
-                            materialsList['craftPriceOrders'] += materialPriceData['priceAUC'] * quantity
+                            recipe['craftPriceOrders'] += materialPriceData['priceAUC'] * quantity
                         else:
                             materialsList = dict(recipe['materialsNeededFarmInstant'])
-                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            materialsList[material] = materialsList.get(material, 0.0) + quantity
                             recipe['materialsNeededFarmInstant'] = materialsList
 
                             materialsList = dict(recipe['materialsNeededFarmOrders'])
-                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            materialsList[material] = materialsList.get(material, 0.0) + quantity
                             recipe['materialsNeededFarmOrders'] = materialsList
 
                     else:
-                        print('ah - bin thing')
 
                         if(materialPriceData['priceBIN'] > 0):
                             materialsList = dict(recipe['materialsNeededInstant'])
-                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            materialsList[material] = materialsList.get(material, 0.0) + quantity
                             recipe['materialsNeededInstant'] = materialsList
-                            materialsList['craftPriceInstant'] += materialPriceData['priceBIN'] * quantity
+                            recipe['craftPriceInstant'] += materialPriceData['priceBIN'] * quantity
 
                             materialsList = dict(recipe['materialsNeededOrders'])
-                            materialsList[material] = materialsList.get(material, 0.0) + amount 
+                            materialsList[material] = materialsList.get(material, 0.0) + quantity 
                             recipe['materialsNeededOrders'] = materialsList
-                            materialsList['craftPriceOrders'] += materialPriceData['priceBIN'] * quantity
+                            recipe['craftPriceOrders'] += materialPriceData['priceBIN'] * quantity
                         else:
                             materialsList = dict(recipe['materialsNeededFarmInstant'])
-                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            materialsList[material] = materialsList.get(material, 0.0) + quantity
                             recipe['materialsNeededFarmInstant'] = materialsList
 
                             materialsList = dict(recipe['materialsNeededFarmOrders'])
-                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            materialsList[material] = materialsList.get(material, 0.0) + quantity
                             recipe['materialsNeededFarmOrders'] = materialsList
-                    #do thing
+                    
                     continue
 
                 
-
-
-
-
                 if 'NPCbuy' in materialPriceData:
-                    print('NPC thing')
 
                     materialsList = dict(recipe['materialsNeededInstant'])
                     materialsList[material] = materialsList.get(material, 0) + quantity
                     recipe['materialsNeededInstant'] = materialsList
-                    materialsList['craftPriceInstant'] += materialPriceData['NPCbuy'] * quantity
-
+                    recipe['craftPriceInstant'] += materialPriceData['NPCbuy'] * quantity
 
                     materialsList = dict(recipe['materialsNeededOrders'])
-                    materialsList[material] = materialsList.get(material, 0.0) + amount 
+                    materialsList[material] = materialsList.get(material, 0.0) + quantity 
                     recipe['materialsNeededOrders'] = materialsList
-                    materialsList['craftPriceOrders'] += materialPriceData['NPCbuy'] * quantity
+                    recipe['craftPriceOrders'] += materialPriceData['NPCbuy'] * quantity
                         
                     continue
 
@@ -632,22 +642,12 @@ def getCraftPrices():
                 materialsList[material] = materialsList.get(material, 0) + quantity
                 recipe['materialsNeededFarmOrders'] = materialsList
 
-            #FINISH UP RECIPE DATA
-            # "sellForInstant": 0,
-            #     "sellForOrders": 0,
-            #     "sellOnInstant": "-",
-            #     "sellOnOrders": "-",
-            # "profitInstantInstant": 0,
-            #     "profitInstantOrders": 0,
-            #     "profitOrdersInstant": 0,
-            #     "profitOrdersOrders": 0
-
+    
             itemPriceData = pricesData.get(itemName,{})
             recipe['sellForInstant'] = itemPriceData['NPCsell'] * recipe['quantity']
             recipe['sellForOrders'] = itemPriceData['NPCsell'] * recipe['quantity']
             recipe['sellOnInstant'] = 'NPC'
             recipe['sellOnOrders'] = 'NPC'
-            currentTax = 0
             # recipe['sellForInstant'] *(100-tax)/100 - for when npc tax is greater than 0
             recipe['profitInstantInstant'] = recipe['sellForInstant']  - recipe['craftPriceInstant']
             recipe['profitInstantOrders'] = recipe['sellForOrders']  - recipe['craftPriceInstant']
@@ -657,6 +657,8 @@ def getCraftPrices():
 
 
             if 'priceAUC' in itemPriceData:
+
+
                 if itemPriceData["NPCsell"] > 0 and "COMMON" in itemPriceData["rarity"]:
                     price = itemPriceData['priceAUC']
                     sellType = 'AH - AUC'

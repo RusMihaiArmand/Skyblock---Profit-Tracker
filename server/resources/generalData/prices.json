@@ -46,18 +46,16 @@
         "NPCsell": 0
     },
     "test_item_DIAMOND":{
-        "priceBIN": 10000,
-        "priceAUC": 0,
-        "timeEndAuc": 0,
-        "rarity": "EPIC",
-        "NPCsell": 0
+        "NPCbuy": 1,
+        "NPCsell": 10
     },
     "test_item_PICK":{
         "priceBIN": 10000,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "EPIC",
-        "NPCsell": 0
+        "NPCsell": 0,
+        "NPCbuy": 1
     },
     "test_item_AXE":{
         "priceBIN": 10000,

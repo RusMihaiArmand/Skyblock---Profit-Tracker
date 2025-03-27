@@ -114,6 +114,10 @@
             {
                 "canCraft": true,
                 "quantity": 1,
+                "requirements": {
+                    "collection": "Diamond",
+                    "collectionLevel": 8
+                },
                 "recipeMaterials": {
                     "test_item_STICK": 3,
                     "test_item_DIAMOND": 8
@@ -142,7 +146,7 @@
                 "quantity": 1,
                 "recipeMaterials": {
                     "test_item_PICK": 1,
-                    "test_item_AXE": 1
+                    "test_item_AXE": 2
                 },
                 "materialsNeededInstant": [],
                 "materialsNeededOrders": [],
