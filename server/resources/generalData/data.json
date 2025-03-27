@@ -1,7 +1,7 @@
 {
     "collectionsRequirements": [
         {
-            "name": "cactus",
+            "name": "Cactus",
             "milestones": [
                 100,
                 250,
@@ -15,7 +15,7 @@
             ]
         },
         {
-            "name": "carrot",
+            "name": "Carrot",
             "milestones": [
                 100,
                 250,
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "name": "cocoa beans",
+            "name": "Cocoa Beans",
             "milestones": [
                 75,
                 200,
@@ -43,7 +43,7 @@
             ]
         },
         {
-            "name": "feather",
+            "name": "Feather",
             "milestones": [
                 50,
                 100,
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "name": "leather",
+            "name": "Leather",
             "milestones": [
                 50,
                 100,
@@ -73,7 +73,7 @@
             ]
         },
         {
-            "name": "melon",
+            "name": "Melon",
             "milestones": [
                 250,
                 500,
@@ -87,7 +87,7 @@
             ]
         },
         {
-            "name": "mushroom",
+            "name": "Mushroom",
             "milestones": [
                 50,
                 100,
@@ -101,7 +101,7 @@
             ]
         },
         {
-            "name": "mutton",
+            "name": "Mutton",
             "milestones": [
                 50,
                 100,
@@ -116,7 +116,7 @@
             ]
         },
         {
-            "name": "nether wart",
+            "name": "Nether Wart",
             "milestones": [
                 50,
                 100,
@@ -133,7 +133,7 @@
             ]
         },
         {
-            "name": "potato",
+            "name": "Potato",
             "milestones": [
                 100,
                 200,
@@ -147,7 +147,7 @@
             ]
         },
         {
-            "name": "pumpkin",
+            "name": "Pumpkin",
             "milestones": [
                 40,
                 100,
@@ -163,7 +163,7 @@
             ]
         },
         {
-            "name": "raw chicken",
+            "name": "Raw Chicken",
             "milestones": [
                 50,
                 100,
@@ -178,7 +178,7 @@
             ]
         },
         {
-            "name": "raw porkchop",
+            "name": "Raw Porkchop",
             "milestones": [
                 50,
                 100,
@@ -192,7 +192,7 @@
             ]
         },
         {
-            "name": "raw rabbit",
+            "name": "Raw Rabbit",
             "milestones": [
                 50,
                 100,
@@ -206,7 +206,7 @@
             ]
         },
         {
-            "name": "seeds",
+            "name": "Seeds",
             "milestones": [
                 50,
                 100,
@@ -218,7 +218,7 @@
             ]
         },
         {
-            "name": "sugar cane",
+            "name": "Sugar Cane",
             "milestones": [
                 100,
                 250,
@@ -232,7 +232,7 @@
             ]
         },
         {
-            "name": "wheat",
+            "name": "Wheat",
             "milestones": [
                 50,
                 100,
@@ -248,7 +248,7 @@
             ]
         },
         {
-            "name": "coal",
+            "name": "Coal",
             "milestones": [
                 50,
                 100,
@@ -263,7 +263,7 @@
             ]
         },
         {
-            "name": "cobblestone",
+            "name": "Cobblestone",
             "milestones": [
                 50,
                 100,
@@ -278,7 +278,7 @@
             ]
         },
         {
-            "name": "diamond",
+            "name": "Diamond",
             "milestones": [
                 50,
                 100,
@@ -292,7 +292,7 @@
             ]
         },
         {
-            "name": "emerald",
+            "name": "Emerald",
             "milestones": [
                 50,
                 100,
@@ -306,7 +306,7 @@
             ]
         },
         {
-            "name": "end stone",
+            "name": "End Stone",
             "milestones": [
                 50,
                 100,
@@ -321,7 +321,7 @@
             ]
         },
         {
-            "name": "gemstone",
+            "name": "Gemstone",
             "milestones": [
                 100,
                 250,
@@ -337,7 +337,7 @@
             ]
         },
         {
-            "name": "glacite",
+            "name": "Glacite",
             "milestones": [
                 1000,
                 2500,
@@ -351,7 +351,7 @@
             ]
         },
         {
-            "name": "glowstone dust",
+            "name": "Glowstone Dust",
             "milestones": [
                 50,
                 100,
@@ -363,7 +363,7 @@
             ]
         },
         {
-            "name": "gold ingot",
+            "name": "Gold Ingot",
             "milestones": [
                 50,
                 100,
@@ -378,7 +378,7 @@
             ]
         },
         {
-            "name": "gravel",
+            "name": "Gravel",
             "milestones": [
                 50,
                 100,
@@ -392,7 +392,7 @@
             ]
         },
         {
-            "name": "hard stone",
+            "name": "Hard Stone",
             "milestones": [
                 50,
                 1000,
@@ -404,7 +404,7 @@
             ]
         },
         {
-            "name": "ice",
+            "name": "Ice",
             "milestones": [
                 50,
                 100,
@@ -420,7 +420,7 @@
             ]
         },
         {
-            "name": "iron ingot",
+            "name": "Iron Ingot",
             "milestones": [
                 50,
                 100,
@@ -437,7 +437,7 @@
             ]
         },
         {
-            "name": "lapis lazuli",
+            "name": "Lapis Lazuli",
             "milestones": [
                 250,
                 500,
@@ -452,7 +452,7 @@
             ]
         },
         {
-            "name": "mithril",
+            "name": "Mithril",
             "milestones": [
                 50,
                 250,
@@ -466,7 +466,7 @@
             ]
         },
         {
-            "name": "mycelium",
+            "name": "Mycelium",
             "milestones": [
                 50,
                 500,
@@ -481,7 +481,7 @@
             ]
         },
         {
-            "name": "nether quartz",
+            "name": "Nether Quartz",
             "milestones": [
                 50,
                 100,
@@ -495,7 +495,7 @@
             ]
         },
         {
-            "name": "netherrack",
+            "name": "Netherrack",
             "milestones": [
                 50,
                 250,
@@ -505,7 +505,7 @@
             ]
         },
         {
-            "name": "obsidian",
+            "name": "Obsidian",
             "milestones": [
                 50,
                 100,
@@ -520,7 +520,7 @@
             ]
         },
         {
-            "name": "red sand",
+            "name": "Red Sand",
             "milestones": [
                 50,
                 500,
@@ -533,7 +533,7 @@
             ]
         },
         {
-            "name": "redstone",
+            "name": "Redstone",
             "milestones": [
                 100,
                 250,
@@ -554,7 +554,7 @@
             ]
         },
         {
-            "name": "sand",
+            "name": "Sand",
             "milestones": [
                 50,
                 100,
@@ -566,7 +566,7 @@
             ]
         },
         {
-            "name": "sulphur",
+            "name": "Sulphur",
             "milestones": [
                 200,
                 1000,
@@ -580,7 +580,7 @@
             ]
         },
         {
-            "name": "tungsten",
+            "name": "Tungsten",
             "milestones": [
                 1000,
                 2500,
@@ -594,7 +594,7 @@
             ]
         },
         {
-            "name": "umber",
+            "name": "Umber",
             "milestones": [
                 1000,
                 2500,
@@ -608,7 +608,7 @@
             ]
         },
         {
-            "name": "blaze rod",
+            "name": "Blaze Rod",
             "milestones": [
                 50,
                 250,
@@ -621,7 +621,7 @@
             ]
         },
         {
-            "name": "bone",
+            "name": "Bone",
             "milestones": [
                 50,
                 100,
@@ -636,7 +636,7 @@
             ]
         },
         {
-            "name": "chili pepper",
+            "name": "Chili Pepper",
             "milestones": [
                 10,
                 25,
@@ -650,7 +650,7 @@
             ]
         },
         {
-            "name": "ender pearl",
+            "name": "Ender Pearl",
             "milestones": [
                 50,
                 250,
@@ -664,7 +664,7 @@
             ]
         },
         {
-            "name": "ghast tear",
+            "name": "Ghast Tear",
             "milestones": [
                 20,
                 250,
@@ -676,7 +676,7 @@
             ]
         },
         {
-            "name": "gunpowder",
+            "name": "Gunpowder",
             "milestones": [
                 50,
                 100,
@@ -690,7 +690,7 @@
             ]
         },
         {
-            "name": "magma cream",
+            "name": "Magma Cream",
             "milestones": [
                 50,
                 250,
@@ -703,7 +703,7 @@
             ]
         },
         {
-            "name": "rotten flesh",
+            "name": "Rotten Flesh",
             "milestones": [
                 50,
                 100,
@@ -718,7 +718,7 @@
             ]
         },
         {
-            "name": "slimeball",
+            "name": "Slimeball",
             "milestones": [
                 50,
                 100,
@@ -732,7 +732,7 @@
             ]
         },
         {
-            "name": "spider eye",
+            "name": "Spider Eye",
             "milestones": [
                 50,
                 100,
@@ -746,7 +746,7 @@
             ]
         },
         {
-            "name": "string",
+            "name": "String",
             "milestones": [
                 50,
                 100,
@@ -760,7 +760,7 @@
             ]
         },
         {
-            "name": "acacia wood",
+            "name": "Acacia Wood",
             "milestones": [
                 50,
                 100,
@@ -774,7 +774,7 @@
             ]
         },
         {
-            "name": "birch wood",
+            "name": "Birch Wood",
             "milestones": [
                 50,
                 100,
@@ -789,7 +789,7 @@
             ]
         },
         {
-            "name": "dark oak wood",
+            "name": "Dark Oak Wood",
             "milestones": [
                 50,
                 100,
@@ -803,7 +803,7 @@
             ]
         },
         {
-            "name": "jungle wood",
+            "name": "Jungle Wood",
             "milestones": [
                 50,
                 100,
@@ -817,7 +817,7 @@
             ]
         },
         {
-            "name": "oak wood",
+            "name": "Oak Wood",
             "milestones": [
                 50,
                 100,
@@ -831,7 +831,7 @@
             ]
         },
         {
-            "name": "spruce wood",
+            "name": "Spruce Wood",
             "milestones": [
                 50,
                 100,
@@ -845,7 +845,7 @@
             ]
         },
         {
-            "name": "clay",
+            "name": "Clay",
             "milestones": [
                 50,
                 100,
@@ -856,7 +856,7 @@
             ]
         },
         {
-            "name": "clownfish",
+            "name": "Clownfish",
             "milestones": [
                 10,
                 25,
@@ -870,7 +870,7 @@
             ]
         },
         {
-            "name": "ink sac",
+            "name": "Ink Sac",
             "milestones": [
                 20,
                 40,
@@ -884,7 +884,7 @@
             ]
         },
         {
-            "name": "lily pad",
+            "name": "Lily Pad",
             "milestones": [
                 10,
                 50,
@@ -898,7 +898,7 @@
             ]
         },
         {
-            "name": "magmafish",
+            "name": "Magmafish",
             "milestones": [
                 20,
                 100,
@@ -915,7 +915,7 @@
             ]
         },
         {
-            "name": "prismarine crystals",
+            "name": "Prismarine Crystals",
             "milestones": [
                 10,
                 25,
@@ -927,7 +927,7 @@
             ]
         },
         {
-            "name": "prismarine shard",
+            "name": "Prismarine Shard",
             "milestones": [
                 10,
                 25,
@@ -939,7 +939,7 @@
             ]
         },
         {
-            "name": "pufferfish",
+            "name": "Pufferfish",
             "milestones": [
                 20,
                 50,
@@ -954,7 +954,7 @@
             ]
         },
         {
-            "name": "raw fish",
+            "name": "Raw Fish",
             "milestones": [
                 20,
                 50,
@@ -970,7 +970,7 @@
             ]
         },
         {
-            "name": "raw salmon",
+            "name": "Raw Salmon",
             "milestones": [
                 20,
                 50,
@@ -984,7 +984,7 @@
             ]
         },
         {
-            "name": "sponge",
+            "name": "Sponge",
             "milestones": [
                 20,
                 40,
@@ -998,7 +998,7 @@
             ]
         },
         {
-            "name": "agaricus cap",
+            "name": "Agaricus Cap",
             "milestones": [
                 20,
                 60,
@@ -1007,7 +1007,7 @@
             ]
         },
         {
-            "name": "caducous stem",
+            "name": "Caducous Stem",
             "milestones": [
                 20,
                 60,
@@ -1016,7 +1016,7 @@
             ]
         },
         {
-            "name": "half-eaten carrot",
+            "name": "Half-Eaten Carrot",
             "milestones": [
                 50,
                 400,
@@ -1025,7 +1025,7 @@
             ]
         },
         {
-            "name": "hemovibe",
+            "name": "Hemovibe",
             "milestones": [
                 50,
                 250,
@@ -1039,7 +1039,7 @@
             ]
         },
         {
-            "name": "living metal heart",
+            "name": "Living Metal Heart",
             "milestones": [
                 1,
                 20,
@@ -1048,7 +1048,7 @@
             ]
         },
         {
-            "name": "wilted berberis",
+            "name": "Wilted Berberis",
             "milestones": [
                 20,
                 60,
@@ -1138,6 +1138,18 @@
                 1000000
             ]
         }
+    ],
+    "hotmRequirements": [
+        0,
+        3000,
+        12000,
+        37000,
+        97000,
+        197000,
+        347000,
+        557000,
+        847000,
+        1247000
     ],
     "minionSlotsRequirements": [
         5,

@@ -8,6 +8,7 @@ import gzip
 import nbt
 import io
 import base64
+from collections import Counter
 
 app = Flask(__name__)
 CORS(app)  
@@ -24,13 +25,21 @@ url_profile = "https://api.hypixel.net/v2/skyblock/profiles"
 url_garden = "https://api.hypixel.net/v2/skyblock/garden"
 
 #https://api.hypixel.net/v2/skyblock/auctions?key=API_KEY&page=PAGE
-url_ah = "https://api.hypixel.net/v2/skyblock/auctions?key="
+url_ah = "https://api.hypixel.net/v2/skyblock/auctions?page="
 
 path_players = "server/resources/playerData"
 path_template = "server/resources/generalData/template.json"
 path_general_data = "server/resources/generalData/data.json"
 
 path_conversion = "server/resources/generalData/conversion.json"
+
+path_prices = "server/resources/generalData/prices.json"
+path_prices_clean = "server/resources/generalData/pricesClean.json"
+path_recipes = "server/resources/generalData/recipes.json"
+path_recipes_clean = "server/resources/generalData/recipesClean.json"
+
+guest_path = "server/resources/generalData/guest.json"
+guest_recipes_path = "server/resources/generalData/recipes.json"
 
 key_API = ""
 name = ""
@@ -59,12 +68,27 @@ def turn_id_into_name(item_id):
     return name
 
 
-def get_player_path(folder, profile):
-    return f"{path_players}/{folder}/{profile}.json" if profile else f"{path_players}/{folder}"
+def get_player_path(userName, profile):
+    return f"{path_players}/{userName}/{profile}.json" if profile else f"{path_players}/{userName}"
+
+def get_current_player_path():
+    if guestMode:
+        return guest_path
+    else:
+        return get_player_path(currentUser,currentProfile)
+
+def get_player_recipes_path(userName, profile):
+    return f"{path_players}/{userName}/{profile}_recipes.json"
+
+def get_current_player_recipes_path():
+    if guestMode:
+        return guest_recipes_path
+    else:
+        return get_player_recipes_path(currentUser,currentProfile)
 
 
-
-
+def get_ah_page(page):
+    return url_ah + str(page)
 
 @app.route('/hello', methods=['GET'])
 def hello():
@@ -174,8 +198,6 @@ def getPlayerData():
                     currentProfile = profile
                     guestMode = False
 
-                    #shutil.copy(path_template, file_path)
-
                     message = "Success"
 
 
@@ -245,12 +267,35 @@ def getPlayerData():
                     savedData['hasZorro'] = playerData.get('events', {}).get('easter', {}).get('rabbits' , {}).get('zorro' , 0) > 0 
 
 
+
+                    playerHasExp = playerData.get('mining_core', {}).get('experience', -1)
+
+                    hotmLevel = 0
+                            
+                    for milestone in usefulData['hotmRequirements']:
+                        if playerHasExp >= milestone:
+                            hotmLevel += 1
+                        else:
+                            break
+                            
+                    savedData['hotmLevel'] = hotmLevel
+
+
+                    hotmPerks = playerData.get('mining_core', {}).get('nodes', {})
+
+                    for perk in hotmPerks:
+                        if turn_id_into_name(perk):
+                            savedData['hotmPerks'][turn_id_into_name(perk)] = hotmPerks.get(perk, 0)
+
+
                     response = requests.get(url_garden + "?profile=" + selected_profile['profile_id'] + "&key=" + key)
                     dataGarden = response.json()
                     
                     if str(dataGarden.get('success')): 
-                        for perk in savedData['composter']:
-                            savedData['composter'][perk] = dataGarden.get('garden', {}).get('composter_data', {}).get('upgrades', {}).get(turn_name_into_id(perk), 0)
+                        composterUpgrades = dataGarden.get('garden', {}).get('composter_data', {}).get('upgrades', {})
+                        for perk in composterUpgrades:
+                            if turn_id_into_name(perk):
+                                savedData['composter'][turn_id_into_name(perk)] = composterUpgrades.get(perk, 0)
                     else:
                         message = "Error at fetching garden data - " + dataGarden.get('cause', '')
                         
@@ -340,8 +385,6 @@ def getPlayerData():
                     #-
 
 
-                    # Please get the data from selected_profile too pls pls pls
-
                     return jsonify({"message": message})
                 else:
                     if(profile == ""):
@@ -375,16 +418,400 @@ def getPlayerData():
     if os.path.isfile(file_path):
         message += "Profile located; "
     else:
-        currentUser = name
-        currentProfile = profile
-        guestMode = False
-
         shutil.copy(path_template, file_path)
-
         message += "Profile added; "
+
+    currentUser = name
+    currentProfile = profile
+    guestMode = False
+    
+    return jsonify({"message": message})
+
+
+@app.route('/craft', methods=['GET'])
+def getCraftPrices():
+    global currentUser
+    global currentProfile
+    global guestMode
+
+
+    message = ""
+
+    with open(get_current_player_path(), 'r') as file:
+        playerData = json.load(file)
+
+
+    shutil.copy(path_recipes_clean, get_current_player_recipes_path())
+
+
+    with open(get_current_player_recipes_path(), 'r') as file:
+        recipesData = json.load(file)
+
+    with open(path_prices, 'r') as file:
+        pricesData = json.load(file)
+
+
+
+    for itemName, itemData in recipesData.items():
         
+        for recipe in itemData.get('recipes',{}):
+            if ((playerData.get('collections',{}).get( recipe.get('requirements',{}).get('collection','-') ,0) < recipe.get('requirements',{}).get('collectionLevel',0))
+            or (playerData.get('slayers',{}).get( recipe.get('requirements',{}).get('slayer','-') ,0) < recipe.get('requirements',{}).get('slayerLevel',0))
+            or (playerData.get('barbarianReputation',0) < recipe.get('requirements',{}).get('barbarianReputation',-9999))
+            or (playerData.get('mageReputation',0) < recipe.get('requirements',{}).get('mageReputation',-9999))):
+                recipe['canCraft'] = False
+            
+            for material, quantity in recipe['recipeMaterials',{}]:
+
+                materialPriceData = pricesData.get(material,{})
+
+                if 'buy' in materialPriceData:
+                    print('bz thing')
+
+                    if(materialPriceData['buy'] != 0):
+                        materialsList = dict(recipe['materialsNeededInstant'])
+                        materialsList[material] = materialsList.get(material, 0) + quantity
+                        recipe['materialsNeededInstant'] = materialsList
+                        materialsList['craftPriceInstant'] += materialPriceData['buy'] * quantity
+                    else:
+                        materialsList = dict(recipe['materialsNeededFarmInstant'])
+                        materialsList[material] = materialsList.get(material, 0) + quantity
+                        recipe['materialsNeededFarmInstant'] = materialsList
 
 
+                    
+                    materialsList = dict(recipe['materialsNeededOrders'])
+                    materialsList[material] = materialsList.get(material, 0) + quantity
+                    recipe['materialsNeededOrders'] = materialsList
+                    materialsList['craftPriceOrders'] += (materialPriceData['sell']+0.1) * quantity
+                    
+                        
+                    #do thing
+                    continue
+
+
+
+                materialCraftData = recipesData.get(material,{}).get("recipes", [])
+                if materialCraftData:
+                    materialCraftData = materialCraftData[0]
+
+                    if materialCraftData['canCraft']:
+                        print('craft thing')
+                        materialsList = dict(recipe['materialsNeededInstant'])
+                        materialsListComponent = dict(materialCraftData['materialsNeededInstant'])
+
+                        addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
+                        for materialAdd, amount in addedList.items():
+                            materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
+
+                        #materialsList += materialsListComponent * quantity / materialCraftData['quantity']
+                        recipe['materialsNeededInstant'] = materialsList
+                        materialsList['craftPriceInstant'] += materialCraftData['craftPriceInstant'] * quantity
+
+
+
+                        materialsList = dict(recipe['materialsNeededFarmInstant'])
+                        materialsListComponent = dict(materialCraftData['materialsNeededFarmInstant'])
+
+                        addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
+                        for materialAdd, amount in addedList.items():
+                            materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
+
+                        #materialsList += materialsListComponent * quantity / materialCraftData['quantity']
+                        recipe['materialsNeededFarmInstant'] = materialsList
+
+
+
+
+
+                        
+
+                        materialsList = dict(recipe['materialsNeededOrders'])
+                        materialsListComponent = dict(materialCraftData['materialsNeededOrders'])
+
+                        addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
+                        for materialAdd, amount in addedList.items():
+                            materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
+
+                        #materialsList += materialsListComponent * quantity / materialCraftData['quantity']
+                        recipe['materialsNeededOrders'] = materialsList
+                        materialsList['craftPriceOrders'] += materialCraftData['craftPriceOrders'] * quantity
+
+
+
+                        materialsList = dict(recipe['materialsNeededFarmOrders'])
+                        materialsListComponent = dict(materialCraftData['materialsNeededFarmOrders'])
+
+                        addedList = {key: value * (quantity / materialCraftData['quantity']) for key, value in materialsListComponent.items()}
+                        for materialAdd, amount in addedList.items():
+                            materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
+
+                        #materialsList += materialsListComponent * quantity / materialCraftData['quantity']
+                        recipe['materialsNeededFarmOrders'] = materialsList
+                        #do something
+                        continue
+
+
+
+
+                if 'priceBIN' in materialPriceData:
+
+                    if materialPriceData["NPCsell"] > 0 and "COMMON" in materialPriceData["rarity"]:
+                        print('ah - auc thing')
+
+                        if(materialPriceData['priceAUC'] > 0):
+                            materialsList = dict(recipe['materialsNeededInstant'])
+                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            recipe['materialsNeededInstant'] = materialsList
+                            materialsList['craftPriceInstant'] += materialPriceData['priceAUC'] * quantity
+
+                            materialsList = dict(recipe['materialsNeededOrders'])
+                            materialsList[material] = materialsList.get(material, 0.0) + amount 
+                            recipe['materialsNeededOrders'] = materialsList
+                            materialsList['craftPriceOrders'] += materialPriceData['priceAUC'] * quantity
+                        else:
+                            materialsList = dict(recipe['materialsNeededFarmInstant'])
+                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            recipe['materialsNeededFarmInstant'] = materialsList
+
+                            materialsList = dict(recipe['materialsNeededFarmOrders'])
+                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            recipe['materialsNeededFarmOrders'] = materialsList
+
+                    else:
+                        print('ah - bin thing')
+
+                        if(materialPriceData['priceBIN'] > 0):
+                            materialsList = dict(recipe['materialsNeededInstant'])
+                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            recipe['materialsNeededInstant'] = materialsList
+                            materialsList['craftPriceInstant'] += materialPriceData['priceBIN'] * quantity
+
+                            materialsList = dict(recipe['materialsNeededOrders'])
+                            materialsList[material] = materialsList.get(material, 0.0) + amount 
+                            recipe['materialsNeededOrders'] = materialsList
+                            materialsList['craftPriceOrders'] += materialPriceData['priceBIN'] * quantity
+                        else:
+                            materialsList = dict(recipe['materialsNeededFarmInstant'])
+                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            recipe['materialsNeededFarmInstant'] = materialsList
+
+                            materialsList = dict(recipe['materialsNeededFarmOrders'])
+                            materialsList[material] = materialsList.get(material, 0) + quantity
+                            recipe['materialsNeededFarmOrders'] = materialsList
+                    #do thing
+                    continue
+
+                
+
+
+
+
+                if 'NPCbuy' in materialPriceData:
+                    print('NPC thing')
+
+                    materialsList = dict(recipe['materialsNeededInstant'])
+                    materialsList[material] = materialsList.get(material, 0) + quantity
+                    recipe['materialsNeededInstant'] = materialsList
+                    materialsList['craftPriceInstant'] += materialPriceData['NPCbuy'] * quantity
+
+
+                    materialsList = dict(recipe['materialsNeededOrders'])
+                    materialsList[material] = materialsList.get(material, 0.0) + amount 
+                    recipe['materialsNeededOrders'] = materialsList
+                    materialsList['craftPriceOrders'] += materialPriceData['NPCbuy'] * quantity
+                        
+                    continue
+
+
+                materialsList = dict(recipe['materialsNeededFarmInstant'])
+                materialsList[material] = materialsList.get(material, 0) + quantity
+                recipe['materialsNeededFarmInstant'] = materialsList
+
+                materialsList = dict(recipe['materialsNeededFarmOrders'])
+                materialsList[material] = materialsList.get(material, 0) + quantity
+                recipe['materialsNeededFarmOrders'] = materialsList
+
+            #FINISH UP RECIPE DATA
+            # "sellForInstant": 0,
+            #     "sellForOrders": 0,
+            #     "sellOnInstant": "-",
+            #     "sellOnOrders": "-",
+            # "profitInstantInstant": 0,
+            #     "profitInstantOrders": 0,
+            #     "profitOrdersInstant": 0,
+            #     "profitOrdersOrders": 0
+
+            itemPriceData = pricesData.get(itemName,{})
+            recipe['sellForInstant'] = itemPriceData['NPCsell'] * recipe['quantity']
+            recipe['sellForOrders'] = itemPriceData['NPCsell'] * recipe['quantity']
+            recipe['sellOnInstant'] = 'NPC'
+            recipe['sellOnOrders'] = 'NPC'
+            currentTax = 0
+            # recipe['sellForInstant'] *(100-tax)/100 - for when npc tax is greater than 0
+            recipe['profitInstantInstant'] = recipe['sellForInstant']  - recipe['craftPriceInstant']
+            recipe['profitInstantOrders'] = recipe['sellForOrders']  - recipe['craftPriceInstant']
+            recipe['profitOrdersInstant'] = recipe['sellForInstant']  - recipe['craftPriceOrders']
+            recipe['profitOrdersOrders'] = recipe['sellForOrders']  - recipe['craftPriceOrders']
+
+
+
+            if 'priceAUC' in itemPriceData:
+                if itemPriceData["NPCsell"] > 0 and "COMMON" in itemPriceData["rarity"]:
+                    price = itemPriceData['priceAUC']
+                    sellType = 'AH - AUC'
+                    tax = 1
+                else:
+                    price = itemPriceData['priceBIN']
+                    sellType = 'AH - BIN'
+
+                    if price < 10_000_000:
+                        tax = 1
+                    elif price < 100_000_000:
+                        tax = 2
+                    else:
+                        tax = 2.5
+
+                    tax += 1
+                
+                if recipe['quantity'] * price *(100-tax)/100 > recipe['sellForInstant'] :
+                    recipe['sellForInstant'] = price * recipe['quantity']
+                    recipe['sellOnInstant'] = sellType
+                    recipe['profitInstantInstant'] = recipe['quantity'] * price *(100-tax)/100 - recipe['craftPriceInstant']
+                    recipe['profitOrdersInstant'] = recipe['quantity'] * price *(100-tax)/100 - recipe['craftPriceOrders']
+     
+
+                if recipe['quantity'] * price *(100-tax)/100 > recipe['sellForOrders'] :
+                    recipe['sellForOrders'] = price * recipe['quantity']
+                    recipe['sellOnOrders'] = sellType
+                    recipe['profitInstantOrders'] = recipe['quantity'] * price *(100-tax)/100 - recipe['craftPriceInstant']
+                    recipe['profitOrdersOrders'] = recipe['quantity'] * price *(100-tax)/100 - recipe['craftPriceOrders']
+
+
+            if 'buy' in itemPriceData:
+                tax = 1.25 - 0.125 * playerData['manuallyEnteredData']['bazaar flipper perk']
+
+               
+                
+                if recipe['quantity'] * itemPriceData['sell'] *(100-tax)/100 > recipe['sellForInstant'] :
+                    recipe['sellForInstant'] = itemPriceData['sell'] * recipe['quantity']
+                    recipe['sellOnInstant'] = 'BZ'
+                    recipe['profitInstantInstant'] = recipe['quantity'] * itemPriceData['sell'] *(100-tax)/100 - recipe['craftPriceInstant']
+                    recipe['profitOrdersInstant'] = recipe['quantity'] * itemPriceData['sell'] *(100-tax)/100 - recipe['craftPriceOrders']
+     
+
+                if recipe['quantity'] * (itemPriceData['buy']-0.1) *(100-tax)/100 > recipe['sellForOrders'] :
+                    recipe['sellForOrders'] = (itemPriceData['buy']-0.1) * recipe['quantity']
+                    recipe['sellOnOrders'] = 'BZ'
+                    recipe['profitInstantOrders'] = recipe['quantity'] * (itemPriceData['buy']-0.1) *(100-tax)/100 - recipe['craftPriceInstant']
+                    recipe['profitOrdersOrders'] = recipe['quantity'] * (itemPriceData['buy']-0.1) *(100-tax)/100 - recipe['craftPriceOrders']
+            
+
+
+
+
+                
+
+
+    with open(get_current_player_recipes_path(), 'w') as file:
+        json.dump(recipesData, file, indent=4)
+
+
+
+    message = "ok"
+    return jsonify({"message": message})
+
+
+@app.route('/prices', methods=['GET'])
+def getPrices():
+
+    #decoded = gzip.decompress(base64.b64decode("A"))
+
+
+    shutil.copy(path_prices_clean, path_prices)
+    message = ""
+   
+    response = requests.get(url_bz)
+
+    if response.status_code == 200:
+        data = response.json()
+        
+        with open(path_prices, 'r') as file:
+            pricesData = json.load(file)
+
+
+        for item in data.get('products', {}):
+            if pricesData.get(turn_id_into_name(data.get('products', {}).get(item,{}).get('product_id', {}))):
+                pricesData[turn_id_into_name(data.get('products', {}).get(item,{}).get('product_id', {}))]['buy'] = round(data.get('products', {}).get(item,{}).get('quick_status', {}).get('buyPrice', 0), 1)
+                pricesData[turn_id_into_name(data.get('products', {}).get(item,{}).get('product_id', {}))]['sell'] = round(data.get('products', {}).get(item,{}).get('quick_status', {}).get('sellPrice', 0), 1)
+
+
+        with open(path_prices, 'w') as file:
+            json.dump(pricesData, file, indent=4)
+
+    else:
+        message = "Error at Hypixel api - " + response.json().get('cause', {})
+
+
+
+    response = requests.get(get_ah_page(0))
+    pages = response.json().get('totalPages',-1)
+
+    for page in range(0, pages):
+
+        response = requests.get(get_ah_page(page))
+
+        if response.status_code == 200:
+            data = response.json()
+            
+            with open(path_prices, 'r') as file:
+                pricesData = json.load(file)
+
+
+            for item in data.get('auctions', {}):
+
+                #add 5 math hoes to list, beast crest, 5 kuudra armors
+                name_of_item = "-"
+                if item.get('item_name', {}) not in ['Griffin Upgrade Stone', 'Wisp Upgrade Stone'     ]:
+                    name_of_item = item.get('item_name', '-')
+                    
+                else:
+                    #yea
+                    #griffin stone -> check what rarity is specified in item_lore (UNCOMMON/RARE/EPIC/LEGENDARY)
+                    #use if/else, not ifs; start with lower to avoid recombs
+
+                    #spirit stone -> again, item_lore, but not rarity, rather check pet name
+
+                    #math hoes
+
+                    #beast crest
+
+                    #kuudra armors
+                    name_of_item = "THIS IS NOT IMPLEMENTED YET"
+
+        # "priceBIN": 0,
+        # "priceAUC": 0,
+        # "timeEndAuc": 0,
+                if pricesData.get(name_of_item,{}):
+                    if item.get('bin', {}):
+                        if ((item.get('starting_bid',0) > 0 and item.get('starting_bid',0) < pricesData[name_of_item]['priceBIN'])
+                             or pricesData[name_of_item]['priceBIN']==0):
+                            pricesData[name_of_item]['priceBIN'] = item.get('starting_bid',0)
+                    else:
+                        if ((item.get('end',0) > 0 and item.get('end',0) < pricesData[name_of_item]['timeEndAuc'])
+                             or pricesData[name_of_item]['timeEndAuc']==0):
+                                pricesData[name_of_item]['timeEndAuc'] = item.get('end',0)
+                                pricesData[name_of_item]['priceAUC'] = max(item.get('highest_bid_amount',0), item.get('starting_bid',0))
+
+            with open(path_prices, 'w') as file:
+                json.dump(pricesData, file, indent=4)
+
+        else:
+            message += "   Error at Hypixel api - " + response.json().get('cause', {})
+
+
+
+    message += " FINISHED"
     return jsonify({"message": message})
 
 if __name__ == '__main__':

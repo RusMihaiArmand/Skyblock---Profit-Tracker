@@ -1,0 +1,208 @@
+{
+    "Enchanted Diamond": {
+        "recipes": [
+            {
+                "quantity": 1,
+                "requirements": {
+                    "collection": "Diamond",
+                    "collectionLevel": 4
+                },
+                "recipeMaterials": [
+                    {
+                        "name": "Diamond",
+                        "quantity": 160
+                    }
+                ],
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "canCraft": true,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstant": 0,
+                "profitOrders": 0
+            }
+        ]
+    },
+    "Enchanted Diamond Block": {
+        "recipes": [
+            {
+                "quantity": 1,
+                "requirements": {
+                    "collection": "Diamond",
+                    "collectionLevel": 8
+                },
+                "recipeMaterials": [
+                    {
+                        "name": "Enchanted Diamond",
+                        "quantity": 160
+                    }
+                ],
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "canCraft": true,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstant": 0,
+                "profitOrders": 0
+            }
+        ]
+    },
+    "Necron's Blade (Unrefined)": {
+        "recipes": [
+            {
+                "quantity": 1,
+                "recipeMaterials": [
+                    {
+                        "name": "Necron's Handle",
+                        "quantity": 1
+                    },
+                    {
+                        "name": "Wither Catalyst",
+                        "quantity": 24
+                    }
+                ],
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "canCraft": true,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstant": 0,
+                "profitOrders": 0
+            }
+        ]
+    },
+    "test_item_PICK": {
+        "recipes": [
+            {
+                "quantity": 1,
+                "recipeMaterials": [
+                    {
+                        "name": "test_item_STICK",
+                        "quantity": 2
+                    },
+                    {
+                        "name": "test_item_IRON",
+                        "quantity": 3
+                    }
+                ],
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "canCraft": true,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstant": 0,
+                "profitOrders": 0
+            }
+        ]
+    },
+    "test_item_AXE": {
+        "recipes": [
+            {
+                "quantity": 1,
+                "recipeMaterials": [
+                    {
+                        "name": "test_item_STICK",
+                        "quantity": 3
+                    },
+                    {
+                        "name": "test_item_DIAMOND",
+                        "quantity": 8
+                    }
+                ],
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "canCraft": true,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstant": 0,
+                "profitOrders": 0
+            }
+        ]
+    },
+    "test_item_MULTITOOL": {
+        "recipes": [
+            {
+                "quantity": 1,
+                "recipeMaterials": [
+                    {
+                        "name": "test_item_PICK",
+                        "quantity": 1
+                    },
+                    {
+                        "name": "test_item_AXE",
+                        "quantity": 1
+                    }
+                ],
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "canCraft": true,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstant": 0,
+                "profitOrders": 0
+            }
+        ]
+    },
+    "test_item_UNCRAFT": {
+        "recipes": [
+            {
+                "quantity": 1,
+                "recipeMaterials": [
+                    {
+                        "name": "test_item_PICK",
+                        "quantity": 1
+                    }
+                ],
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "canCraft": true,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstant": 0,
+                "profitOrders": 0
+            }
+        ]
+    }
+}

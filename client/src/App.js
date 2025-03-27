@@ -4,6 +4,7 @@ import axios from 'axios';
 import Navbar from "./Navbar";
 import Home from "./Home";
 import Mayor from "./Mayor";
+import Craft from "./Craft";
 
 import './index.css'
 
@@ -66,6 +67,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/mayor" element={<Mayor />} />
             <Route exact path="/login" element={<LogIn />} />
+            <Route exact path="/craft" element={<Craft />} />
 
           </Routes>
         </div>

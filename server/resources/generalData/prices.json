@@ -1,0 +1,76 @@
+{
+    "Diamond": {
+        "buy": 11.6,
+        "sell": 6.3,
+        "NPCsell": 8
+    },
+    "Enchanted Diamond": {
+        "buy": 1340.0,
+        "sell": 1265.7,
+        "NPCsell": 1280
+    },
+    "Enchanted Diamond Block": {
+        "buy": 204499.3,
+        "sell": 201637.1,
+        "NPCsell": 204800
+    },
+    "Necron's Blade (Unrefined)": {
+        "priceBIN": 1200000000,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Necron's Handle": {
+        "priceBIN": 909000000,
+        "priceAUC": 850000000,
+        "timeEndAuc": 1742784679130,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Wither Catalyst": {
+        "buy": 1076787.0,
+        "sell": 1035925.1,
+        "NPCsell": 0
+    },
+    "test_item_STICK":{
+        "priceBIN": 10000,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "test_item_IRON":{
+        "buy": 2000,
+        "sell": 1200,
+        "NPCsell": 0
+    },
+    "test_item_DIAMOND":{
+        "priceBIN": 10000,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "test_item_PICK":{
+        "priceBIN": 10000,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "test_item_AXE":{
+        "priceBIN": 10000,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "test_item_MULTITOOL":{
+        "priceBIN": 10000,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    }
+}

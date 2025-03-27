@@ -1,0 +1,36 @@
+{
+    "Diamond":{
+        "buy": -1,
+        "sell": -1,
+        "NPCsell": 8
+    },
+    "Enchanted Diamond":{
+        "buy": -1,
+        "sell": -1,
+        "NPCsell": 1280
+    },
+    "Enchanted Diamond Block":{
+        "buy": -1,
+        "sell": -1,
+        "NPCsell": 204800
+    },
+    "Necron's Blade (Unrefined)":{
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Necron's Handle":{
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Wither Catalyst":{
+        "buy": -1,
+        "sell": -1,
+        "NPCsell": 0
+    }
+}
