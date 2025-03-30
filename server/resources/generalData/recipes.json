@@ -29,6 +29,35 @@
                 "profitInstantOrders": -532.8487500000001,
                 "profitOrdersInstant": 256.0000000000001,
                 "profitOrdersOrders": 299.15125
+            },
+            {
+                "canCraft": false,
+                "quantity": 2,
+                "requirements": {
+                    "collection": "Diamond",
+                    "collectionLevel": 4
+                },
+                "recipeMaterials": {
+                    "Diamond": 320
+                },
+                "materialsNeededInstant": {
+                    "Diamond": 320.0
+                },
+                "materialsNeededOrders": {
+                    "Diamond": 320.0
+                },
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 3712.0,
+                "craftPriceOrders": 2047.9999999999998,
+                "sellForInstant": 2560,
+                "sellForOrders": 2679.8,
+                "sellOnInstant": "NPC",
+                "sellOnOrders": "BZ",
+                "profitInstantInstant": -1152.0,
+                "profitInstantOrders": -1065.6975000000002,
+                "profitOrdersInstant": 512.0000000000002,
+                "profitOrdersOrders": 598.3025
             }
         ]
     },
@@ -94,106 +123,6 @@
                 "profitInstantOrders": 223157112.0,
                 "profitOrdersInstant": 224137795.20000005,
                 "profitOrdersOrders": 224137795.20000005
-            }
-        ]
-    },
-    "test_item_PICK": {
-        "recipes": [
-            {
-                "canCraft": true,
-                "quantity": 1,
-                "recipeMaterials": {
-                    "test_item_STICK": 2,
-                    "test_item_IRON": 3
-                },
-                "materialsNeededInstant": {
-                    "test_item_STICK": 2.0,
-                    "test_item_IRON": 3.0
-                },
-                "materialsNeededOrders": {
-                    "test_item_STICK": 2.0,
-                    "test_item_IRON": 3.0
-                },
-                "materialsNeededFarmInstant": [],
-                "materialsNeededFarmOrders": [],
-                "craftPriceInstant": 26000,
-                "craftPriceOrders": 23600.3,
-                "sellForInstant": 10000,
-                "sellForOrders": 10000,
-                "sellOnInstant": "AH - BIN",
-                "sellOnOrders": "AH - BIN",
-                "profitInstantInstant": -16200.0,
-                "profitInstantOrders": -16200.0,
-                "profitOrdersInstant": -13800.3,
-                "profitOrdersOrders": -13800.3
-            }
-        ]
-    },
-    "test_item_AXE": {
-        "recipes": [
-            {
-                "canCraft": false,
-                "quantity": 1,
-                "requirements": {
-                    "collection": "Diamond",
-                    "collectionLevel": 8
-                },
-                "recipeMaterials": {
-                    "test_item_STICK": 3,
-                    "test_item_DIAMOND": 8
-                },
-                "materialsNeededInstant": {
-                    "test_item_STICK": 3.0,
-                    "test_item_DIAMOND": 8
-                },
-                "materialsNeededOrders": {
-                    "test_item_STICK": 3.0,
-                    "test_item_DIAMOND": 8.0
-                },
-                "materialsNeededFarmInstant": [],
-                "materialsNeededFarmOrders": [],
-                "craftPriceInstant": 30008,
-                "craftPriceOrders": 30008,
-                "sellForInstant": 10000,
-                "sellForOrders": 10000,
-                "sellOnInstant": "AH - BIN",
-                "sellOnOrders": "AH - BIN",
-                "profitInstantInstant": -20208.0,
-                "profitInstantOrders": -20208.0,
-                "profitOrdersInstant": -20208.0,
-                "profitOrdersOrders": -20208.0
-            }
-        ]
-    },
-    "test_item_MULTITOOL": {
-        "recipes": [
-            {
-                "canCraft": true,
-                "quantity": 1,
-                "recipeMaterials": {
-                    "test_item_PICK": 1,
-                    "test_item_AXE": 2
-                },
-                "materialsNeededInstant": {
-                    "test_item_PICK": 1.0,
-                    "test_item_AXE": 2.0
-                },
-                "materialsNeededOrders": {
-                    "test_item_PICK": 1.0,
-                    "test_item_AXE": 2.0
-                },
-                "materialsNeededFarmInstant": [],
-                "materialsNeededFarmOrders": [],
-                "craftPriceInstant": 30000,
-                "craftPriceOrders": 30000,
-                "sellForInstant": 10000,
-                "sellForOrders": 10000,
-                "sellOnInstant": "AH - BIN",
-                "sellOnOrders": "AH - BIN",
-                "profitInstantInstant": -20200.0,
-                "profitInstantOrders": -20200.0,
-                "profitOrdersInstant": -20200.0,
-                "profitOrdersOrders": -20200.0
             }
         ]
     }

@@ -5,10 +5,7 @@ import os
 import shutil
 import json
 import gzip
-import nbt
-import io
 import base64
-from collections import Counter
 
 app = Flask(__name__)
 CORS(app)  
@@ -52,20 +49,6 @@ guestMode = True
 
 #16:55 ro time, 10 oct -> start year 378
 
-
-def turn_name_into_id(name):
-    with open(path_conversion, 'r') as file:
-        data = json.load(file)
-
-    item_id = next((item['id'] for item in data if (item['name'] == name )), None)
-    return item_id
-
-def turn_id_into_name(item_id):
-    with open(path_conversion, 'r') as file:
-        data = json.load(file)
-
-    name = next((item['name'] for item in data if (item['id'] == item_id )), None)
-    return name
 
 
 def get_player_path(userName, profile):
@@ -165,7 +148,7 @@ def getPlayerData():
                 selected_profile = next((p for p in profiles if ((profile != "" and p.get("cute_name") == profile) or (profile == "" and p.get("selected") is True))), None)
 
                 if selected_profile:
-                    print("Selected Profile:", str(selected_profile.get("cute_name", "???")))
+
                     message += "Profile = " + str(selected_profile.get("cute_name", "???")) + "; "
 
                     folder_path = get_player_path(name,"")
@@ -182,20 +165,16 @@ def getPlayerData():
                     manualData = []
 
                     if os.path.isfile(file_path):
-                        #os.remove(file_path)
                         with open(file_path, 'r') as file:
                             manualData = json.load(file).get('manuallyEnteredData', [])
 
             
                     shutil.copy(path_template, file_path)
                         
-                    
                     currentUser = name
                     currentProfile = profile
                     guestMode = False
-
                     message = "Success"
-
 
 
                     #adding data
@@ -213,43 +192,41 @@ def getPlayerData():
 
                     playerData = selected_profile['members'][user_id]
 
-
                     savedData['level'] = int(str(playerData['leveling']['experience']))//100
 
 
-                    for col in savedData['collections']:
-                        collectionData = next((c for c in usefulData['collectionsRequirements'] if (c['name'] == col )), None)
+                    for colId, playerHas in playerData.get('collection', {}).items():
 
-                        if collectionData:
-                            playerHas = playerData.get('collection', {}).get( turn_name_into_id(collectionData['name']), 0)
+                        collectionName = usefulData['conversion'].get(colId, "")
+
+                        if collectionName != "" and usefulData['collectionsRequirements'].get(collectionName,{}):
+                            collectionData = usefulData['collectionsRequirements'][ collectionName ]
+                            
 
                             colLevel = 0
-                            
-                            for milestone in collectionData['milestones']:
+                                
+                            for milestone in collectionData:
                                 if playerHas >= milestone:
                                     colLevel += 1
                                 else:
                                     break
+                                
+                            savedData['collections'][collectionName] = colLevel
+
+
+                    for slayName, slayData in playerData.get('slayer', {}).get('slayer_bosses', {}).items():
+
+                        slayerMilestones =  usefulData['slayerRequirements'][slayName]
+                        playerHasExp = slayData.get('xp',0)
+                        slayLevel = 0
                             
-                            savedData['collections'][col] = colLevel
-
-
-
-                    for slay in savedData['slayers']:
-                        slayerData = next((s for s in usefulData['slayerRequirements'] if (s['name'] == slay )), None)
-
-                        if slayerData:
-                            playerHasExp = playerData.get('slayer', {}).get('slayer_bosses', {}).get(slay , {}).get('xp',0)
-
-                            slayLevel = 0
+                        for milestone in slayerMilestones:
+                            if playerHasExp >= milestone:
+                                slayLevel += 1
+                            else:
+                                break
                             
-                            for milestone in slayerData['milestones']:
-                                if playerHasExp >= milestone:
-                                    slayLevel += 1
-                                else:
-                                    break
-                            
-                            savedData['slayers'][slay] = slayLevel
+                        savedData['slayers'][slayName] = slayLevel
 
 
 
@@ -276,22 +253,21 @@ def getPlayerData():
                             
                     savedData['hotmLevel'] = hotmLevel
 
-
                     hotmPerks = playerData.get('mining_core', {}).get('nodes', {})
 
-                    for perk in hotmPerks:
-                        if turn_id_into_name(perk):
-                            savedData['hotmPerks'][turn_id_into_name(perk)] = hotmPerks.get(perk, 0)
-
-
+                    for perk, perkLevel in hotmPerks.items():
+                        if usefulData['conversion'].get(perk,"") != "":
+                            savedData['hotmPerks'][usefulData['conversion'][perk]] = perkLevel
+              
                     response = requests.get(url_garden + "?profile=" + selected_profile['profile_id'] + "&key=" + key)
                     dataGarden = response.json()
                     
                     if str(dataGarden.get('success')): 
                         composterUpgrades = dataGarden.get('garden', {}).get('composter_data', {}).get('upgrades', {})
                         for perk in composterUpgrades:
-                            if turn_id_into_name(perk):
-                                savedData['composter'][turn_id_into_name(perk)] = composterUpgrades.get(perk, 0)
+                            if usefulData['conversion'][perk]:
+                                savedData['composter'][usefulData['conversion'][perk]] = composterUpgrades.get(perk, 0)
+
                     else:
                         message = "Error at fetching garden data - " + dataGarden.get('cause', '')
                         
@@ -378,9 +354,7 @@ def getPlayerData():
                     with open(file_path, 'w') as file:
                         json.dump(savedData, file, indent=4)
 
-                    #-
-
-
+         
                     return jsonify({"message": message})
                 else:
                     if(profile == ""):
@@ -483,7 +457,6 @@ def getCraftPrices():
                     recipe['craftPriceOrders'] += (materialPriceData['sell']+0.1) * quantity
                     
                         
-                    #do thing
                     continue
 
 
@@ -493,8 +466,6 @@ def getCraftPrices():
                     materialCraftData = materialCraftData[0]
 
                     if materialCraftData['canCraft']:
-                        #before jumping in like an idiot, check if it's cheaper to just buy the damn thing;
-                        #it's either AH or NPC, so same fucking price for instant and orders
 
                         directPrice = 0
                         if materialPriceData.get('NPCbuy',0) < directPrice or directPrice == 0:
@@ -566,7 +537,7 @@ def getCraftPrices():
                                 materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
 
                             recipe['materialsNeededFarmOrders'] = materialsList   
-                            
+
                         continue
 
 
@@ -741,12 +712,15 @@ def getPrices():
         with open(path_prices, 'r') as file:
             pricesData = json.load(file)
 
+        with open(path_general_data, 'r') as file:
+            usefulData = json.load(file)
 
-        for item in data.get('products', {}):
-            if pricesData.get(turn_id_into_name(data.get('products', {}).get(item,{}).get('product_id', {}))):
-                pricesData[turn_id_into_name(data.get('products', {}).get(item,{}).get('product_id', {}))]['buy'] = round(data.get('products', {}).get(item,{}).get('quick_status', {}).get('buyPrice', 0), 1)
-                pricesData[turn_id_into_name(data.get('products', {}).get(item,{}).get('product_id', {}))]['sell'] = round(data.get('products', {}).get(item,{}).get('quick_status', {}).get('sellPrice', 0), 1)
+        for item, itemData in data.get('products', {}).items():
+            itemName = usefulData['conversion'].get(itemData.get('product_id', {}),'')
 
+            if pricesData.get(itemName):
+                pricesData[itemName]['buy'] = round(itemData.get('quick_status', {}).get('buyPrice', 0), 1)
+                pricesData[itemName]['sell'] = round(itemData.get('quick_status', {}).get('sellPrice', 0), 1)
 
         with open(path_prices, 'w') as file:
             json.dump(pricesData, file, indent=4)
@@ -791,9 +765,7 @@ def getPrices():
                     #kuudra armors
                     name_of_item = "THIS IS NOT IMPLEMENTED YET"
 
-        # "priceBIN": 0,
-        # "priceAUC": 0,
-        # "timeEndAuc": 0,
+    
                 if pricesData.get(name_of_item,{}):
                     if item.get('bin', {}):
                         if ((item.get('starting_bid',0) > 0 and item.get('starting_bid',0) < pricesData[name_of_item]['priceBIN'])

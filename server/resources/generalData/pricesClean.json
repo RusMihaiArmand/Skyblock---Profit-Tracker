@@ -1,17 +1,75 @@
 {
+    "Wheat":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 8
+    },
+    "Enchanted Bread":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 60
+    },
+    "Enchanted Wheat":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 960
+    },
+    "Enchanted Hay Bale":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 153600
+    },
+    "Seeds":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Enchanted Seeds":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 480
+    },
+    "Box Of Seeds":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 76800
+    },
+    "Carrot":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Enchanted Carrot":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 480
+    },
+    "Enchanted Carrot On A Stick":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10240
+    },
+    "Enchanted Golden Carrot":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 61440
+    },
+    
+     
+
     "Diamond":{
-        "buy": -1,
-        "sell": -1,
+        "buy": 0,
+        "sell": 0,
         "NPCsell": 8
     },
     "Enchanted Diamond":{
-        "buy": -1,
-        "sell": -1,
+        "buy": 0,
+        "sell": 0,
         "NPCsell": 1280
     },
     "Enchanted Diamond Block":{
-        "buy": -1,
-        "sell": -1,
+        "buy": 0,
+        "sell": 0,
         "NPCsell": 204800
     },
     "Necron's Blade (Unrefined)":{
@@ -29,8 +87,8 @@
         "NPCsell": 0
     },
     "Wither Catalyst":{
-        "buy": -1,
-        "sell": -1,
+        "buy": 0,
+        "sell": 0,
         "NPCsell": 0
     }
 }

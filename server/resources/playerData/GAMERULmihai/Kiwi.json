@@ -1,6 +1,6 @@
 {
     "profileId": "110c4006-ece6-4f6a-9882-45451c1ea13b",
-    "level": 237,
+    "level": 239,
     "collections": {
         "Cactus": 9,
         "Carrot": 9,
@@ -87,9 +87,9 @@
         "vampire": 5,
         "blaze": 0
     },
-    "faction": "barbarians",
-    "barbarianReputation": 11495.0,
-    "mageReputation": -5.0,
+    "faction": "mages",
+    "barbarianReputation": 12005.0,
+    "mageReputation": 1055.0,
     "factoryPrestige": 6,
     "hasZorro": true,
     "hotmLevel": 8,

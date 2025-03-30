@@ -19,16 +19,16 @@
                 },
                 "materialsNeededFarmInstant": [],
                 "materialsNeededFarmOrders": [],
-                "craftPriceInstant": 1856.0,
-                "craftPriceOrders": 1023.9999999999999,
+                "craftPriceInstant": 1424.0,
+                "craftPriceOrders": 1072.0,
                 "sellForInstant": 1280,
-                "sellForOrders": 1339.9,
+                "sellForOrders": 1389.6000000000001,
                 "sellOnInstant": "NPC",
                 "sellOnOrders": "BZ",
-                "profitInstantInstant": -576.0,
-                "profitInstantOrders": -532.8487500000001,
-                "profitOrdersInstant": 256.0000000000001,
-                "profitOrdersOrders": 299.15125
+                "profitInstantInstant": -144.0,
+                "profitInstantOrders": -51.76999999999998,
+                "profitOrdersInstant": 208.0,
+                "profitOrdersOrders": 300.23
             }
         ]
     },
@@ -52,16 +52,16 @@
                 },
                 "materialsNeededFarmInstant": [],
                 "materialsNeededFarmOrders": [],
-                "craftPriceInstant": 214400.0,
-                "craftPriceOrders": 202528.0,
+                "craftPriceInstant": 222352.0,
+                "craftPriceOrders": 204656.0,
                 "sellForInstant": 204800,
                 "sellForOrders": 204800,
                 "sellOnInstant": "NPC",
                 "sellOnOrders": "NPC",
-                "profitInstantInstant": -9600.0,
-                "profitInstantOrders": -9600.0,
-                "profitOrdersInstant": 2272.0,
-                "profitOrdersOrders": 2272.0
+                "profitInstantInstant": -17552.0,
+                "profitInstantOrders": -17552.0,
+                "profitOrdersInstant": 144.0,
+                "profitOrdersOrders": 144.0
             }
         ]
     },
@@ -84,116 +84,16 @@
                 },
                 "materialsNeededFarmInstant": [],
                 "materialsNeededFarmOrders": [],
-                "craftPriceInstant": 934842888.0,
-                "craftPriceOrders": 933862204.8,
-                "sellForInstant": 1200000000,
-                "sellForOrders": 1200000000,
+                "craftPriceInstant": 909733192.8,
+                "craftPriceOrders": 909003578.4,
+                "sellForInstant": 950000000,
+                "sellForOrders": 950000000,
                 "sellOnInstant": "AH - BIN",
                 "sellOnOrders": "AH - BIN",
-                "profitInstantInstant": 223157112.0,
-                "profitInstantOrders": 223157112.0,
-                "profitOrdersInstant": 224137795.20000005,
-                "profitOrdersOrders": 224137795.20000005
-            }
-        ]
-    },
-    "test_item_PICK": {
-        "recipes": [
-            {
-                "canCraft": true,
-                "quantity": 1,
-                "recipeMaterials": {
-                    "test_item_STICK": 2,
-                    "test_item_IRON": 3
-                },
-                "materialsNeededInstant": {
-                    "test_item_STICK": 2.0,
-                    "test_item_IRON": 3.0
-                },
-                "materialsNeededOrders": {
-                    "test_item_STICK": 2.0,
-                    "test_item_IRON": 3.0
-                },
-                "materialsNeededFarmInstant": [],
-                "materialsNeededFarmOrders": [],
-                "craftPriceInstant": 26000,
-                "craftPriceOrders": 23600.3,
-                "sellForInstant": 10000,
-                "sellForOrders": 10000,
-                "sellOnInstant": "AH - BIN",
-                "sellOnOrders": "AH - BIN",
-                "profitInstantInstant": -16200.0,
-                "profitInstantOrders": -16200.0,
-                "profitOrdersInstant": -13800.3,
-                "profitOrdersOrders": -13800.3
-            }
-        ]
-    },
-    "test_item_AXE": {
-        "recipes": [
-            {
-                "canCraft": true,
-                "quantity": 1,
-                "requirements": {
-                    "collection": "Diamond",
-                    "collectionLevel": 8
-                },
-                "recipeMaterials": {
-                    "test_item_STICK": 3,
-                    "test_item_DIAMOND": 8
-                },
-                "materialsNeededInstant": {
-                    "test_item_STICK": 3.0,
-                    "test_item_DIAMOND": 8
-                },
-                "materialsNeededOrders": {
-                    "test_item_STICK": 3.0,
-                    "test_item_DIAMOND": 8.0
-                },
-                "materialsNeededFarmInstant": [],
-                "materialsNeededFarmOrders": [],
-                "craftPriceInstant": 30008,
-                "craftPriceOrders": 30008,
-                "sellForInstant": 10000,
-                "sellForOrders": 10000,
-                "sellOnInstant": "AH - BIN",
-                "sellOnOrders": "AH - BIN",
-                "profitInstantInstant": -20208.0,
-                "profitInstantOrders": -20208.0,
-                "profitOrdersInstant": -20208.0,
-                "profitOrdersOrders": -20208.0
-            }
-        ]
-    },
-    "test_item_MULTITOOL": {
-        "recipes": [
-            {
-                "canCraft": true,
-                "quantity": 1,
-                "recipeMaterials": {
-                    "test_item_PICK": 1,
-                    "test_item_AXE": 2
-                },
-                "materialsNeededInstant": {
-                    "test_item_PICK": 1.0,
-                    "test_item_AXE": 2.0
-                },
-                "materialsNeededOrders": {
-                    "test_item_PICK": 1.0,
-                    "test_item_AXE": 2.0
-                },
-                "materialsNeededFarmInstant": [],
-                "materialsNeededFarmOrders": [],
-                "craftPriceInstant": 20001,
-                "craftPriceOrders": 20001,
-                "sellForInstant": 10000,
-                "sellForOrders": 10000,
-                "sellOnInstant": "AH - BIN",
-                "sellOnOrders": "AH - BIN",
-                "profitInstantInstant": -10201.0,
-                "profitInstantOrders": -10201.0,
-                "profitOrdersInstant": -10201.0,
-                "profitOrdersOrders": -10201.0
+                "profitInstantInstant": 7016807.200000048,
+                "profitInstantOrders": 7016807.200000048,
+                "profitOrdersInstant": 7746421.600000024,
+                "profitOrdersOrders": 7746421.600000024
             }
         ]
     }
