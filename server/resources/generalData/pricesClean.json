@@ -54,6 +54,511 @@
         "sell": 0,
         "NPCsell": 61440
     },
+    "Potato":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Poisonous Potato":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Enchanted Potato":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 480
+    },
+    "Enchanted Poisonous Potato":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1600
+    },
+    "Enchanted Baked Potato":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 76800
+    },
+    "Pumpkin":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Enchanted Pumpkin":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1600
+    },
+    "Polished Pumpkin":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 256000
+    },
+    "Melon":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Melon":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Enchanted Glistering Melon":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000
+    },
+    "Melon Block":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 18
+    },
+    "Enchanted Melon Block":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 51200
+    },
+    "Red Mushroom":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Enchanted Red Mushroom":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1600
+    },
+    "Red Mushroom Block":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Enchanted Red Mushroom Block":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 51200
+    },
+    "Brown Mushroom":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Enchanted Brown Mushroom":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1600
+    },
+    "Brown Mushroom Block":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Enchanted Brown Mushroom Block":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 51200
+    },
+    "Cocoa Beans":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Enchanted Cocoa Beans":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 480
+    },
+    "Enchanted Cookie":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 61500
+    },
+    "Cactus":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Enchanted Cactus Green":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 640
+    },
+    "Enchanted Cactus":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 102400
+    },
+    "Sugar Cane":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Enchanted Sugar":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 640
+    },
+    "Enchanted Paper":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 384
+    },
+    "Enchanted Sugar Cane":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 102400
+    },
+    "Leather":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Enchanted Leather":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1700
+    },
+    "Raw Beef":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Enchanted Raw Beef":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 640
+    },
+    "Raw Porkchop":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5
+    },
+    "Enchanted Pork":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 800
+    },
+    "Enchanted Grilled Pork":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 128000
+    },
+    "Raw Chicken":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Enchanted Raw Chicken":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 640
+    },
+    "Enchanted Cake":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2700
+    },
+    "Feather":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Enchanted Feather":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 480
+    },
+    "Egg":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Enchanted Egg":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 432
+    },
+    "Super Enchanted Egg":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Omega Enchanted Egg":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mutton":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5
+    },
+    "Enchanted Mutton":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 800
+    },
+    "Enchanted Cooked Mutton":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 128000
+    },
+    "Wool":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Wool":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Raw Rabbit":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Rabbit's Foot":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5
+    },
+    "Rabbit Hide":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5
+    },
+    "Enchanted Raw Rabbit":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 640
+    },
+    "Enchanted Rabbit Foot":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 800
+    },
+    "Enchanted Rabbit Hide":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2880
+    },
+    "Nether Wart":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Enchanted Nether Wart":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 640
+    },
+    "Mutant Nether Wart":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 102400
+    },
+    "Compost":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Compost Bundle":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Cropie":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 25000
+    },
+    "Squash":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 75000
+    },
+    "Fermento":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 250000
+    },
+    "Condensed Fermento":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2250000
+    },
+    "Dung":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 100
+    },
+    "Tasty Cheese":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Plant Matter":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 100
+    },
+    "Honey Jar":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 100
+    },
+    "Wriggling Larva":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 250000
+    },
+    "Fine Flour":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt":{
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
     
      
 

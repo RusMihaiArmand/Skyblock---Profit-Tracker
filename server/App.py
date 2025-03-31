@@ -28,11 +28,8 @@ path_players = "server/resources/playerData"
 path_template = "server/resources/generalData/template.json"
 path_general_data = "server/resources/generalData/data.json"
 
-path_conversion = "server/resources/generalData/conversion.json"
-
 path_prices = "server/resources/generalData/prices.json"
 path_prices_clean = "server/resources/generalData/pricesClean.json"
-path_recipes = "server/resources/generalData/recipes.json"
 path_recipes_clean = "server/resources/generalData/recipesClean.json"
 
 guest_path = "server/resources/generalData/guest.json"
