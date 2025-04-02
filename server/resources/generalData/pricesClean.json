@@ -1,597 +1,1794 @@
 {
-    "Wheat":{
+    "Wheat": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 8
     },
-    "Enchanted Bread":{
+    "Enchanted Bread": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 60
     },
-    "Enchanted Wheat":{
+    "Enchanted Wheat": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 960
     },
-    "Enchanted Hay Bale":{
+    "Enchanted Hay Bale": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 153600
     },
-    "Seeds":{
+    "Seeds": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 3
     },
-    "Enchanted Seeds":{
+    "Enchanted Seeds": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 480
     },
-    "Box Of Seeds":{
+    "Box Of Seeds": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 76800
     },
-    "Carrot":{
+    "Carrot": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 3
     },
-    "Enchanted Carrot":{
+    "Enchanted Carrot": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 480
     },
-    "Enchanted Carrot On A Stick":{
+    "Enchanted Carrot On A Stick": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 10240
     },
-    "Enchanted Golden Carrot":{
+    "Enchanted Golden Carrot": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 61440
     },
-    "Potato":{
+    "Potato": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 3
     },
-    "Poisonous Potato":{
+    "Poisonous Potato": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 10
     },
-    "Enchanted Potato":{
+    "Enchanted Potato": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 480
     },
-    "Enchanted Poisonous Potato":{
+    "Enchanted Poisonous Potato": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 1600
     },
-    "Enchanted Baked Potato":{
+    "Enchanted Baked Potato": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 76800
     },
-    "Pumpkin":{
+    "Pumpkin": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 10
     },
-    "Enchanted Pumpkin":{
+    "Enchanted Pumpkin": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 1600
     },
-    "Polished Pumpkin":{
+    "Polished Pumpkin": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 256000
     },
-    "Melon":{
+    "Melon": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 2
     },
-    "Enchanted Melon":{
+    "Enchanted Melon": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 320
     },
-    "Enchanted Glistering Melon":{
+    "Enchanted Glistering Melon": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 1000
     },
-    "Melon Block":{
+    "Melon Block": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 18
     },
-    "Enchanted Melon Block":{
+    "Enchanted Melon Block": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 51200
     },
-    "Red Mushroom":{
+    "Red Mushroom": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 10
     },
-    "Enchanted Red Mushroom":{
+    "Enchanted Red Mushroom": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 1600
     },
-    "Red Mushroom Block":{
+    "Red Mushroom Block": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 10
     },
-    "Enchanted Red Mushroom Block":{
+    "Enchanted Red Mushroom Block": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 51200
     },
-    "Brown Mushroom":{
+    "Brown Mushroom": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 10
     },
-    "Enchanted Brown Mushroom":{
+    "Enchanted Brown Mushroom": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 1600
     },
-    "Brown Mushroom Block":{
+    "Brown Mushroom Block": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 10
     },
-    "Enchanted Brown Mushroom Block":{
+    "Enchanted Brown Mushroom Block": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 51200
     },
-    "Cocoa Beans":{
+    "Cocoa Beans": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 3
     },
-    "Enchanted Cocoa Beans":{
+    "Enchanted Cocoa Beans": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 480
     },
-    "Enchanted Cookie":{
+    "Enchanted Cookie": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 61500
     },
-    "Cactus":{
+    "Cactus": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 4
     },
-    "Enchanted Cactus Green":{
+    "Enchanted Cactus Green": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 640
     },
-    "Enchanted Cactus":{
+    "Enchanted Cactus": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 102400
     },
-    "Sugar Cane":{
+    "Sugar Cane": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 4
     },
-    "Enchanted Sugar":{
+    "Enchanted Sugar": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 640
     },
-    "Enchanted Paper":{
+    "Enchanted Paper": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 384
     },
-    "Enchanted Sugar Cane":{
+    "Enchanted Sugar Cane": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 102400
     },
-    "Leather":{
+    "Leather": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 3
     },
-    "Enchanted Leather":{
+    "Enchanted Leather": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 1700
     },
-    "Raw Beef":{
+    "Raw Beef": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 4
     },
-    "Enchanted Raw Beef":{
+    "Enchanted Raw Beef": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 640
     },
-    "Raw Porkchop":{
+    "Raw Porkchop": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 5
     },
-    "Enchanted Pork":{
+    "Enchanted Pork": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 800
     },
-    "Enchanted Grilled Pork":{
+    "Enchanted Grilled Pork": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 128000
     },
-    "Raw Chicken":{
+    "Raw Chicken": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 4
     },
-    "Enchanted Raw Chicken":{
+    "Enchanted Raw Chicken": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 640
     },
-    "Enchanted Cake":{
+    "Enchanted Cake": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 2700
     },
-    "Feather":{
+    "Feather": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 3
     },
-    "Enchanted Feather":{
+    "Enchanted Feather": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 480
     },
-    "Egg":{
+    "Egg": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 3
     },
-    "Enchanted Egg":{
+    "Enchanted Egg": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 432
     },
-    "Super Enchanted Egg":{
+    "Super Enchanted Egg": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "Omega Enchanted Egg":{
+    "Omega Enchanted Egg": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "Mutton":{
+    "Mutton": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 5
     },
-    "Enchanted Mutton":{
+    "Enchanted Mutton": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 800
     },
-    "Enchanted Cooked Mutton":{
+    "Enchanted Cooked Mutton": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 128000
     },
-    "Wool":{
+    "Wool": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 2
     },
-    "Enchanted Wool":{
+    "Enchanted Wool": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 320
     },
-    "Raw Rabbit":{
+    "Raw Rabbit": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 4
     },
-    "Rabbit's Foot":{
+    "Rabbit's Foot": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 5
     },
-    "Rabbit Hide":{
+    "Rabbit Hide": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 5
     },
-    "Enchanted Raw Rabbit":{
+    "Enchanted Raw Rabbit": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 640
     },
-    "Enchanted Rabbit Foot":{
+    "Enchanted Rabbit Foot": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 800
     },
-    "Enchanted Rabbit Hide":{
+    "Enchanted Rabbit Hide": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 2880
     },
-    "Nether Wart":{
+    "Nether Wart": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 4
     },
-    "Enchanted Nether Wart":{
+    "Enchanted Nether Wart": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 640
     },
-    "Mutant Nether Wart":{
+    "Mutant Nether Wart": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 102400
     },
-    "Compost":{
+    "Compost": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 4
     },
-    "Compost Bundle":{
+    "Compost Bundle": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 10
     },
-    "Cropie":{
+    "Cropie": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 25000
     },
-    "Squash":{
+    "Squash": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 75000
     },
-    "Fermento":{
+    "Fermento": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 250000
     },
-    "Condensed Fermento":{
+    "Condensed Fermento": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 2250000
     },
-    "Dung":{
+    "Dung": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 100
     },
-    "Tasty Cheese":{
+    "Tasty Cheese": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 500
     },
-    "Plant Matter":{
+    "Plant Matter": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 100
     },
-    "Honey Jar":{
+    "Honey Jar": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 100
     },
-    "Wriggling Larva":{
+    "Wriggling Larva": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 250000
     },
-    "Fine Flour":{
+    "Fine Flour": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 500
     },
-    "BZt":{
+    "Cobblestone": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 1
     },
-    "BZt":{
+    "Enchanted Cobblestone": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 160
     },
-    "BZt":{
+    "Coal": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 1
     },
-    "BZt":{
+    "Enchanted Coal": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 160
     },
-    "BZt":{
+    "Enchanted Charcoal": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 192
     },
-    "BZt":{
+    "Enchanted Coal Block": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 25500
     },
-    "BZt":{
+    "Iron Ingot": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 2
     },
-    "BZt":{
+    "Enchanted Iron": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 320
     },
-    "BZt":{
+    "Enchanted Iron Block": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 51200
     },
-    "BZt":{
+    "Gold Ingot": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 3
     },
-    "BZt":{
+    "Enchanted Gold": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 480
     },
-    "BZt":{
+    "Enchanted Gold Block": {
         "buy": 0,
         "sell": 0,
-        "NPCsell": 0
+        "NPCsell": 76800
     },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    "BZt":{
-        "buy": 0,
-        "sell": 0,
-        "NPCsell": 0
-    },
-    
-     
-
-    "Diamond":{
+    "Diamond": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 8
     },
-    "Enchanted Diamond":{
+    "Enchanted Diamond": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 1280
     },
-    "Enchanted Diamond Block":{
+    "Enchanted Diamond Block": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 204800
     },
-    "Necron's Blade (Unrefined)":{
+    "Refined Diamond": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4096
+    },
+    "Lapis Lazuli": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Enchanted Lapis Lazuli": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 160
+    },
+    "Enchanted Lapis Block": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 25600
+    },
+    "Emerald": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Enchanted Emerald": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 640
+    },
+    "Enchanted Emerald Block": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 102400
+    },
+    "Redstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Enchanted Redstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 160
+    },
+    "Enchanted Redstone Block": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 25600
+    },
+    "Obsidian": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 7
+    },
+    "Enchanted Obsidian": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1440
+    },
+    "End Stone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted End Stone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Flint": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Enchanted Flint": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 640
+    },
+    "Gravel": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Sand": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Sand": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Ice": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0.5
+    },
+    "Packed Ice": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4.5
+    },
+    "Enchanted Ice": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 80
+    },
+    "Enchanted Packed Ice": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 12800
+    },
+    "Glacial Fragment": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 200
+    },
+    "Snowball": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Snow Block": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Enchanted Snow Block": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 600
+    },
+    "Hard Stone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Enchanted Hard Stone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 576
+    },
+    "Concentrated Stone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 200000
+    },
+    "Rough Ruby Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Ruby Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Ruby Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Ruby Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Ruby Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rough Amber Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Amber Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Amber Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Amber Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Amber Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rough Sapphire Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Sapphire Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Sapphire Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Sapphire Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Sapphire Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rough Jade Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Jade Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Jade Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Jade Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Jade Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rough Amethyst Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Amethyst Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Amethyst Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Amethyst Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Amethyst Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rough Topaz Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Topaz Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Topaz Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Topaz Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Topaz Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rough Jasper Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Jasper Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Jasper Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Jasper Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Jasper Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rough Opal Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Opal Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Opal Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Opal Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Opal Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rough Aquamarine Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Aquamarine Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Aquamarine Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Aquamarine Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Aquamarine Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rough Citrine Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Citrine Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Citrine Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Citrine Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Citrine Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rough Onyx Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Onyx Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Onyx Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Onyx Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Onyx Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rough Peridot Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Flawed Peridot Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 240
+    },
+    "Fine Peridot Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 19200
+    },
+    "Flawless Peridot Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Peridot Gemstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Goblin Egg": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 421
+    },
+    "Red Goblin Egg": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Blue Goblin Egg": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Yellow Goblin Egg": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Green Goblin Egg": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mithril": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 8
+    },
+    "Enchanted Mithril": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1280
+    },
+    "Refined Mithril": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 204800
+    },
+    "Titanium": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 20
+    },
+    "Enchanted Titanium": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3200
+    },
+    "Refined Titanium": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 51200
+    },
+    "Starfall": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 15
+    },
+    "Treasurite": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Sorrow": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 13
+    },
+    "Plasma": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 20000
+    },
+    "Glacite Jewel": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2000
+    },
+    "Fuel Canister": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 510
+    },
+    "Bejeweled Handle": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 100
+    },
+    "Gemstone Mixture": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mithril Plate": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10108
+    },
+    "Drill Motor": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5884
+    },
+    "Golden Plate": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3068
+    },
+    "Precursor Apparatus": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Electron Transmitter": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "FTX 3070": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Robotron Reflector": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Superlite Motor": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Control Switch": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Synthetic Heart": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Jungle Key": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Jungle Heart": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Divan Fragment": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Corleonite": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sludge Juice": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Yoggie": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 100
+    },
+    "Ascension Rope": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Wishing Compass": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Bob-omb": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Glowstone Dust": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Glowstone Dust": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Enchanted Glowstone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 51200
+    },
+    "Enchanted Redstone Lamp": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 30720
+    },
+    "Netherrack": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Enchanted Netherrack": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 160
+    },
+    "Nether Quartz": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Enchanted Quartz": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 640
+    },
+    "Enchanted Quartz Block": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 102400
+    },
+    "Red Sand": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5
+    },
+    "Enchanted Red Sand": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 800
+    },
+    "Enchanted Red Sand Cube": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 128000
+    },
+    "Sulphur": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Enchanted Sulphur": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1600
+    },
+    "Enchanted Sulphur Cube": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 256000
+    },
+    "Mycelium": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5
+    },
+    "Enchanted Mycelium": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 800
+    },
+    "Enchanted Mycelium Cube": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 128000
+    },
+    "Umber": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Enchanted Umber": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1600
+    },
+    "Refined Umber": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 256000
+    },
+    "Umber Plate": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Umber Key": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Tungsten": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Enchanted Tungsten": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1600
+    },
+    "Refined Tungsten": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 256000
+    },
+    "Tungsten Plate": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Tungsten Key": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Glacite": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 12
+    },
+    "Enchanted Glacite": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1920
+    },
+    "Glacite Amalgamation": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Perfect Plate": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Skeleton Key": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10000
+    },
+    "Suspicious Scrap": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "BZt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Necron's Blade (Unrefined)": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "Necron's Handle":{
+    "Necron's Handle": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "EPIC",
         "NPCsell": 0
     },
-    "Wither Catalyst":{
+    "Wither Catalyst": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
