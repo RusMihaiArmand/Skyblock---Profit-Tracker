@@ -1304,62 +1304,1167 @@
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Rotten Flesh": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Rotten Flesh": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Bone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Bone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Enchanted Bone Block": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 51200
+    },
+    "Enchanted Bone Meal": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "String": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Enchanted String": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 576
+    },
+    "Spider Eye": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Enchanted Spider Eye": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 480
+    },
+    "Enchanted Fermented Spider Eye": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 31000
+    },
+    "Soul String": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Arachne's Calling": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 400
+    },
+    "Arachne Fragment": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Arachne's Fang": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Gunpowder": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 4
+    },
+    "Enchanted Gunpowder": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 640
+    },
+    "Enchanted Firework Rocket": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 41000
+    },
+    "Ender Pearl": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 7
+    },
+    "Enchanted Ender Pearl": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 140
+    },
+    "Enchanted Eye Of Ender": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3520
+    },
+    "Absolute Ender Pearl": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 11200
+    },
+    "Tessellated Ender Pearl": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 96000
+    },
+    "Ghast Tear": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 16
+    },
+    "Enchanted Ghast Tear": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 80
+    },
+    "Slimeball": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5
+    },
+    "Enchanted Slimeball": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 800
+    },
+    "Enchanted Slime Block": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 128000
+    },
+    "Poison Sample": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Magma Cream": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 8
+    },
+    "Enchanted Magma Cream": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1280
+    },
+    "Whipped Magma Cream": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 204800
+    },
+    "Blaze Rod": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 9
+    },
+    "Enchanted Blaze Powder": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1440
+    },
+    "Enchanted Blaze Rod": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 230400
+    },
+    "Summoning Eye": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Crystal Fragment": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Protector Dragon Fragment": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Old Dragon Fragment": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Unstable Dragon Fragment": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Strong Dragon Fragment": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Wise Dragon Fragment": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Young Dragon Fragment": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Superior Dragon Fragment": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Holy Dragon Fragment": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Ritual Residue": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 100000
+    },
+    "Mite Gel": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2000
+    },
+    "Blaze Ashes": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Mutated Blaze Ashes": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 200
+    },
+    "Millennia-Old Blaze Ashes": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000
+    },
+    "Spectre Dust": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Wither Soul": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Bezos": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 200
+    },
+    "Magmag": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Digested Mushrooms": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Burning Eye": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000
+    },
+    "Magma Chunk": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Gazing Pearl": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 200
+    },
+    "Flames": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 200
+    },
+    "Kada Lead": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Match-Sticks": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Tentacle Meat": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 200
+    },
+    "Corrupted Fragment": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Hallowed Skull": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Spell Powder": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Leather Cloth": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Lumino Fiber": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Compact Ooze": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Rekindled Ember Fragment": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Nether Star": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10000
+    },
+    "Heavy Pearl": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Kuudra Teeth": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "X": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 20
+    },
+    "Y": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 30
+    },
+    "Z": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Revenant Flesh": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Revenant Viscera": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 128
+    },
+    "Golden Powder": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Undead Catalyst": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2000
+    },
+    "Revenant Catalyst": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 8000
+    },
+    "Tarantula Web": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Tarantula Silk": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 128
+    },
+    "Spider Catalyst": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2000
+    },
+    "Fly Swatter": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500000
+    },
+    "Toxic Arrow Poison": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2000
+    },
+    "Wolf Tooth": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Golden Tooth": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 128
+    },
+    "Weak Wolf Catalyst": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Null Sphere": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Null Ovoid": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Null Atom": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 33333
+    },
+    "Raw Soulflow": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Soulflow": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Braided Griffin Feather": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Twilight Arrow Poison": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 650
+    },
+    "Null Blade": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Null Edge": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Derelict Ashe": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Amalgamated Crimsonite": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Molten Powder": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Blaze Rod Distillate": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Gabagool Distillate": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Glowstone Distillate": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Magma Cream Distillate": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Nether Wart Distillate": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Bundle Of Magma Arrows": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50000
+    },
+    "Kelvin Inverter": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 100000
+    },
+    "Subzero Inverter": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Jolly Pink Rock": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "L.A.S.R.'s Eye": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Bigfoot's Lasso": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Diamante's Handle": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mimic Fragment": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000
+    },
+    "Fel Pearl": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ancient Rose": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Healing Tissue": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Dungeon Chest Key": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Superboom TNT": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Trap": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Spirit Leap": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 100
+    },
+    "Inflatable Jerry": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Decoy": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Architect's First Draft": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Kismet Feather": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Wither Catalyst": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Spirit Wing": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Spirit Bone": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Oak Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Oak Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Spruce Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Spruce Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Birch Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Birch Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Dark Oak Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Dark Oak Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Acacia Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Acacia Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Jungle Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Jungle Wood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 320
+    },
+    "Poppy": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Enchanted Poppy": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 576
+    },
+    "Dandelion": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Enchanted Dandelion": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 160
+    },
+    "Raw Fish": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 6
+    },
+    "Enchanted Raw Fish": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 960
+    },
+    "Enchanted Cooked Fish": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 150000
+    },
+    "Raw Salmon": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Enchanted Raw Salmon": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1600
+    },
+    "Enchanted Cooked Salmon": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 256000
+    },
+    "Clownfish": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 20
+    },
+    "Enchanted Clownfish": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3200
+    },
+    "Pufferfish": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 15
+    },
+    "Enchanted Pufferfish": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2400
+    },
+    "Prismarine Shard": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5
+    },
+    "Enchanted Prismarine Shard": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 400
+    },
+    "Prismarine Crystals": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5
+    },
+    "Enchanted Prismarine Crystals": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 400
+    },
+    "Clay": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Enchanted Clay": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 480
+    },
+    "Enchanted Clay Block": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 76800
+    },
+    "Sponge": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Enchanted Sponge": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2000
+    },
+    "Enchanted Wet Sponge": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 80000
+    },
+    "Lily Pad": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Enchanted Lily Pad": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1600
+    },
+    "Ink Sac": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 2
+    },
+    "Enchanted Ink Sac": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 160
+    },
+    "Carrot Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 7
+    },
+    "Minnow Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 12
+    },
+    "Fish Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 20
+    },
+    "Light Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 16
+    },
+    "Dark Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 8
+    },
+    "Spooky Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Spiked Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 20
+    },
+    "Blessed Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 42
+    },
+    "Ice Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3
+    },
+    "Frozen Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10
+    },
+    "Whale Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 44
+    },
+    "Shark Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Corrupted Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Hot Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 30
+    },
+    "Glowy Chum Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 25
+    },
+    "Worm Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 25
+    },
+    "Golden Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 100
+    },
+    "Treasure Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Hotspot Bait": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Worm Membrane": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hunk Of Ice": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hunk Of Blue Ice": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Emperor's Skull": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 100
+    },
+    "Bobbin' Scriptures": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 35000
+    },
+    "Magma Core": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Half-Eaten Mushroom": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Titanoboa Shed": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500000
+    },
+    "Singed Powder": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000
+    },
+    "Fried Feather": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10000
+    },
+    "Torn Cloth": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Bronze Bowl": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Alligator Skin": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Scorched Crab Stick": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 25000
+    },
+    "Brimstone Handle": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 25000
+    },
+    "Broken Radar": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 25000
+    },
+    "Can Of Worms": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Blue Ring": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 25000
+    },
+    "Magmafish": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 20
+    },
+    "Silver Magmafish": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1600
+    },
+    "Gold Magmafish": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 128000
+    },
+    "Diamond Magmafish": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Lava Shell": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3000
+    },
+    "Lump Of Magma": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Moogma Pelt": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Cup Of Blood": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 200
+    },
+    "Pyroclastic Scale": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50
+    },
+    "Flaming Heart": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 200
+    },
+    "Orb Of Energy": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 200
+    },
+    "Horn Of Taurus": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 500
+    },
+    "Thunder Shards": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 50000
+    },
+    "Magma Lord Fragment": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Water Orb": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 3000
+    },
+    "Lava Water Orb": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Spooky Water Orb": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Shark Water Orb": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Winter Water Orb": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 5000
+    },
+    "Bayou Water Orb": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hotspot Water Orb": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Chum": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Glowing Mushroom": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Empty Chum Bucket": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Full Chum Bucket": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rusty Coin": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000
+    },
+    "Busted Belt Buckle": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10000
+    },
+    "Old Leather Boot": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 100000
+    },
+    "Booster Cookie": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
@@ -1786,11 +2891,6 @@
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "EPIC",
-        "NPCsell": 0
-    },
-    "Wither Catalyst": {
-        "buy": 0,
-        "sell": 0,
         "NPCsell": 0
     }
 }
