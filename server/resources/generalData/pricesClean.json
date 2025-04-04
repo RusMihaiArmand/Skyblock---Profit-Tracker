@@ -5824,6 +5824,114 @@
         "sell": 0,
         "NPCsell": 500
     },
+    "Dirt": {
+        "NPCbuy": 2,
+        "NPCsell": 1
+    },
+    "Soul Sand": {
+        "NPCbuy": 8,
+        "NPCsell": 4
+    },
+    "Water Bucket": {
+        "NPCbuy": 12,
+        "NPCsell": 4
+    },
+    "Stick": {
+        "NPCbuy": 1,
+        "NPCsell": 0.2
+    },
+    "Training Dummy": {
+        "NPCbuy": 100,
+        "NPCsell": 0
+    },
+    "Torch": {
+        "NPCbuy": 1,
+        "NPCsell": 0.3
+    },
+    "Wooden Sword": {
+        "NPCbuy": 5,
+        "NPCsell": 1
+    },
+    "Wooden Pickaxe": {
+        "NPCbuy": 5,
+        "NPCsell": 1
+    },
+    "Wooden Axe": {
+        "NPCbuy": 5,
+        "NPCsell": 1
+    },
+    "Wooden Hoe": {
+        "NPCbuy": 5,
+        "NPCsell": 1
+    },
+    "Wooden Shovel": {
+        "NPCbuy": 5,
+        "NPCsell": 1
+    },
+    "Fishing Rod": {
+        "NPCbuy": 10,
+        "NPCsell": 2
+    },
+    "Bow": {
+        "NPCbuy": 10,
+        "NPCsell": 9
+    },
+    "Chest": {
+        "NPCbuy": 4,
+        "NPCsell": 1
+    },
+    "Wines": {
+        "NPCbuy": 20,
+        "NPCsell": 5
+    },
+    "Scavenger Talisman": {
+        "NPCbuy": 0,
+        "NPCsell": 10000
+    },
+    "Intimidation Talisman": {
+        "NPCbuy": 0,
+        "NPCsell": 10000
+    },
+    "Zombie Talisman": {
+        "NPCbuy": 0,
+        "NPCsell": 500
+    },
+    "Glass": {
+        "NPCbuy": 4,
+        "NPCsell": 2
+    },
+    "Apple": {
+        "NPCbuy": 10,
+        "NPCsell": 1
+    },
+    "Silky Lichen": {
+        "NPCbuy": 100000,
+        "NPCsell": 0
+    },
+    "Glass Bottle": {
+        "NPCbuy": 6,
+        "NPCsell": 2
+    },
+    "Milk Bucket": {
+        "NPCbuy": 50,
+        "NPCsell": 4
+    },
+    "Angler Helmet": {
+        "NPCbuy": 100,
+        "NPCsell": 18
+    },
+    "Angler Chestplate": {
+        "NPCbuy": 100,
+        "NPCsell": 18
+    },
+    "Angler Leggings": {
+        "NPCbuy": 100,
+        "NPCsell": 18
+    },
+    "Angler Boots": {
+        "NPCbuy": 100,
+        "NPCsell": 18
+    },
     "Necron's Blade (Unrefined)": {
         "priceBIN": 0,
         "priceAUC": 0,
