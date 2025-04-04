@@ -4594,11 +4594,31 @@
         "sell": 0,
         "NPCsell": 0
     },
-    "ENCHANTMENT_ULTIMATE_WISDOM_1": "Wisdom 1",
-    "ENCHANTMENT_ULTIMATE_WISDOM_2": "Wisdom 2",
-    "ENCHANTMENT_ULTIMATE_WISDOM_3": "Wisdom 3",
-    "ENCHANTMENT_ULTIMATE_WISDOM_4": "Wisdom 4",
-    "ENCHANTMENT_ULTIMATE_WISDOM_5": "Wisdom 5",
+    "Wisdom 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Wisdom 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Wisdom 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Wisdom 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Wisdom 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
     "BZt": {
         "buy": 0,
         "sell": 0,
