@@ -2469,137 +2469,1672 @@
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Recombobulator 3000": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Wood Singularity": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Silex": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Transmission Tuner": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 45000
+    },
+    "Divan's Powder Coating": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Golden Bounty": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000000
+    },
+    "Mana Disintegrator": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "A Beginner's Guide To Pesthunting": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000000
+    },
+    "Gold Bottle Cap": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000000
+    },
+    "Troubled Bubble": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000000
+    },
+    "Severed Pincer": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000000
+    },
+    "Octopus Tendril": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000000
+    },
+    "Chain Of The End Times": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1000000
+    },
+    "Implosion": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Wither Shield": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "Shadow Warp": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 1
+    },
+    "First Master Star": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Second Master Star": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Third Master Star": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Fourth Master Star": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Fifth Master Star": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Hot Potato Book": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 38400
+    },
+    "Fuming Potato Book": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Book Of Stats": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "The Art Of War": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Farming For Dummies": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "The Art Of Peace": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Jalapeno Book": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 56000
+    },
+    "Bookworm's Favorite Book": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 10000
+    },
+    "Polarvoid Book": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Angler 6": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Bane Of Arthropods 6": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Bane Of Arthropods 7": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Big Brain 3": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Big Brain 4": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Big Brain 5": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Blast Protection 6": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Blast Protection 7": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Blessing 6": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Caster 6": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
     },
-    "BZt": {
+    "Cayenne 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Cayenne 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Champion 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Chance 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Chance 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Charm 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Charm 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Charm 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Charm 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Charm 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Cleave 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Compact 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Corruption 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Corruption 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Corruption 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Corruption 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Corruption 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Counter-Strike 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Counter-Strike 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Counter-Strike 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Critical 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Critical 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Cubism 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Cultivating 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Dedication 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Dedication 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Dedication 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Dedication 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Delicate 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Divine Gift 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Divine Gift 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Divine Gift 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Dragon Hunter 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Dragon Hunter 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Dragon Hunter 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Dragon Hunter 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Dragon Hunter 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ender Slayer 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ender Slayer 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Execute 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Experience 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Experience 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Expertise 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Feather Falling 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Feather Falling 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Feather Falling 8": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Feather Falling 9": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Feather Falling 10": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ferocious Mana 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ferocious Mana 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ferocious Mana 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ferocious Mana 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ferocious Mana 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ferocious Mana 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ferocious Mana 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ferocious Mana 8": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ferocious Mana 9": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ferocious Mana 10": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Fire Aspect 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Fire Protection 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Fire Protection 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "First Strike 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Fortune 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Frail 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Giant Killer 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Giant Killer 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Green Thumb 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Green Thumb 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Green Thumb 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Green Thumb 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Green Thumb 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Growth 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Growth 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hardened Mana 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hardened Mana 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hardened Mana 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hardened Mana 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hardened Mana 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hardened Mana 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hardened Mana 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hardened Mana 8": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hardened Mana 9": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hardened Mana 10": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Harvesting 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Hecatomb 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ice Cold 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ice Cold 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ice Cold 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ice Cold 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ice Cold 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Infinite Quiver 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Infinite Quiver 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Infinite Quiver 8": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Infinite Quiver 9": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Infinite Quiver 10": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Lapidary 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Lapidary 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Lapidary 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Lapidary 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Lapidary 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Lethality 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Life Steal 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Life Steal 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Looting 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Looting 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Luck 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Luck 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Luck of the Sea 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Lure 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Magnet 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Steal 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Steal 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Steal 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Vampire 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Vampire 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Vampire 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Vampire 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Vampire 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Vampire 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Vampire 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Vampire 8": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Vampire 9": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Mana Vampire 10": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Overload 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Overload 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Overload 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Overload 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Overload 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Paleontologist 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Paleontologist 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Paleontologist 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Paleontologist 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Paleontologist 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Pesterminator 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Pesterminator 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Pesterminator 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Pesterminator 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Pesterminator 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Piscary 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Power 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Power 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Prismatic 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Prismatic 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Prismatic 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Prismatic 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Prismatic 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Projectile Protection 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Projectile Protection 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Prosecute 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Prosperity 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Prosperity 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Prosperity 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Prosperity 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Prosperity 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Protection 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Protection 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Quantum 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Quantum 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Quantum 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Quick Bite 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Quick Bite 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Quick Bite 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Quick Bite 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Quick Bite 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Reflection 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Reflection 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Reflection 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Reflection 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Reflection 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rejuvenate 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rejuvenate 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rejuvenate 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rejuvenate 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rejuvenate 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Replenish 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Respite 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Respite 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Respite 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Respite 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Respite 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Scavenger 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Scavenger 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Scavenger 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sharpness 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sharpness 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Small Brain 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Small Brain 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Small Brain 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smarty Pants 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smarty Pants 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smarty Pants 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smarty Pants 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smarty Pants 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smite 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smite 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smoldering 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smoldering 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smoldering 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smoldering 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Smoldering 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Snipe 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Spiked Hook 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Strong Mana 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Strong Mana 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Strong Mana 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Strong Mana 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Strong Mana 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Strong Mana 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Strong Mana 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Strong Mana 8": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Strong Mana 9": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Strong Mana 10": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sugar Rush 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sugar Rush 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sugar Rush 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sunder 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sunder 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sunder 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sunder 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sunder 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Sunder 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Syphon 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Syphon 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Tabasco 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Tabasco 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Thunderbolt 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Thunderbolt 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Thunderlord 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Thunderlord 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Tidal 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Tidal 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Tidal 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Titan Killer 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Titan Killer 7": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Toxophilite 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Transylvanian 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Transylvanian 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Triple-Strike 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "True Protection 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cacti 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cacti 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cacti 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cacti 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cacti 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cane 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cane 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cane 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cane 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cane 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Carrot 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Carrot 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Carrot 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Carrot 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Carrot 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cocoa 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cocoa 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cocoa 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cocoa 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Cocoa 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Melon 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Melon 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Melon 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Melon 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Melon 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Mushrooms 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Mushrooms 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Mushrooms 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Mushrooms 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Mushrooms 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Potato 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Potato 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Potato 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Potato 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Potato 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Pumpkin 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Pumpkin 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Pumpkin 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Pumpkin 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Pumpkin 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Warts 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Warts 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Warts 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Warts 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Warts 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Wheat 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Wheat 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Wheat 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Wheat 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Turbo-Wheat 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Vampirism 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Venomous 6": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Vicious 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Vicious 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Vicious 5": {
         "buy": 0,
         "sell": 0,
         "NPCsell": 0
