@@ -4139,6 +4139,466 @@
         "sell": 0,
         "NPCsell": 0
     },
+    "Bank 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Bank 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Bank 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Bank 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Bank 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Bobbin' Time 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Bobbin' Time 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Bobbin' Time 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Chimera 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Chimera 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Chimera 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Chimera 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Chimera 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Combo 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Combo 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Combo 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Combo 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Combo 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Duplex 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Duplex 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Duplex 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Duplex 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Duplex 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Fatal Tempo 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Fatal Tempo 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Fatal Tempo 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Fatal Tempo 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Fatal Tempo 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Flash 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Flash 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Flash 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Flash 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Flash 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Flowstate 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Flowstate 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Flowstate 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Habanero Tactics 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Habanero Tactics 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Inferno 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Inferno 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Inferno 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Inferno 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Inferno 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Last Stand 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Last Stand 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Last Stand 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Last Stand 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Last Stand 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Legion 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Legion 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Legion 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Legion 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Legion 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "No Pain No Gain 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "No Pain No Gain 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "No Pain No Gain 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "No Pain No Gain 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "No Pain No Gain 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "One for All 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Refrigerate 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Refrigerate 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Refrigerate 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Refrigerate 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Refrigerate 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rend 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rend 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rend 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rend 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Rend 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Soul Eater 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Soul Eater 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Soul Eater 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Soul Eater 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Soul Eater 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Swarm 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Swarm 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Swarm 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Swarm 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Swarm 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "The One 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "The One 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ultimate Jerry 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ultimate Jerry 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ultimate Jerry 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ultimate Jerry 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ultimate Jerry 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ultimate Wise 1": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ultimate Wise 2": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ultimate Wise 3": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ultimate Wise 4": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "Ultimate Wise 5": {
+        "buy": 0,
+        "sell": 0,
+        "NPCsell": 0
+    },
+    "ENCHANTMENT_ULTIMATE_WISDOM_1": "Wisdom 1",
+    "ENCHANTMENT_ULTIMATE_WISDOM_2": "Wisdom 2",
+    "ENCHANTMENT_ULTIMATE_WISDOM_3": "Wisdom 3",
+    "ENCHANTMENT_ULTIMATE_WISDOM_4": "Wisdom 4",
+    "ENCHANTMENT_ULTIMATE_WISDOM_5": "Wisdom 5",
     "BZt": {
         "buy": 0,
         "sell": 0,
