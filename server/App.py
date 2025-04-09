@@ -425,7 +425,8 @@ def getCraftPrices():
             if ((playerData.get('collections',{}).get( recipe.get('requirements',{}).get('collection','-') ,0) < recipe.get('requirements',{}).get('collectionLevel',0))
             or (playerData.get('slayers',{}).get( recipe.get('requirements',{}).get('slayer','-') ,0) < recipe.get('requirements',{}).get('slayerLevel',0))
             or (playerData.get('barbarianReputation',0) < recipe.get('requirements',{}).get('barbarianReputation',-9999))
-            or (playerData.get('mageReputation',0) < recipe.get('requirements',{}).get('mageReputation',-9999))):
+            or (playerData.get('mageReputation',0) < recipe.get('requirements',{}).get('mageReputation',-9999))
+            or (playerData.get('manuallyEnteredData',{}).get('museum milestone',0) < recipe.get('requirements',{}).get('museumMilestone',0))):
                 recipe['canCraft'] = False
             
 
@@ -460,23 +461,33 @@ def getCraftPrices():
 
                 materialCraftData = recipesData.get(material,{}).get("recipes", [])
                 if materialCraftData:
-                    materialCraftData = materialCraftData[0]
 
-                    if materialCraftData['canCraft']:
+                    # directPrice = 0
+                    # if materialPriceData.get('NPCbuy',0) < directPrice or directPrice == 0:
+                    #     directPrice = materialPriceData.get('NPCbuy',0)
+                    directPrice = materialPriceData.get('NPCbuy',0)
 
-                        directPrice = 0
-                        if materialPriceData.get('NPCbuy',0) < directPrice or directPrice == 0:
-                            directPrice = materialPriceData.get('NPCbuy',0)
+                    if 'priceBIN' in materialPriceData:
+                        if materialPriceData["NPCsell"] > 0 and materialPriceData["rarity"] == "COMMON":
+                            if (materialPriceData['priceAUC'] < directPrice and materialPriceData['priceAUC'] >0 ) or directPrice == 0:
+                                directPrice = materialPriceData['priceAUC']
+                        else:
+                            if (materialPriceData['priceBIN'] < directPrice and materialPriceData['priceBIN'] >0 )  or directPrice == 0:
+                                directPrice = materialPriceData['priceBIN']
 
-                        if 'priceBIN' in materialPriceData:
-                            if materialPriceData["NPCsell"] > 0 and "COMMON" in materialPriceData["rarity"]:
-                                if materialPriceData['priceAUC'] < directPrice or directPrice == 0:
-                                    directPrice = materialPriceData['priceAUC']
-                            else:
-                                if materialPriceData['priceBIN'] < directPrice or directPrice == 0:
-                                    directPrice = materialPriceData['priceBIN']
+                    #materialCraftData = materialCraftData[0]
 
-                        if directPrice < materialCraftData['craftPriceInstant']:
+                    craftable_items = [item for item in materialCraftData if item.get('canCraft')]
+
+                    if craftable_items:
+                        materialCraftData = min(craftable_items, key=lambda item: item['craftPriceInstant'] / item['quantity'])
+                    else:
+                        materialCraftData = {}
+
+                    if materialCraftData:
+
+
+                        if directPrice < materialCraftData['craftPriceInstant']/materialCraftData['quantity']:
                             materialsList = dict(recipe['materialsNeededInstant'])
                             materialsList[material] = materialsList.get(material, 0.0) + quantity
                             recipe['materialsNeededInstant'] = materialsList
@@ -490,7 +501,7 @@ def getCraftPrices():
                                 materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
 
                             recipe['materialsNeededInstant'] = materialsList
-                            recipe['craftPriceInstant'] += materialCraftData['craftPriceInstant'] * quantity
+                            recipe['craftPriceInstant'] += materialCraftData['craftPriceInstant']/materialCraftData['quantity'] * quantity
 
 
 
@@ -503,12 +514,19 @@ def getCraftPrices():
 
                             recipe['materialsNeededFarmInstant'] = materialsList
 
-
-
-
-
                         
-                        if directPrice < materialCraftData['craftPriceOrders']:
+
+                    if craftable_items:
+                        materialCraftData = min(craftable_items, key=lambda item: item['craftPriceOrders'] / item['quantity'])
+                    else:
+                        materialCraftData = {}
+
+                    if materialCraftData:
+
+
+        
+                        
+                        if directPrice < materialCraftData['craftPriceOrders']/materialCraftData['quantity']:
                             materialsList = dict(recipe['materialsNeededOrders'])
                             materialsList[material] = materialsList.get(material, 0.0) + quantity
                             recipe['materialsNeededOrders'] = materialsList
@@ -522,7 +540,7 @@ def getCraftPrices():
                                 materialsList[materialAdd] = materialsList.get(materialAdd, 0.0) + amount 
 
                             recipe['materialsNeededOrders'] = materialsList
-                            recipe['craftPriceOrders'] += materialCraftData['craftPriceOrders'] * quantity
+                            recipe['craftPriceOrders'] += materialCraftData['craftPriceOrders']/materialCraftData['quantity'] * quantity
 
 
 
@@ -539,10 +557,9 @@ def getCraftPrices():
 
 
 
-
                 if 'priceBIN' in materialPriceData:
 
-                    if materialPriceData["NPCsell"] > 0 and "COMMON" in materialPriceData["rarity"]:
+                    if materialPriceData["NPCsell"] > 0 and materialPriceData["rarity"] == "COMMON":
         
                         if(materialPriceData['priceAUC'] > 0):
                             materialsList = dict(recipe['materialsNeededInstant'])
@@ -627,7 +644,7 @@ def getCraftPrices():
             if 'priceAUC' in itemPriceData:
 
 
-                if itemPriceData["NPCsell"] > 0 and "COMMON" in itemPriceData["rarity"]:
+                if itemPriceData["NPCsell"] > 0 and itemPriceData["rarity"]  == "COMMON":
                     price = itemPriceData['priceAUC']
                     sellType = 'AH - AUC'
                     tax = 1

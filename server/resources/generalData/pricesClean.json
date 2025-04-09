@@ -5828,6 +5828,10 @@
         "NPCbuy": 2,
         "NPCsell": 1
     },
+    "Glistering Melon": {
+        "NPCbuy": 10,
+        "NPCsell": 3.5
+    },
     "Soul Sand": {
         "NPCbuy": 8,
         "NPCsell": 4
@@ -5839,10 +5843,6 @@
     "Stick": {
         "NPCbuy": 1,
         "NPCsell": 0.2
-    },
-    "Training Dummy": {
-        "NPCbuy": 100,
-        "NPCsell": 0
     },
     "Torch": {
         "NPCbuy": 1,
@@ -5931,6 +5931,2812 @@
     "Angler Boots": {
         "NPCbuy": 100,
         "NPCsell": 18
+    },
+    "Golden Carrot": {
+        "NPCbuy": 15,
+        "NPCsell": 4
+    },
+    "Bowl": {
+        "NPCbuy": 6,
+        "NPCsell": 0.5
+    },
+    "Cactus Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 3
+    },
+    "Cactus Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 3
+    },
+    "Cactus Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 3
+    },
+    "Cactus Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 3
+    },
+    "Farming Island": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Desert Island": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Nether Wart Island": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Pond Island": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Roofed Forest Island": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Ultimate Carrot Candy Upgrade": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "SPECIAL",
+        "NPCsell": 0
+    },
+    "Portal To The Barn": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Portal To Mushroom Island": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Portal To Birch Park": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Portal To Spruce Woods": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Portal To Jungle Island": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Portal To Savanna Woodland": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Portal To Dark Thicket": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Portal To The Gold Mine": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Portal To The Deep Caverns": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Portal To The Spider's Den": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Portal To The End": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Portal To The Crimson Isle": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Travel Scroll To The Barn": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Travel Scroll To Mushroom Island": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Travel Scroll To The Gold Mine": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Travel Scroll To Deep Caverns": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Travel Scroll To Spider's Den": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Travel Scroll To The End": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Travel Scroll To The Crimson Isle": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Travel Scroll To Museum": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Travel Scroll To Hub Crypts": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Travel Scroll To The Void Sepulture": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Travel Scroll To The Smoldering Tomb": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Feather Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 160
+    },
+    "Feather Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 1800
+    },
+    "Feather Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 32000
+    },
+    "Cow Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 16
+    },
+    "Small Backpack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Medium Backpack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Large Backpack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Greater Backpack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Jumbo Backpack Upgrade": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Jumbo Backpack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Saddle": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Melon Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Melon Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Melon Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Melon Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Mushroom Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 12
+    },
+    "Mushroom Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 12
+    },
+    "Mushroom Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 12
+    },
+    "Mushroom Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 12
+    },
+    "Night Vision Charm": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 2500
+    },
+    "Small Husbandry Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Medium Husbandry Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Large Husbandry Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Large Enchanted Husbandry Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Potion Affinity Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 192
+    },
+    "Potion Affinity Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 2100
+    },
+    "Potion Affinity Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 64000
+    },
+    "Coin": {
+        "NPCbuy": 1,
+        "NPCsell": 1
+    },
+    "Cactus Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cactus Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cactus Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cactus Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cactus Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cactus Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cactus Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cactus Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cactus Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cactus Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cactus Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Carrot Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Carrot Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Carrot Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Carrot Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Carrot Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Carrot Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Carrot Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Carrot Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Carrot Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Carrot Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Carrot Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cocoa Beans Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cocoa Beans Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cocoa Beans Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cocoa Beans Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cocoa Beans Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cocoa Beans Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cocoa Beans Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cocoa Beans Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cocoa Beans Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cocoa Beans Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cocoa Beans Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cow Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cow Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cow Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cow Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cow Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cow Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cow Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cow Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cow Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cow Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cow Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Melon Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Melon Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Melon Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Melon Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Melon Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Melon Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Melon Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Melon Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Melon Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Melon Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Melon Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Mushroom Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Mushroom Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Mushroom Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Mushroom Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Mushroom Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Mushroom Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Mushroom Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Mushroom Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Mushroom Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Mushroom Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Mushroom Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sheep Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sheep Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sheep Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sheep Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sheep Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sheep Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sheep Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sheep Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sheep Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sheep Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sheep Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Nether Wart Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Nether Wart Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Nether Wart Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Nether Wart Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Nether Wart Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Nether Wart Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Nether Wart Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Nether Wart Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Nether Wart Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Nether Wart Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Nether Wart Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Flower Minion XII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Snow Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Snow Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Snow Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Snow Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Snow Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Snow Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Snow Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Snow Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Snow Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Snow Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Snow Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vaccine Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 22
+    },
+    "Vaccine Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 100
+    },
+    "Vaccine Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 500
+    },
+    "Potato Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Potato Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Potato Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Potato Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Potato Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Potato Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Potato Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Potato Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Potato Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Potato Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Potato Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pumpkin Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 12
+    },
+    "Pumpkin Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 12
+    },
+    "Pumpkin Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 12
+    },
+    "Pumpkin Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 12
+    },
+    "Armor Stand": {
+        "NPCbuy": 100,
+        "NPCsell": 0
+    },
+    "Training Dummy": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Farmer Orb": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 1900
+    },
+    "Lantern Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 82000
+    },
+    "Farmer Crystal": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Farmer Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 163840
+    },
+    "Rancher's Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Flint Arrow": {
+        "NPCbuy": 5,
+        "NPCsell": 0
+    },
+    "Pumpkin Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pumpkin Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pumpkin Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pumpkin Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pumpkin Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pumpkin Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pumpkin Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pumpkin Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pumpkin Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pumpkin Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pumpkin Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Bridge Egg": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 10
+    },
+    "Chicken Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 8
+    },
+    "Chicken Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Chicken Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Chicken Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Chicken Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Chicken Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Chicken Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Chicken Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Chicken Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Chicken Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Chicken Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Chicken Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pig Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pig Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pig Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pig Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pig Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pig Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pig Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pig Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pig Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pig Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pig Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Piggy Bank": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 16000
+    },
+    "Cracked Piggy Bank": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 16000
+    },
+    "Broken Piggy Bank": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 16000
+    },
+    "Pigman Sword": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 3100000
+    },
+    "Rabbit Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Rabbit Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Rabbit Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Rabbit Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Rabbit Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Rabbit Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Rabbit Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Rabbit Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Rabbit Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Rabbit Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Rabbit Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Rabbit Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Rabbit Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Rabbit Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Rabbit Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sugar Cane Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sugar Cane Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sugar Cane Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sugar Cane Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sugar Cane Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sugar Cane Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sugar Cane Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sugar Cane Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sugar Cane Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sugar Cane Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sugar Cane Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Speed Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 110
+    },
+    "Speed Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 18000
+    },
+    "Speed Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 1400000
+    },
+    "Enchanted Bookshelf": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 2700
+    },
+    "Speedster Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 153600
+    },
+    "Speedster Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 153600
+    },
+    "Speedster Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 153600
+    },
+    "Speedster Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 153600
+    },
+    "Farm Suit Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 29
+    },
+    "Farm Suit Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 29
+    },
+    "Farm Suit Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 29
+    },
+    "Farm Suit Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 29
+    },
+    "Farming Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 25
+    },
+    "Small Agronomy Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Medium Agronomy Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Large Agronomy Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Large Enchanted Agronomy Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Farm Armor Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 3850
+    },
+    "Farm Armor Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 3850
+    },
+    "Farm Armor Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 3850
+    },
+    "Farm Armor Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 3850
+    },
+    "Wheat Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wheat Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wheat Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wheat Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wheat Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wheat Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wheat Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wheat Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wheat Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wheat Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wheat Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cropie Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Squash Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Garden Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Fermento Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cropie Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cropie Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cropie Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cropie Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Squash Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Squash Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Squash Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Squash Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Fermento Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Fermento Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Fermento Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Fermento Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Large Enchanted Mining Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Small Mining Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Medium Mining Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Large Mining Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Coal Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Coal Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Coal Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Coal Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Coal Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Coal Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Coal Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Coal Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Coal Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Coal Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Coal Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Coal Minion XII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Heat Core": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "SPECIAL",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "AHt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
     },
     "Necron's Blade (Unrefined)": {
         "priceBIN": 0,
