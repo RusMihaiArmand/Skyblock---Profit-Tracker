@@ -5885,16 +5885,16 @@
         "NPCsell": 5
     },
     "Scavenger Talisman": {
-        "NPCbuy": 0,
-        "NPCsell": 10000
+        "NPCbuy": 10000,
+        "NPCsell": 0
     },
     "Intimidation Talisman": {
-        "NPCbuy": 0,
-        "NPCsell": 10000
+        "NPCbuy": 10000,
+        "NPCsell": 0
     },
     "Zombie Talisman": {
-        "NPCbuy": 0,
-        "NPCsell": 500
+        "NPCbuy": 500,
+        "NPCsell": 0
     },
     "Glass": {
         "NPCbuy": 4,
@@ -12043,7 +12043,6 @@
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
-        "NPCbuy": 100,
         "NPCsell": 5
     },
     "Spider Hat": {
@@ -13047,371 +13046,2076 @@
         "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Clownfish Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 140
+    },
+    "Clownfish Cloak": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Squid Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 10
+    },
+    "Deep Ocean Biome Stick": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 150
+    },
+    "Bait Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 23000
+    },
+    "Spiked Atrocity": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Ink Wand": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 10000
+    },
+    "Blobfish Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 25
+    },
+    "Healing Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 1440
+    },
+    "Challenging Rod": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 5000
+    },
+    "Rod Of Champions": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 17800
+    },
+    "Healing Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 17000
+    },
+    "Rod Of Legends": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 111000
+    },
+    "Magmafish Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 80
+    },
+    "Small Lava Fishing Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 6400
+    },
+    "Medium Lava Fishing Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 128000
+    },
+    "Large Lava Fishing Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 256000
+    },
+    "Inferno Rod": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 1028000
+    },
+    "Hellfire Rod": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 5634000
+    },
+    "Sea Lantern Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Guardian Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 1200
+    },
+    "Prismarine Blade": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 160
+    },
+    "Prismarine Sinker": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Prismarine Bow": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 120
+    },
+    "Weather Node": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Prismarine Necklace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Pufferfish Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 60
+    },
+    "Small Fishing Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Medium Fishing Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Large Fishing Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Large Enchanted Fishing Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Fish Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 24
+    },
+    "Empty Chumcap Bucket": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Salmon Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 40
+    },
+    "Salmon Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 150
+    },
+    "Salmon Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 150
+    },
+    "Salmon Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 150
+    },
+    "Salmon Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 150
+    },
+    "Sponge Sinker": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 560
+    },
+    "Sea Creature Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 180
+    },
+    "Sponge Belt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Sea Creature Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 1000
+    },
+    "Stereo Pants": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 1000
+    },
+    "Sea Creature Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 25000
+    },
+    "Sponge Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 40000
+    },
+    "Sponge Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 64000
+    },
+    "Sponge Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 56000
+    },
+    "Sponge Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 32000
+    },
+    "Bluetooth Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voodoo Doll": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jinxed Voodoo Doll": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Blood Donor Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 800
+    },
+    "Blood Donor Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 2000
+    },
+    "Vampire Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vampire Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vampire Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vampire Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vampire Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vampire Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vampire Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vampire Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vampire Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vampire Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vampire Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Blood Donor Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 10000
+    },
+    "Spooky Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Spooky Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Spooky Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Spooky Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Bat Person Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Bat Person Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Bat Person Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Bat Person Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Wand Of Healing": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Zombie Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Revenant Falchion": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Undead Sword": {
+        "NPCbuy": 100,
+        "NPCsell": 5
+    },
+    "Crystallized Heart": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wand Of Mending": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Revenant Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Revenant Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Devour Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Small Slayer Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Medium Slayer Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Large Slayer Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Wand Of Restoration": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Revived Heart": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Reaper Falchion": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Zombie Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Reaper Mask": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Beheaded Horror": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 15000
+    },
+    "Reaper Scythe": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Scythe Blade": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Wand Of Atonement": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Reaper Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Reaper Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Reaper Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Reaper Orb": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Axe Of The Shredded": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Shard Of The Shredded": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Warden Heart": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Warden Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Zombie Brain Mixin": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Revenant Minion XII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 50
+    },
+    "Scorpion Bow": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Tarantula Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Tarantula Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Tarantula Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Tarantula Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Scorpion Foil": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Spider Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Mosquito Bow": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Digested Mosquito": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Spider Egg Mixin": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Tarantula Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Tarantula Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Tarantula Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Tarantula Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Tarantula Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Tarantula Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Tarantula Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Tarantula Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Tarantula Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Tarantula Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Tarantula Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Red Claw Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Radiant Power Orb": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Maddox Batphone": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Shaman Sword": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Mastiff Crown": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Mastiff Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Mastiff Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Mastiff Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Red Claw Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Edible Mace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Weird Tuba": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Red Claw Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Red Claw Egg": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Mana Flux Power Orb": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pooch Sword": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Helmet Of The Pack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Chestplate Of The Pack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Leggings Of The Pack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Boots Of The Pack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Hunter Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Overflux Power Orb": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Overflux Capacitor": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Hunter Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Grizzly Salmon": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Plasmaflux Power Orb": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Plasma Nucleus": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Wolf Fur Mixin": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidwalker Katana": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Soulflow Pile": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 160
+    },
+    "Soul Esoward": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidedge Katana": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Final Destination Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Final Destination Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Final Destination Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Final Destination Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Voidling Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidling Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidling Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidling Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidling Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidling Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidling Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidling Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidling Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidling Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Voidling Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Juju Shortbow": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Soulflow Battery": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Vorpal Katana": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Gloomlock Grimoire": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Gyrokinetic Wand": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Aspect Of The Void": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 56000
+    },
+    "Atomsplit Katana": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Sinseeker Scythe": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Sinful Dice": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Soulflow Supercell": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Etherwarp Conduit": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Ender Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Ender Relic": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Exceedingly Rare Ender Artifact Upgrade": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Terminator": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Judgement Core": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "End Portal Fumes": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Weirder Tuba": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Vampire Dentist Relic": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 80000
+    },
+    "Inferno Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Inferno Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Inferno Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Inferno Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Inferno Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Inferno Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Inferno Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Inferno Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Inferno Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Inferno Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Inferno Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Droplet Wisp": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Firedust Dagger": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Twilight Dagger": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wisp Upgrade Stone - Rare": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wisp Upgrade Stone - Epic": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Wisp Upgrade Stone - Legendary": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Burststopper Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Warning Flare": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Kindlebane Dagger": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Mawdredge Dagger": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Demonslayer Gauntlet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Teleporter Pill": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Destruction Cloak": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Tactical Insertion": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Pyrochaos Dagger": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Deathripper Dagger": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Alert Flare": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Blazetekk™ Ham Radio": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Burststopper Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Annihilation Cloak": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "SOS Flare": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Wilson's Engineering Plans": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Gabagoey Mixin": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,

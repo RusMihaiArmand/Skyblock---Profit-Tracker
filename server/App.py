@@ -555,6 +555,7 @@ def getCraftPrices():
 
                         continue
 
+                    continue
 
 
                 if 'priceBIN' in materialPriceData:
