@@ -5932,6 +5932,22 @@
         "NPCbuy": 100,
         "NPCsell": 18
     },
+    "Angler Necklace": {
+        "NPCbuy": 100,
+        "NPCsell": 50
+    },
+    "Angler Cloak": {
+        "NPCbuy": 100,
+        "NPCsell": 50
+    },
+    "Angler Bracelet": {
+        "NPCbuy": 100,
+        "NPCsell": 50
+    },
+    "Angler Belt": {
+        "NPCbuy": 100,
+        "NPCsell": 50
+    },
     "Golden Carrot": {
         "NPCbuy": 15,
         "NPCsell": 4
@@ -11217,347 +11233,1818 @@
         "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Hurricane Bow": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "EPIC",
+        "NPCsell": 15500
+    },
+    "Skeleton's Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 51000
+    },
+    "Runaan's Bow": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 86000
+    },
+    "Skeleton Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Skeleton Minion II": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Skeleton Minion III": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Skeleton Minion IV": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Skeleton Minion V": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Skeleton Minion VI": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Skeleton Minion VII": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Skeleton Minion VIII": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Skeleton Minion IX": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Skeleton Minion X": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Skeleton Minion XI": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Water Hydra Head": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "EPIC",
+        "NPCsell": 500
+    },
+    "Silent Pearl": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 100
+    },
+    "Small Dragon Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
         "NPCsell": 0
     },
-    "AHt": {
+    "Medium Dragon Sack": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Large Dragon Sack": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "EPIC",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ender Bow": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
+        "NPCsell": 1100
+    },
+    "Teleport Pad": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 1000
+    },
+    "Aspect Of The End": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 56000
+    },
+    "Saving Grace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 20000
+    },
+    "Enderman Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Enderman Minion II": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Enderman Minion III": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Enderman Minion IV": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Enderman Minion V": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Enderman Minion VI": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Enderman Minion VII": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Enderman Minion VIII": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Enderman Minion IX": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Enderman Minion X": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Enderman Minion XI": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Cloak": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
+        "NPCsell": 8680
+    },
+    "Silver Fang": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 2000
+    },
+    "Vanquished Ghast Cloak": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 275340
+    },
+    "Ghast Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Minion II": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Minion III": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Minion IV": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Minion V": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Minion VI": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Minion VII": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Minion VIII": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Minion IX": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Minion X": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Minion XI": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Ghast Minion XII": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Creeper Hat": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
+        "NPCsell": 16
+    },
+    "Creeper Pants": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 71000
+    },
+    "Explosive Bow": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 62000
+    },
+    "Creeper Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Creeper Minion II": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Creeper Minion III": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Creeper Minion IV": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Creeper Minion V": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Creeper Minion VI": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Creeper Minion VII": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Creeper Minion VIII": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Creeper Minion IX": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Creeper Minion X": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Creeper Minion XI": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "AHt": {
+    "Nether Biome Stick": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
         "rarity": "COMMON",
+        "NPCsell": 512
+    },
+    "Magma Necklace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 8180
+    },
+    "Lava Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 5800
+    },
+    "Vanquished Magma Necklace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 243965
+    },
+    "Magma Cube Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Magma Cube Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Magma Cube Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Magma Cube Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Magma Cube Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Magma Cube Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Magma Cube Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Magma Cube Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Magma Cube Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Magma Cube Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Magma Cube Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Magma Cube Minion XII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Zombie Pickaxe": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 3
+    },
+    "Zombie Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 8
+    },
+    "Small Combat Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Medium Combat Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Large Combat Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Large Enchanted Combat Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Zombie's Heart": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 123000
+    },
+    "Zombie Sword": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 300000
+    },
+    "Zombie Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 185000
+    },
+    "Zombie Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 185000
+    },
+    "Zombie Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 185000
+    },
+    "Zombie Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Zombie Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Zombie Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Zombie Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Zombie Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Zombie Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Zombie Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Zombie Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Zombie Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Zombie Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Zombie Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Slime Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 20
+    },
+    "Launch Pad": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 3200
+    },
+    "Slime Bow": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 960000
+    },
+    "Spider Sword": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCbuy": 100,
+        "NPCsell": 5
+    },
+    "Spider Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 12
+    },
+    "Leaping Sword": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 375000
+    },
+    "Silk-Edge Sword": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 375000
+    },
+    "Cave Spider Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cave Spider Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cave Spider Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cave Spider Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cave Spider Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cave Spider Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cave Spider Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cave Spider Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cave Spider Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cave Spider Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Cave Spider Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spider Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Web": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 10
+    },
+    "Grappling Hook": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 1200
+    },
+    "Spider's Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 74000
+    },
+    "Savana Biome Stick": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 32
+    },
+    "Repelling Candle": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Savanna Bow": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 500
+    },
+    "Acacia Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Acacia Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Acacia Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Acacia Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Acacia Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Acacia Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Acacia Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Acacia Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Acacia Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Acacia Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Acacia Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Birch Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Birch Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Birch Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Birch Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Birch Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Birch Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Birch Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Birch Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Birch Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Birch Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Birch Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Dark Oak Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Dark Oak Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Dark Oak Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Dark Oak Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Dark Oak Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Dark Oak Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Dark Oak Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Dark Oak Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Dark Oak Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Dark Oak Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Dark Oak Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jungle Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jungle Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jungle Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jungle Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jungle Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jungle Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jungle Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jungle Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jungle Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jungle Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Jungle Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Oak Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Oak Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Oak Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Oak Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Oak Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Oak Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Oak Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Oak Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Oak Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Oak Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Oak Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spruce Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spruce Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spruce Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spruce Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spruce Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spruce Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spruce Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spruce Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spruce Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spruce Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Spruce Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sculptor's Axe": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 64
+    },
+    "Birch Forest Biome Stick": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 32
+    },
+    "Small Foraging Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Medium Foraging Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Large Foraging Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Large Enchanted Foraging Sack": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Woodcutting Crystal": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Roofed Forest Biome Stick": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 32
+    },
+    "Helmet Of Growth": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 50000
+    },
+    "Chestplate Of Growth": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 80000
+    },
+    "Leggings Of Growth": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 70000
+    },
+    "Boots Of Growth": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 40000
+    },
+    "Jungle Biome Stick": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 32
+    },
+    "Leaflet Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 3
+    },
+    "Leaflet Tunic": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 3
+    },
+    "Leaflet Pants": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 3
+    },
+    "Leaflet Sandals": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 2
+    },
+    "Forest Biome Stick": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 32
+    },
+    "Wood Affinity Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 160
+    },
+    "Minion Storage X-pender": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "SPECIAL",
+        "NPCsell": 0
+    },
+    "Taiga Biome Stick": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 32
+    },
+    "Clay Bracelet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Clay Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Clay Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Clay Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Clay Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Clay Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Clay Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Clay Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Clay Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Clay Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Clay Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Clay Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Clay Minion XII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion I": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion II": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion III": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion IV": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion V": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion VI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion VII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion VIII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion IX": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion X": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion XI": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Fishing Minion XII": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
         "NPCsell": 0
     },
     "AHt": {
