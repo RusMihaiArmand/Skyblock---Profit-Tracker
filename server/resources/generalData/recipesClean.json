@@ -44583,13 +44583,14 @@
             }
         ]
     },
-    "": {
+    "Blood-Stained Coins": {
         "recipes": [
             {
                 "canCraft": true,
                 "quantity": 1,
                 "recipeMaterials": {
-                    "": 1
+                    "Freshly-Minted Coins": 1,
+                    "Hemoglass": 4
                 },
                 "materialsNeededInstant": [],
                 "materialsNeededOrders": [],
@@ -44608,13 +44609,14 @@
             }
         ]
     },
-    "": {
+    "Blood-Soaked Coins": {
         "recipes": [
             {
                 "canCraft": true,
                 "quantity": 1,
                 "recipeMaterials": {
-                    "": 1
+                    "Blood-Stained Coins": 1,
+                    "Hemoglass": 32
                 },
                 "materialsNeededInstant": [],
                 "materialsNeededOrders": [],
@@ -44633,13 +44635,15 @@
             }
         ]
     },
-    "": {
+    "Scavenger Ring": {
         "recipes": [
             {
                 "canCraft": true,
                 "quantity": 1,
                 "recipeMaterials": {
-                    "": 1
+                    "Scavenger Talisman": 1,
+                    "Freshly-Minted Coins": 8,
+                    "Blood-Stained Coins": 4
                 },
                 "materialsNeededInstant": [],
                 "materialsNeededOrders": [],
@@ -44658,13 +44662,15 @@
             }
         ]
     },
-    "": {
+    "Scavenger Artifact": {
         "recipes": [
             {
                 "canCraft": true,
                 "quantity": 1,
                 "recipeMaterials": {
-                    "": 1
+                    "Scavenger Ring": 1,
+                    "Freshly-Minted Coins": 16,
+                    "Blood-Soaked Coins": 4
                 },
                 "materialsNeededInstant": [],
                 "materialsNeededOrders": [],
@@ -44683,13 +44689,15 @@
             }
         ]
     },
-    "": {
+    "Base Griffin Upgrade Stone": {
         "recipes": [
             {
                 "canCraft": true,
                 "quantity": 1,
                 "recipeMaterials": {
-                    "": 1
+                    "Enchanted Cobblestone": 8,
+                    "Griffin Feather": 8,
+                    "Enchanted Gold": 16
                 },
                 "materialsNeededInstant": [],
                 "materialsNeededOrders": [],
@@ -44708,13 +44716,16 @@
             }
         ]
     },
-    "": {
+    "Griffin Upgrade Stone - Uncommon": {
         "recipes": [
             {
                 "canCraft": true,
                 "quantity": 1,
                 "recipeMaterials": {
-                    "": 1
+                    "Base Griffin Upgrade Stone": 1,
+                    "Ancient Claw": 32,
+                    "Griffin Feather": 8,
+                    "Enchanted Gold": 48
                 },
                 "materialsNeededInstant": [],
                 "materialsNeededOrders": [],
@@ -44733,13 +44744,13 @@
             }
         ]
     },
-    "": {
+    "Enchanted Ancient Claw": {
         "recipes": [
             {
                 "canCraft": true,
                 "quantity": 1,
                 "recipeMaterials": {
-                    "": 1
+                    "Ancient Claw": 160
                 },
                 "materialsNeededInstant": [],
                 "materialsNeededOrders": [],
@@ -44758,13 +44769,2881 @@
             }
         ]
     },
-    "": {
+    "Griffin Upgrade Stone - Rare": {
         "recipes": [
             {
                 "canCraft": true,
                 "quantity": 1,
                 "recipeMaterials": {
-                    "": 1
+                    "Base Griffin Upgrade Stone": 1,
+                    "Ancient Claw": 64,
+                    "Griffin Feather": 16,
+                    "Enchanted Gold Block": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Griffin Upgrade Stone - Epic": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Base Griffin Upgrade Stone": 1,
+                    "Enchanted Ancient Claw": 4,
+                    "Griffin Feather": 64,
+                    "Enchanted Gold Block": 12
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Griffin Upgrade Stone - Legendary": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Base Griffin Upgrade Stone": 1,
+                    "Enchanted Ancient Claw": 16,
+                    "Griffin Feather": 128,
+                    "Enchanted Gold Block": 128
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Spooky Sack": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Trick Or Treat Bag": 1,
+                    "Pumpkin Guts": 32
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Events Sack": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Spooky Sack": 1,
+                    "Winter Sack": 1,
+                    "Carnival Ticket": 70
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Bat Person Ring": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Bat Person Talisman": 1,
+                    "Ectoplasm": 32,
+                    "Spooky Shard": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Bat Person Artifact": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Bat Person Ring": 1,
+                    "Spooky Shard": 16,
+                    "Ectoplasm": 128
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Blast O' Lantern": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 32,
+                "recipeMaterials": {
+                    "Pumpkin Guts": 1,
+                    "Green Candy": 8
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Ghoul Buster": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Ectoplasm": 32,
+                    "Spooky Shard": 8,
+                    "Purple Candy": 64
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Pumpkin Launcher": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Blast O' Lantern": 64,
+                    "Pumpkin Guts": 24,
+                    "Ectoplasm": 40
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Vampire Witch Mask": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Witch Mask": 1,
+                    "Vampire Mask": 1,
+                    "Ectoplasm": 7
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Catacombs Expert Ring": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Wither Catalyst": 24
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Crystal Helmet": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Crystal Fragment": 5
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Crystal Chestplate": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Crystal Fragment": 8
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Crystal Leggings": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Crystal Fragment": 7
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Crystal Boots": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Crystal Fragment": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Rare - Magma Cream": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Magma Cream Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Fuel Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Rare - Glowstone Dust": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Glowstone Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Fuel Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Rare - Nether Wart": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Nether Wart Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Fuel Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Rare - Blaze Rod": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Magma Cream Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Fuel Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Rare - Crude Gabagool": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Gabagool Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Fuel Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Epic - Magma Cream": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Magma Cream Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Heavy Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Epic - Glowstone Dust": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Glowstone Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Heavy Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Epic - Nether Wart": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Nether Wart Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Heavy Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Epic - Blaze Rod": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Magma Cream Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Heavy Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Epic - Crude Gabagool": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Gabagool Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Heavy Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Legendary - Magma Cream": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Magma Cream Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Hypergolic Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Legendary - Glowstone Dust": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Glowstone Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Hypergolic Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Legendary - Nether Wart": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Nether Wart Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Hypergolic Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Legendary - Blaze Rod": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Magma Cream Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Hypergolic Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Inferno Minion Fuel - Legendary - Crude Gabagool": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Gabagool Distillate": 6,
+                    "Inferno Fuel Block": 2,
+                    "Hypergolic Gabagool": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Worm Bait": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Clay": 1,
+                    "Worm Membrane": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Master Skull - Tier 2": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Master Skull - Tier 1": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Master Skull - Tier 3": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Master Skull - Tier 2": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Master Skull - Tier 4": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Master Skull - Tier 3": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Master Skull - Tier 5": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Master Skull - Tier 4": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Master Skull - Tier 6": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Master Skull - Tier 5": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Master Skull - Tier 7": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Master Skull - Tier 6": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Blue Jerry Talisman": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Green Jerry Talisman": 5
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Purple Jerry Talisman": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Blue Jerry Talisman": 5
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Golden Jerry Artifact": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Purple Jerry Talisman": 5
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Lush Talisman": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Lush Berberis": 576
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Enchanted Lush Berberis": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Lush Berberis": 160
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Lush Ring": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Lush Talisman": 1,
+                    "Enchanted Lush Berberis": 64
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Lush Artifact": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Lush Ring": 1,
+                    "Enchanted Lush Berberis": 512
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Fel Rose": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Ancient Rose": 3,
+                    "Fel Pearl": 16
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Bone Reaver": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Enchanted Bone Block": 20,
+                    "Spirit Sword": 1,
+                    "Spirit Bone": 5
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Felthorn Reaper": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Fel Rose": 5,
+                    "Fel Skull": 1,
+                    "Bone Reaver": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Agarimoo Talisman": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Agarimoo Tongue": 9
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Agarimoo Ring": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Agarimoo Talisman": 1,
+                    "Agarimoo Tongue": 96
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Agarimoo Artifact": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Agarimoo Ring": 1,
+                    "Agarimoo Tongue": 512
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Enchanted Shark Fin": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Shark Fin": 160
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Ichthyic Gloves": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Nurse Shark Tooth": 32,
+                    "Blue Shark Tooth": 12,
+                    "Enchanted Shark Fin": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Great White Tooth Meal": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Enchanted Bone": 1,
+                    "Great White Shark Tooth": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Finwave Gloves": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Ichthyic Gloves": 1,
+                    "Tiger Shark Tooth": 18,
+                    "Great White Tooth Meal": 2
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Euclid's Wheat Hoe - Common": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Mathematical Hoe Blueprint": 1,
+                    "Wheat": 512
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Euclid's Wheat Hoe - Uncommon": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Euclid's Wheat Hoe - Common": 1,
+                    "Enchanted Wheat": 64,
+                    "Jacob's Ticket": 64
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Euclid's Wheat Hoe - Rare": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Euclid's Wheat Hoe - Uncommon": 1,
+                    "Enchanted Hay Bale": 64,
+                    "Jacob's Ticket": 256
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Gauss Carrot Hoe - Common": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Mathematical Hoe Blueprint": 1,
+                    "Carrot": 512
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Gauss Carrot Hoe - Uncommon": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Gauss Carrot Hoe - Common": 1,
+                    "Enchanted Carrot": 256,
+                    "Jacob's Ticket": 64
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Gauss Carrot Hoe - Rare": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Gauss Carrot Hoe - Uncommon": 1,
+                    "Enchanted Golden Carrot": 256,
+                    "Jacob's Ticket": 256
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Pythagorean Potato Hoe - Common": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Mathematical Hoe Blueprint": 1,
+                    "Potato": 512
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Pythagorean Potato Hoe - Uncommon": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Pythagorean Potato Hoe - Common": 1,
+                    "Enchanted Potato": 256,
+                    "Jacob's Ticket": 64
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Pythagorean Potato Hoe - Rare": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Pythagorean Potato Hoe - Uncommon": 1,
+                    "Enchanted Baked Potato": 256,
+                    "Jacob's Ticket": 256
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Turing Sugar Cane Hoe - Common": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Mathematical Hoe Blueprint": 1,
+                    "Sugar Cane": 512
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Turing Sugar Cane Hoe - Uncommon": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Turing Sugar Cane Hoe - Common": 1,
+                    "Enchanted Sugar": 256,
+                    "Jacob's Ticket": 64
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Turing Sugar Cane Hoe - Rare": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Turing Sugar Cane Hoe - Uncommon": 1,
+                    "Enchanted Sugar Cane": 256,
+                    "Jacob's Ticket": 256
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Newton Nether Warts Hoe - Common": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Mathematical Hoe Blueprint": 1,
+                    "Nether Wart": 512
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Newton Nether Warts Hoe - Uncommon": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Newton Nether Warts Hoe - Common": 1,
+                    "Enchanted Nether Wart": 256,
+                    "Jacob's Ticket": 64
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Newton Nether Warts Hoe - Rare": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Newton Nether Warts Hoe - Uncommon": 1,
+                    "Mutant Nether Wart": 256,
+                    "Jacob's Ticket": 256
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Holy Dragon Helmet": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Holy Dragon Fragment": 50
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Holy Dragon Chestplate": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Holy Dragon Fragment": 80
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Holy Dragon Leggings": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Holy Dragon Fragment": 70
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Holy Dragon Boots": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Holy Dragon Fragment": 40
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Protector Dragon Helmet": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Protector Dragon Fragment": 50
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Protector Dragon Chestplate": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Protector Dragon Fragment": 80
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Protector Dragon Leggings": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Protector Dragon Fragment": 70
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Protector Dragon Boots": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Protector Dragon Fragment": 40
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Wise Dragon Helmet": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Wise Dragon Fragment": 50
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Wise Dragon Chestplate": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Wise Dragon Fragment": 80
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Wise Dragon Leggings": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Wise Dragon Fragment": 70
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Wise Dragon Boots": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Wise Dragon Fragment": 40
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Unstable Dragon Helmet": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Unstable Dragon Fragment": 50
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Unstable Dragon Chestplate": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Unstable Dragon Fragment": 80
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Unstable Dragon Leggings": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Unstable Dragon Fragment": 70
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Unstable Dragon Boots": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Unstable Dragon Fragment": 40
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Young Dragon Helmet": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Young Dragon Fragment": 50
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Young Dragon Chestplate": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Young Dragon Fragment": 80
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Young Dragon Leggings": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Young Dragon Fragment": 70
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Young Dragon Boots": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Young Dragon Fragment": 40
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Old Dragon Helmet": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Old Dragon Fragment": 50
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Old Dragon Chestplate": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Old Dragon Fragment": 80
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Old Dragon Leggings": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Old Dragon Fragment": 70
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Old Dragon Boots": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Old Dragon Fragment": 40
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Strong Dragon Helmet": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Strong Dragon Fragment": 50
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Strong Dragon Chestplate": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Strong Dragon Fragment": 80
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Strong Dragon Leggings": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Strong Dragon Fragment": 70
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Strong Dragon Boots": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Strong Dragon Fragment": 40
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Superior Dragon Helmet": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Superior Dragon Fragment": 50
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Superior Dragon Chestplate": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Superior Dragon Fragment": 80
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Superior Dragon Leggings": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Superior Dragon Fragment": 70
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Superior Dragon Boots": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Superior Dragon Fragment": 40
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Water Orb": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Enchanted Raw Fish": 16,
+                    "Enchanted Raw Salmon": 16,
+                    "Enchanted Prismarine Shard": 16,
+                    "Enchanted Prismarine Crystals": 16,
+                    "Enchanted Pufferfish": 16,
+                    "Enchanted Clownfish": 8,
+                    "Enchanted Lily Pad": 8,
+                    "Enchanted Sponge": 4,
+                    "Emperor's Skull": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Spooky Water Orb": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Water Orb": 1,
+                    "Soul Fragment": 1,
+                    "Purple Candy": 64,
+                    "Werewolf Skin": 24
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Winter Water Orb": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Water Orb": 1,
+                    "White Gift": 64,
+                    "Green Gift": 16,
+                    "Enchanted Snow Block": 64,
+                    "Hunk Of Ice": 128,
+                    "Hunk Of Blue Ice": 32
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Bayou Water Orb": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Water Orb": 1,
+                    "Busted Belt Buckle": 8,
+                    "Old Leather Boot": 1,
+                    "Alligator Skin":8,
+                    "Bronze Bowl": 16,
+                    "Torn Cloth": 16,
+                    "Rusty Coin": 64,
+                    "Poison Sample": 1,
+                    "Enchanted Clay Block": 1
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Hotspot Water Orb": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Half-Eaten Mushroom": 64,
+                    "Blue Ring": 8,
+                    "Fried Feather": 64,
+                    "Singed Powder": 8,
+                    "Water Orb": 1,
+                    "Scorched Crab Stick": 8,
+                    "Enchanted Jungle Wood": 64,
+                    "Broken Radar":8,
+                    "Enchanted Coal": 64
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Shark Water Orb": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Water Orb": 1,
+                    "Enchanted Shark Fin": 4,
+                    "Great White Shark Tooth": 1,
+                    "Blue Shark Tooth": 6,
+                    "Nurse Shark Tooth": 12,
+                    "Tiger Shark Tooth": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Lava Water Orb": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Water Orb": 1,
+                    "Silver Magmafish": 32,
+                    "Thunder Shards": 2,
+                    "Moogma Pelt": 64,
+                    "Lump Of Magma": 64,
+                    "Cup Of Blood": 32,
+                    "Horn Of Taurus": 16,
+                    "Flaming Heart": 32
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Bobbin' Time 3": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Bobbin' Scriptures": 1,
+                    "Spooky Water Orb": 1,
+                    "Winter Water Orb": 1,
+                    "Bayou Water Orb": 1,
+                    "Hotspot Water Orb": 1,
+                    "Shark Water Orb": 1,
+                    "Lava Water Orb": 1
                 },
                 "materialsNeededInstant": [],
                 "materialsNeededOrders": [],
@@ -44808,5 +47687,687 @@
                 "profitOrdersOrders": 0
             }
         ]
+    },
+    "Hyperion": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Necron's Blade (Unrefined)": 1,
+                    "L.A.S.R.'s Eye": 8
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Scylla": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Necron's Blade (Unrefined)": 1,
+                    "Bigfoot's Lasso": 8
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Astraea": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Necron's Blade (Unrefined)": 1,
+                    "Jolly Pink Rock": 8
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Valkyrie": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Necron's Blade (Unrefined)": 1,
+                    "Diamante's Handle": 8
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+
+
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "":
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
     }
+    
 }

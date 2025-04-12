@@ -762,23 +762,79 @@ def getPrices():
             for item in data.get('auctions', {}):
 
                 #add 5 math hoes to list, beast crest, 5 kuudra armors
+                # keywords = ['RARE', 'EPIC', 'LEGENDARY']
+                # if any(keyword in item_name for keyword in keywords):
+                    
                 name_of_item = "-"
-                if item.get('item_name', {}) not in ['Griffin Upgrade Stone', 'Wisp Upgrade Stone'     ]:
+                if item.get('item_name', {}) not in ['Griffin Upgrade Stone', 'Wisp Upgrade Stone', 'Inferno Minion Fuel',
+                                                     "Euclid's Wheat Hoe", "Gauss Carrot Hoe","Pythagorean Potato Hoe", "Turing Sugar Cane Hoe",
+                                                          "Newton Nether Warts Hoe"     ]:
                     name_of_item = item.get('item_name', '-')
                     
                 else:
-                    #yea
-                    #griffin stone -> check what rarity is specified in item_lore (UNCOMMON/RARE/EPIC/LEGENDARY)
-                    #use if/else, not ifs; start with lower to avoid recombs
-
-                    #spirit stone -> again, item_lore, but not rarity, rather check pet name
-
-                    #math hoes
-
-                    #beast crest
-
-                    #kuudra armors
                     name_of_item = "THIS IS NOT IMPLEMENTED YET"
+
+                    if item.get('item_name', {}) == 'Griffin Upgrade Stone':
+                        if 'UNCOMMON' in item.get('item_lore', ''):
+                            name_of_item = "Griffin Upgrade Stone - Uncommon"
+                        elif 'RARE' in item.get('item_lore', ''):
+                            name_of_item = "Griffin Upgrade Stone - Rare"
+                        elif 'EPIC' in item.get('item_lore', ''):
+                            name_of_item = "Griffin Upgrade Stone - Epic"
+                        elif 'LEGENDARY' in item.get('item_lore', ''):
+                            name_of_item = "Griffin Upgrade Stone - Legendary"
+
+                    
+                    if item.get('item_name', {}) == 'Wisp Upgrade Stone':
+                        if 'Droplet Wisp' in item.get('item_lore', ''):
+                            name_of_item = "Wisp Upgrade Stone - Rare"
+                        elif 'Frost Wisp' in item.get('item_lore', ''):
+                            name_of_item = "Wisp Upgrade Stone - Epic"
+                        elif 'Glacial Wisp' in item.get('item_lore', ''):
+                            name_of_item = "Wisp Upgrade Stone - Legendary"
+                        
+                        
+                    if item.get('item_name', {}) == 'Inferno Minion Fuel':
+                        name_of_item = 'Inferno Minion Fuel - '
+
+                        if 'RARE' in item.get('item_lore', ''):
+                            name_of_item += "Rare - "
+                        elif 'EPIC' in item.get('item_lore', ''):
+                            name_of_item += "Epic - "
+                        elif 'LEGENDARY' in item.get('item_lore', ''):
+                            name_of_item += "Legendary - "
+
+                    
+                        if 'Magma Cream' in item.get('item_lore', ''):
+                            name_of_item += "Magma Cream"
+                        elif 'Glowstone Dust' in item.get('item_lore', ''):
+                            name_of_item += "Glowstone Dust"
+                        elif 'Nether Wart' in item.get('item_lore', ''):
+                            name_of_item += "Nether Wart"
+                        elif 'Blaze Rod' in item.get('item_lore', ''):
+                            name_of_item += "Blaze Rod"
+                        elif 'Crude Gabagool' in item.get('item_lore', ''):
+                            name_of_item += "Crude Gabagool"
+                        
+                    
+                    if item.get('item_name', {}) in ["Euclid's Wheat Hoe", "Gauss Carrot Hoe","Pythagorean Potato Hoe",
+                                                     "Turing Sugar Cane Hoe","Newton Nether Warts Hoe"]:
+                        name_of_item =  item.get('item_name', '')   + ' - '
+
+                        if "Stone Hoe" in item.get('extra', {}):
+                            name_of_item += "Common"
+                        elif "Iron Hoe" in item.get('extra', {}):
+                            name_of_item += "Uncommon"
+                        elif "Diamond Hoe" in item.get('extra', {}):
+                            name_of_item += "Rare"
+                    #yea
+                    
+                    #math hoes - check abilities
+
+                    #beast crest - ... yea, check the bytes for the id...
+
+                    #kuudra armors - has words in name, just not full name
+                    
 
     
                 if name_of_item in pricesData and "priceBIN" in pricesData[name_of_item]:
