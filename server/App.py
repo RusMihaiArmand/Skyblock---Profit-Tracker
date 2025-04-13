@@ -766,14 +766,15 @@ def getPrices():
                 # if any(keyword in item_name for keyword in keywords):
                     
                 name_of_item = "-"
-                if item.get('item_name', '') not in ['Griffin Upgrade Stone', 'Wisp Upgrade Stone', 'Inferno Minion Fuel',
-                                                     "Euclid's Wheat Hoe", "Gauss Carrot Hoe","Pythagorean Potato Hoe", "Turing Sugar Cane Hoe",
-                                                          "Newton Nether Warts Hoe", "Beastmaster Crest"] and not (any(checkName in item.get('item_name', '') for checkName in ['Aurora','Fervor','Terror','Crimson','Hollow']) and 
-                                                                                                                   any(checkPiece in item.get('item_name', '') for checkPiece in ['Helmet','Chestplate','Leggings','Boots'])):
+                if item.get('item_name', '') not in ['Griffin Upgrade Stone', 'Wisp Upgrade Stone', 'Inferno Minion Fuel',"Euclid's Wheat Hoe", "Gauss Carrot Hoe",
+                    "Pythagorean Potato Hoe", "Turing Sugar Cane Hoe", "Newton Nether Warts Hoe", "Beastmaster Crest"] and not (any(checkName in 
+                    item.get('item_name', '') for checkName in ['Aurora','Fervor','Terror','Crimson','Hollow']) and 
+                    any(checkPiece in item.get('item_name', '') for checkPiece in ['Helmet','Chestplate','Leggings','Boots'])):
+
                     name_of_item = item.get('item_name', '-')
                     
                 else:
-                    name_of_item = "THIS IS NOT IMPLEMENTED YET"
+                    name_of_item = item.get('item_name', '-') #just in case
 
                     if item.get('item_name', {}) == 'Griffin Upgrade Stone':
                         if 'UNCOMMON' in item.get('item_lore', ''):
@@ -860,6 +861,7 @@ def getPrices():
                         prefixes = ['Helmet','Chestplate','Leggings','Boots']
                         name_of_item +=  next((prefix for prefix in prefixes if prefix in item.get('item_name', '')), "")
 
+                   
 
                     #yea
                     
