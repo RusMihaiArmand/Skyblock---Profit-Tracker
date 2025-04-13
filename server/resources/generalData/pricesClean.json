@@ -15518,509 +15518,1781 @@
         "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-
-    "": {
+    "Wither Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Wither Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Wither Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Wither Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Necron's Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Necron's Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Necron's Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Necron's Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Maxor's Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Maxor's Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Maxor's Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Maxor's Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Storm's Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Storm's Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Storm's Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Storm's Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Goldor's Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Goldor's Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Goldor's Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Goldor's Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Shark Scale Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 48000
+    },
+    "Shark Scale Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 48000
+    },
+    "Shark Scale Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 48000
+    },
+    "Shark Scale Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 48000
+    },
+    "Snow Suit Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 500
+    },
+    "Snow Suit Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 500
+    },
+    "Snow Suit Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 500
+    },
+    "Snow Suit Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 500
+    },
+    "Nutcracker Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 500
+    },
+    "Nutcracker Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 500
+    },
+    "Nutcracker Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 500
+    },
+    "Nutcracker Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 500
+    },
+    "Walnut": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 200
+    },
+    "Fire Veil Wand": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 5000
+    },
+    "Magma Lord Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 325000
+    },
+    "Magma Lord Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 325000
+    },
+    "Magma Lord Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 325000
+    },
+    "Magma Lord Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 325000
+    },
+    "Magma Lord Gauntlet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 93750
+    },
+    "Raggedy Shark Tooth Necklace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Dull Shark Tooth Necklace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Honed Shark Tooth Necklace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Sharp Shark Tooth Necklace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Razor-sharp Shark Tooth Necklace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Ichthyic Belt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 4500
+    },
+    "Ichthyic Cloak": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 4500
+    },
+    "Finwave Belt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 9000
+    },
+    "Finwave Cloak": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 9000
+    },
+    "Mineral Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Glossy Mineral Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Dragonfuse Glove": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 5000
+    },
+    "Dragonfade Glove": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 5000
+    },
+    "Zog Anvil": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Big Teeth": {
+        "NPCbuy": 750000,
+        "NPCsell": 0
+    },
+    "Bigger Teeth": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Iron Claws": {
+        "NPCbuy": 750000,
+        "NPCsell": 0
+    },
+    "Gold Claws": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "All Skills Exp Boost": {
+        "NPCbuy": 50000,
+        "NPCsell": 0
+    },
+    "All Skills Exp Super-Boost": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Sharpened Claws": {
+        "NPCbuy": 1000000,
+        "NPCsell": 0
+    },
+    "Serrated Claws": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Hardened Scales": {
+        "NPCbuy": 1000000,
+        "NPCsell": 0
+    },
+    "Reinforced Scales": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Lava Shell Necklace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 12500
+    },
+    "Delirium Necklace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 52000
+    },
+    "Draconic Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Draconic Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Draconic Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Scarf's Studies": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 1000
+    },
+    "Scarf's Thesis": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 1000
+    },
+    "Scarf's Grimoire": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 1000
+    },
+    "Experimentation Table": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Werewolf Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 1000
+    },
+    "Werewolf Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 1000
+    },
+    "Werewolf Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 1000
+    },
+    "Werewolf Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 1000
+    },
+    "Sorrow Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 75000
+    },
+    "Sorrow Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 120000
+    },
+    "Sorrow Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 105000
+    },
+    "Sorrow Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 60000
+    },
+    "Aspiring Leap": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 16000
+    },
+    "Lucky Hoof": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Eternal Hoof": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Empty Thunder Bottle": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 5000
+    },
+    "Empty Storm Bottle": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 5000
+    },
+    "Empty Hurricane Bottle": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 5000
+    },
+    "Spray Can": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 5
+    },
+    "Bonemerang": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Aspect Of The Jerry": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
         "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Treasure Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 1000
+    },
+    "Treasure Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 1000
+    },
+    "Treasure Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 1000
+    },
+    "Gillsplash Belt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 9000
+    },
+    "Gillsplash Cloak": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 9000
+    },
+    "Gillsplash Gloves": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 9000
+    },
+    "Intimidation Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Intimidation Relic": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Scare Fragment": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 1000
+    },
+    "Ornate Zombie Sword": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Promising Shovel": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 10
+    },
+    "Promising Axe": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 20
+    },
+    "Promising Pickaxe": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 10
+    },
+    "Diver's Mask": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 13750
+    },
+    "Diver's Shirt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 13750
+    },
+    "Diver's Trunks": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 13750
+    },
+    "Diver's Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 13750
+    },
+    "Fire Freeze Staff": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 1750
+    },
+    "Carpentry Table": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Beastmaster Crest - Common": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Beastmaster Crest - Uncommon": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Beastmaster Crest - Rare": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Beastmaster Crest - Epic": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Beastmaster Crest - Legendary": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Crown Of Greed": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 1000000
+    },
+    "Crown Of Avarice": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 1000000
+    },
+    "Synthesizer V1": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 3200
+    },
+    "Synthesizer V2": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 9280
+    },
+    "Synthesizer V3": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 17440
+    },
+    "Wither Artifact": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 1000
+    },
+    "Wither Relic": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 1000
+    },
+    "Exp Share": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Spirit Sceptre": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Bone Necklace": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Lucky Clover": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Tasty Cat Food": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Pre-Digestion Fish": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Four-Eyed Fish": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Future Calories Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 0
+    },
+    "Daedalus Axe": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Sword Of Revelations": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Wand Of Strength": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 10000
+    },
+    "Scoville Belt": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 55000
+    },
+    "Fire Fury Staff": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 250000
+    },
+    "Wolf Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 50
+    },
+    "Wolf Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 100
+    },
+    "Yeti Sword": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Hilt Of True Ice": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Burning Kuudra Core": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 1
+    },
+    "Fiery Kuudra Core": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 1
+    },
+    "Infernal Kuudra Core": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 1
+    },
+    "Chocolate Dye": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Bucket Of Dye": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
+    "Ragnarock Axe": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 5000
+    },
+    "Pulse Ring": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 5000
+    },
+    "Scourge Cloak": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 57000
+    },
+    "Blaze Talisman": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
         "NPCsell": 0
     },
-    "": {
+    "Thunderbolt Necklace": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "EPIC",
+        "NPCsell": 75000
+    },
+    "Thunder Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 125000
+    },
+    "Thunder Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 200000
+    },
+    "Thunder Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 175000
+    },
+    "Thunder Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 100000
+    },
+    "Rekindled Ember Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 50000
+    },
+    "Rekindled Ember Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 80000
+    },
+    "Rekindled Ember Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 70000
+    },
+    "Rekindled Ember Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 40000
+    },
+    "Aurora Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Aurora Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Aurora Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Aurora Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Aurora Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Aurora Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Aurora Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Aurora Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Aurora Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Aurora Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Aurora Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Aurora Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Aurora Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Aurora Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Aurora Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Aurora Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Aurora Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Aurora Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Aurora Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Aurora Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fervor Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fervor Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fervor Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fervor Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Fervor Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Fervor Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Fervor Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Fervor Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Fervor Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Fervor Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Fervor Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Fervor Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Fervor Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Fervor Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Fervor Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Fervor Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Fervor Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Fervor Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Fervor Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Fervor Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Terror Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Terror Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Terror Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Terror Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Terror Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Terror Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Terror Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Terror Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Terror Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Terror Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Terror Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Terror Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Terror Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Terror Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Terror Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Terror Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Terror Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Terror Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Terror Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Terror Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Crimson Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Crimson Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Crimson Leggings": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Crimson Boots": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Crimson Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Crimson Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Crimson Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Infernal Crimson Helmet": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Hot Crimson Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Burning Crimson Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
         "NPCsell": 0
     },
-    "": {
+    "Fiery Crimson Chestplate": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
-        "rarity": "COMMON",
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Infernal Crimson Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Hot Crimson Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Burning Crimson Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Fiery Crimson Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Infernal Crimson Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Hot Crimson Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Burning Crimson Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Fiery Crimson Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Infernal Crimson Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Hollow Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Hollow Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Hollow Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Hollow Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Hot Hollow Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Burning Hollow Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Fiery Hollow Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Infernal Hollow Helmet": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Hot Hollow Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Burning Hollow Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Fiery Hollow Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Infernal Hollow Chestplate": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Hot Hollow Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Burning Hollow Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Fiery Hollow Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Infernal Hollow Leggings": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Hot Hollow Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Burning Hollow Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Fiery Hollow Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Infernal Hollow Boots": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "LEGENDARY",
+        "NPCsell": 0
+    },
+    "Deepterror Mixin": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
         "NPCsell": 0
     },
     "": {
@@ -17920,5 +19192,4 @@
         "rarity": "COMMON",
         "NPCsell": 0
     }
-    
 }

@@ -766,9 +766,10 @@ def getPrices():
                 # if any(keyword in item_name for keyword in keywords):
                     
                 name_of_item = "-"
-                if item.get('item_name', {}) not in ['Griffin Upgrade Stone', 'Wisp Upgrade Stone', 'Inferno Minion Fuel',
+                if item.get('item_name', '') not in ['Griffin Upgrade Stone', 'Wisp Upgrade Stone', 'Inferno Minion Fuel',
                                                      "Euclid's Wheat Hoe", "Gauss Carrot Hoe","Pythagorean Potato Hoe", "Turing Sugar Cane Hoe",
-                                                          "Newton Nether Warts Hoe"     ]:
+                                                          "Newton Nether Warts Hoe", "Beastmaster Crest"] and not (any(checkName in item.get('item_name', '') for checkName in ['Aurora','Fervor','Terror','Crimson','Hollow']) and 
+                                                                                                                   any(checkPiece in item.get('item_name', '') for checkPiece in ['Helmet','Chestplate','Leggings','Boots'])):
                     name_of_item = item.get('item_name', '-')
                     
                 else:
@@ -817,8 +818,7 @@ def getPrices():
                             name_of_item += "Crude Gabagool"
                         
                     
-                    if item.get('item_name', {}) in ["Euclid's Wheat Hoe", "Gauss Carrot Hoe","Pythagorean Potato Hoe",
-                                                     "Turing Sugar Cane Hoe","Newton Nether Warts Hoe"]:
+                    if item.get('item_name', {}) in ["Euclid's Wheat Hoe", "Gauss Carrot Hoe","Pythagorean Potato Hoe","Turing Sugar Cane Hoe","Newton Nether Warts Hoe"]:
                         name_of_item =  item.get('item_name', '')   + ' - '
 
                         if "Stone Hoe" in item.get('extra', {}):
@@ -827,13 +827,44 @@ def getPrices():
                             name_of_item += "Uncommon"
                         elif "Diamond Hoe" in item.get('extra', {}):
                             name_of_item += "Rare"
+                    
+                    
+                    if item.get('item_name', {}) == 'Beastmaster Crest':
+                        coded = item.get('item_bytes', '')
+                        decoded = gzip.decompress(base64.b64decode(coded))
+
+
+                        if (b"BEASTMASTER_CREST_COMMON" in decoded):
+                            name_of_item = "Beastmaster Crest - Common"
+                        elif (b"BEASTMASTER_CREST_UNCOMMON" in decoded):
+                            name_of_item = "Beastmaster Crest - Uncommon"
+                        elif (b"BEASTMASTER_CREST_RARE" in decoded):
+                            name_of_item = "Beastmaster Crest - Rare"
+                        elif (b"BEASTMASTER_CREST_EPIC" in decoded):
+                            name_of_item = "Beastmaster Crest - Epic"
+                        elif (b"BEASTMASTER_CREST_LEGENDARY" in decoded):
+                            name_of_item = "Beastmaster Crest - Legendary"
+     
+
+                    if (any(checkName in item.get('item_name', '') for checkName in ['Aurora','Fervor','Terror','Crimson','Hollow']) and 
+                        any(checkPiece in item.get('item_name', '') for checkPiece in ['Helmet','Chestplate','Leggings','Boots'])):
+                       
+                       
+                        prefixes = ["Hot", "Burning", "Fiery", "Infernal"]
+                        name_of_item = next((prefix + " " for prefix in prefixes if prefix in item.get('item_name', '')), "")
+                        
+
+                        prefixes = ['Aurora','Fervor','Terror','Crimson','Hollow']
+                        name_of_item +=  next((prefix + " " for prefix in prefixes if prefix in item.get('item_name', '')), "")
+
+                        prefixes = ['Helmet','Chestplate','Leggings','Boots']
+                        name_of_item +=  next((prefix for prefix in prefixes if prefix in item.get('item_name', '')), "")
+
+
                     #yea
                     
-                    #math hoes - check abilities
 
-                    #beast crest - ... yea, check the bytes for the id...
-
-                    #kuudra armors - has words in name, just not full name
+                
                     
 
     
