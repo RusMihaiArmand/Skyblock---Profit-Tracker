@@ -420,7 +420,6 @@ def getCraftPrices():
 
 
     for itemName, itemData in recipesData.items():
-        
         for recipe in itemData.get('recipes',{}):
             if ((playerData.get('collections',{}).get( recipe.get('requirements',{}).get('collection','-') ,0) < recipe.get('requirements',{}).get('collectionLevel',0))
             or (playerData.get('slayers',{}).get( recipe.get('requirements',{}).get('slayer','-') ,0) < recipe.get('requirements',{}).get('slayerLevel',0))
@@ -872,7 +871,6 @@ def getPrices():
     
                 if name_of_item in pricesData and "priceBIN" in pricesData[name_of_item]:
                     if item.get('bin', {}):
-                        print(f"AH - {name_of_item}")
                         if ((item.get('starting_bid',0) > 0 and item.get('starting_bid',0) < pricesData[name_of_item]['priceBIN'])
                              or pricesData[name_of_item]['priceBIN']==0):
                             pricesData[name_of_item]['priceBIN'] = item.get('starting_bid',0)

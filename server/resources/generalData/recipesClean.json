@@ -39588,7 +39588,7 @@
             }
         ]
     },
-    "Voodoo Doll ": {
+    "Voodoo Doll": {
         "recipes": [
             {
                 "canCraft": true,
@@ -42408,7 +42408,7 @@
             }
         ]
     },
-    "Null Edge ": {
+    "Null Edge": {
         "recipes": [
             {
                 "canCraft": true,
@@ -68905,38 +68905,13 @@
             }
         ]
     },
-    "Flowstate 4": {
+    "Flowstate 3": {
         "recipes": [
             {
                 "canCraft": true,
                 "quantity": 1,
                 "recipeMaterials": {
-                    "Flowstate 3": 2
-                },
-                "materialsNeededInstant": [],
-                "materialsNeededOrders": [],
-                "materialsNeededFarmInstant": [],
-                "materialsNeededFarmOrders": [],
-                "craftPriceInstant": 0,
-                "craftPriceOrders": 0,
-                "sellForInstant": 0,
-                "sellForOrders": 0,
-                "sellOnInstant": "-",
-                "sellOnOrders": "-",
-                "profitInstantInstant": 0,
-                "profitInstantOrders": 0,
-                "profitOrdersInstant": 0,
-                "profitOrdersOrders": 0
-            }
-        ]
-    },
-    "Flowstate 5": {
-        "recipes": [
-            {
-                "canCraft": true,
-                "quantity": 1,
-                "recipeMaterials": {
-                    "Flowstate 3": 4
+                    "Flowstate 2": 2
                 },
                 "materialsNeededInstant": [],
                 "materialsNeededOrders": [],
@@ -68957,7 +68932,32 @@
                 "canCraft": true,
                 "quantity": 1,
                 "recipeMaterials": {
-                    "Flowstate 4": 2
+                    "Flowstate 1": 4
+                },
+                "materialsNeededInstant": [],
+                "materialsNeededOrders": [],
+                "materialsNeededFarmInstant": [],
+                "materialsNeededFarmOrders": [],
+                "craftPriceInstant": 0,
+                "craftPriceOrders": 0,
+                "sellForInstant": 0,
+                "sellForOrders": 0,
+                "sellOnInstant": "-",
+                "sellOnOrders": "-",
+                "profitInstantInstant": 0,
+                "profitInstantOrders": 0,
+                "profitOrdersInstant": 0,
+                "profitOrdersOrders": 0
+            }
+        ]
+    },
+    "Flowstate 2": {
+        "recipes": [
+            {
+                "canCraft": true,
+                "quantity": 1,
+                "recipeMaterials": {
+                    "Flowstate 1": 1
                 },
                 "materialsNeededInstant": [],
                 "materialsNeededOrders": [],
@@ -69026,7 +69026,7 @@
             }
         ]
     },
-    "Shiny Rod ": {
+    "Shiny Rod": {
         "recipes": [
             {
                 "canCraft": true,

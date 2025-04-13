@@ -6187,6 +6187,13 @@
         "rarity": "EPIC",
         "NPCsell": 0
     },
+    "Travel Scroll To The Park": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "EPIC",
+        "NPCsell": 0
+    },
     "Feather Talisman": {
         "priceBIN": 0,
         "priceAUC": 0,
@@ -10649,7 +10656,7 @@
         "rarity": "EPIC",
         "NPCsell": 10000
     },
-    "Reforge Anvil ": {
+    "Reforge Anvil": {
         "priceBIN": 0,
         "priceAUC": 0,
         "timeEndAuc": 0,
@@ -17420,5 +17427,54 @@
         "timeEndAuc": 0,
         "rarity": "COMMON",
         "NPCsell": 2
+    },
+    "Skeleton Hat": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "COMMON",
+        "NPCsell": 8
+    },
+    "Magma Rod": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 8000
+    },
+    "Common Hook": {
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Caducous Feeder":{
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Wilted Berberis Bunch":{
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "UNCOMMON",
+        "NPCsell": 0
+    },
+    "Spider Ring":{
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
+    },
+    "Recluse Fang":{
+        "priceBIN": 0,
+        "priceAUC": 0,
+        "timeEndAuc": 0,
+        "rarity": "RARE",
+        "NPCsell": 0
     }
 }
